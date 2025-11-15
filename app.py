@@ -1,15 +1,18 @@
 import asyncio
+import os 
+from dotenv import load_dotenv
 from solana.rpc.async_api import AsyncClient
 
 async def main():
-    async with AsyncClient("https://api.devnet.solana.com") as client:
+    load_dotenv()
+    api_key = os.getenv('HELIUS_API_KEY')
+    if not api_key:
+        print("Error: HELIUS_API_KEY not found in environment variables")
+        return
+    helius_url = f"https://mainnet.helius-rpc.com/?api-key={api_key}"
+
+    async with AsyncClient(helius_url) as client:
         res = await client.is_connected()
     print(res)  # True
-
-    # Alternatively, close the client explicitly instead of using a context manager:
-    client = AsyncClient("https://api.devnet.solana.com")
-    res = await client.is_connected()
-    print(res)  # True
-    await client.close()
 
 asyncio.run(main())
