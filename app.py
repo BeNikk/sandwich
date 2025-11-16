@@ -3,7 +3,7 @@ import os
 import utils
 from dotenv import load_dotenv
 from solana.rpc.async_api import AsyncClient
-
+import json
 
 async def main():
     load_dotenv()
@@ -21,7 +21,7 @@ async def main():
         current_slot = slot_response.value
         print(f"Current slot: {current_slot}")
         
-        print(f"Fetching blocks for DEX txns...\n")
+        print(f"Fetching blocks for DEX txns ...\n")
         dex_txs = await utils.scan_multiple_blocks(client, num_blocks=50)
 
         raydium_count = len([tx for tx in dex_txs if tx['dex'] == 'Raydium'])
@@ -31,8 +31,15 @@ async def main():
         print(f"Total DEX transactions found: {len(dex_txs)}")
         print(f"Raydium: {raydium_count}")
         print(f"Orca: {orca_count}")
+        if dex_txs:
+            print(json.dumps(dex_txs[0], indent=2))
+            sample = dex_txs[0]
+            print(f"Signer: {sample['signer'][:16]}...")
+            print(f"Swapped: {sample['amount_in']:.4f} of token {sample['token_in'][:16]}...")
+            print(f"Got: {sample['amount_out']:.4f} of token {sample['token_out'][:16]}...")
         
-        print(f"\n First 5 Examples")
-        for i, tx in enumerate(dex_txs[:5]):
-            print(f"{i+1}. {tx['dex']} in slot {tx['slot']}: {tx['signature'][:]}...")
+        with open('dex_transactions.json', 'w') as f:
+            json.dump(dex_txs, f, indent=2)
+        print(f"\n Saved {len(dex_txs)} transactions to dex_transactions.json")
+        
 asyncio.run(main())

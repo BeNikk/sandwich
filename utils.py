@@ -34,7 +34,8 @@ async def scan_multiple_blocks(client, num_blocks=50):
     current_slot = slot_response.value
     
     all_dex_txs = []
-    
+    blocks_checked = 0
+
     for i in range(num_blocks):
         slot = current_slot - i
         
@@ -47,21 +48,29 @@ async def scan_multiple_blocks(client, num_blocks=50):
             
             if not block_response.value:
                 continue 
-            
+
+            blocks_checked += 1            
             block = block_response.value
             
             for tx in block.transactions:
                 is_dex, dex_name = is_dex_transaction(tx)
                 
                 if is_dex:
-                    dex_tx = {
+                    signer = extract_signer(tx) #signer is the one who paid the fees
+                    token_data = extract_token_changes(tx) # this is getting back the tokens in and out 
+                    if signer and token_data:
+                        dex_tx = {
                         'slot': slot,
                         'signature': str(tx.transaction.signatures[0]),
                         'dex': dex_name,
-                        'transaction': tx
-                    }
-                    all_dex_txs.append(dex_tx)
-            
+                        'signer':signer,
+                        'token_in':token_data['token_in'],
+                        'token_out':token_data['token_out'],
+                        'amount_in':token_data['amount_in'],
+                        'amount_out':token_data['amount_out']                        
+                        }
+                        all_dex_txs.append(dex_tx)
+
             await asyncio.sleep(0.05)
             
         except Exception as e:
