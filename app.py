@@ -4,8 +4,6 @@ import utils
 from dotenv import load_dotenv
 from solana.rpc.async_api import AsyncClient
 
-RAYDIUM_PROGRAM_ID = "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
-ORCA_PROGRAM_ID = "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc"
 
 async def main():
     load_dotenv()
@@ -29,12 +27,12 @@ async def main():
         raydium_count = len([tx for tx in dex_txs if tx['dex'] == 'Raydium'])
         orca_count = len([tx for tx in dex_txs if tx['dex'] == 'Orca'])
         
-        print(f"\n--- Summary ---")
+        print(f"\n Summary  ")
         print(f"Total DEX transactions found: {len(dex_txs)}")
         print(f"Raydium: {raydium_count}")
         print(f"Orca: {orca_count}")
         
-        print(f"\n--- First 5 Examples ---")
+        print(f"\n First 5 Examples")
         for i, tx in enumerate(dex_txs[:5]):
             print(f"{i+1}. {tx['dex']} in slot {tx['slot']}: {tx['signature'][:]}...")
 asyncio.run(main())

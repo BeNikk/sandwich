@@ -1,7 +1,5 @@
 import asyncio
-
-RAYDIUM_PROGRAM_ID = "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
-ORCA_PROGRAM_ID = "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc"
+from config import RAYDIUM_PROGRAM_ID,ORCA_PROGRAM_ID
 
 def is_dex_transaction(transaction):
     try:
@@ -20,6 +18,16 @@ def is_dex_transaction(transaction):
     except Exception as e:
         return False, None
 
+
+def extract_signer(transaction): 
+    try:
+        accounts = transaction.transaction.message.account_keys
+        if accounts and len(accounts) > 0:
+            return str(accounts[0]) # because first account is the signer, this is to check and match the bot's address as here bot has to be the signer
+        
+        return None
+    except:
+        return None
 
 async def scan_multiple_blocks(client, num_blocks=50):
     slot_response = await client.get_slot()
@@ -60,3 +68,55 @@ async def scan_multiple_blocks(client, num_blocks=50):
             continue
     
     return all_dex_txs
+
+def extract_token_changes(transaction):
+    try:
+        meta = transaction.meta
+        
+        token_changes = {}
+        
+        if hasattr(meta, 'pre_token_balances'):
+            for pre in meta.pre_token_balances:
+                if hasattr(pre, 'mint') and hasattr(pre, 'ui_token_amount'):
+                    mint = str(pre.mint)
+                    amount = pre.ui_token_amount.ui_amount or 0
+                    token_changes[mint] = {'pre': amount, 'post': 0}
+        
+        if hasattr(meta, 'post_token_balances'):
+            for post in meta.post_token_balances:
+                if hasattr(post, 'mint') and hasattr(post, 'ui_token_amount'):
+                    mint = str(post.mint)
+                    amount = post.ui_token_amount.ui_amount or 0
+                    
+                    if mint in token_changes:
+                        token_changes[mint]['post'] = amount
+                    else:
+                        token_changes[mint] = {'pre': 0, 'post': amount}
+        
+        token_in = None  # this is for what the user/bot sold or swapped
+        token_out = None # this is for what the user/bot bought
+        amount_in = 0
+        amount_out = 0
+        
+        for mint, balances in token_changes.items():
+            change = balances['post'] - balances['pre']
+            
+            if change < -0.0001:
+                token_in = mint
+                amount_in = abs(change)
+            elif change > 0.0001:
+                token_out = mint
+                amount_out = change
+        
+        if token_in and token_out:
+            return {
+                'token_in': token_in,
+                'token_out': token_out,
+                'amount_in': amount_in,
+                'amount_out': amount_out
+            }
+        
+        return None
+        
+    except Exception as e:
+        return None
