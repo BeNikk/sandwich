@@ -234,5 +234,5 @@ Contributions welcome! Please open an issue or PR for:
 
 This tool is for educational and research purposes only. MEV extraction may be subject to network rules and ethical considerations. Always verify findings through multiple sources before making claims about specific transactions or actors.
 
-
-
+## Transactions done by Bot (identified by finding bot address)
+![Bot transactions](./bot_address.png)
