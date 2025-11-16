@@ -1,0 +1,912 @@
+[
+  {
+    "frontrun": {
+      "slot": 380434046,
+      "signature": "2dhNfxt6qsfiaaVN2LpQRYnG6bKKUu4LDUxDu6JKbwdZaZh3eneUbq5ymGpbVzXtwtQ4YstGvVxf9AytBv5aqKUK",
+      "dex": "Raydium-CLMM",
+      "signer": "DfgywEDB6VbeTDwjHWfhDKeH22PHffjdtSFbwvQBWA3s",
+      "token_in": "So11111111111111111111111111111111111111112",
+      "token_out": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "amount_in": 0.731382831999781,
+      "amount_out": 4404446.735322952
+    },
+    "victim": {
+      "slot": 380434047,
+      "signature": "3QDPL3jgb7HkDyGY7XJkPz3zpFAYGFmAbdDA2fUGNKgrwqFXurQ8WxtD8uAyfmbaUvD1MwVPx9GhvTdD4o994wa1",
+      "dex": "Raydium-CLMM",
+      "signer": "6vBEBJ1uC7DncevEGRGWzNZsDhRh8uYkXQsvEXRFWVh2",
+      "token_in": "So11111111111111111111111111111111111111112",
+      "token_out": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "amount_in": 0.929954213000201,
+      "amount_out": 5594837.744869232
+    },
+    "backrun": {
+      "slot": 380434050,
+      "signature": "2QS2428GpVaTcZH1UqXigR8hU1u9tPStK8KRk2AfLFafrhcV9Rd9SMGYiZJahFQQWwQLwe17tF1bxXWFgUmPwFC2",
+      "dex": "Raydium-CLMM",
+      "signer": "DfgywEDB6VbeTDwjHWfhDKeH22PHffjdtSFbwvQBWA3s",
+      "token_in": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 2108620.662420273,
+      "amount_out": 0.3500000000001364
+    },
+    "bot_address": "DfgywEDB6VbeTDwjHWfhDKeH22PHffjdtSFbwvQBWA3s",
+    "slot_span": 4,
+    "token_pair": "So111111.../6ANw6Yzd..."
+  },
+  {
+    "frontrun": {
+      "slot": 380434053,
+      "signature": "2x9W81Z2mvjPfSNM28SYDhhKyeJ9MyhjMi89guVoncpTHYx1qDmDQMQQWzYfiSXCdyjuB3BJv5qt85T36imVPEbK",
+      "dex": "Raydium-CLMM",
+      "signer": "5CAzWAPoV7VtUe8i9vgTv2Cg8ZutNvjLRRB8YFLMHuLV",
+      "token_in": "FbwFtW1q5epVMwHzsMZr1w7j875JK9fLpBy2MvxZ9po1",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 1679342.8556365967,
+      "amount_out": 0.35400000000004184
+    },
+    "victim": {
+      "slot": 380434054,
+      "signature": "24XD8fwavQ583sx4EGEVjkeLVJRZtqAjtuwjFRvapJb59unxmAwDCBPdYmrdpiJhAiqW1symoC6rd6E1wNnimM79",
+      "dex": "Raydium-CLMM",
+      "signer": "85kdk4Zga6KMhagkQatvcXCgsiurRJBC1KqZaKLTXj5L",
+      "token_in": "FbwFtW1q5epVMwHzsMZr1w7j875JK9fLpBy2MvxZ9po1",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 1788773.3658447266,
+      "amount_out": 0.3769999999999527
+    },
+    "backrun": {
+      "slot": 380434056,
+      "signature": "Hi7kayBa5tCLLrPzyowRQpiQjD8SHLAYzsYVwQkbG2tP3aBy7EmA8NndfThmWVW7tBrjQFZoQScXNusQZfkR2rU",
+      "dex": "Raydium-CLMM",
+      "signer": "5CAzWAPoV7VtUe8i9vgTv2Cg8ZutNvjLRRB8YFLMHuLV",
+      "token_in": "So11111111111111111111111111111111111111112",
+      "token_out": "FbwFtW1q5epVMwHzsMZr1w7j875JK9fLpBy2MvxZ9po1",
+      "amount_in": 0.7914724290001232,
+      "amount_out": 3757173.8465042114
+    },
+    "bot_address": "5CAzWAPoV7VtUe8i9vgTv2Cg8ZutNvjLRRB8YFLMHuLV",
+    "slot_span": 3,
+    "token_pair": "FbwFtW1q.../So111111..."
+  },
+  {
+    "frontrun": {
+      "slot": 380434053,
+      "signature": "53kYRyjMSY7BNtzMVQPYJmjBtoiqZYpSgTqBE8zcdrTEafuCyvJGBAB7nfs9icJe3DyT6E5CXVr2VSetU4t6aCq8",
+      "dex": "Raydium-CLMM",
+      "signer": "AVV6LEsjG6gTkNnR8K4u3ibHyuXiZ13hWJoCT5PXhs8h",
+      "token_in": "So11111111111111111111111111111111111111112",
+      "token_out": "FbwFtW1q5epVMwHzsMZr1w7j875JK9fLpBy2MvxZ9po1",
+      "amount_in": 0.494944680999879,
+      "amount_out": 2348670.1427583694
+    },
+    "victim": {
+      "slot": 380434056,
+      "signature": "Hi7kayBa5tCLLrPzyowRQpiQjD8SHLAYzsYVwQkbG2tP3aBy7EmA8NndfThmWVW7tBrjQFZoQScXNusQZfkR2rU",
+      "dex": "Raydium-CLMM",
+      "signer": "5CAzWAPoV7VtUe8i9vgTv2Cg8ZutNvjLRRB8YFLMHuLV",
+      "token_in": "So11111111111111111111111111111111111111112",
+      "token_out": "FbwFtW1q5epVMwHzsMZr1w7j875JK9fLpBy2MvxZ9po1",
+      "amount_in": 0.7914724290001232,
+      "amount_out": 3757173.8465042114
+    },
+    "backrun": {
+      "slot": 380434059,
+      "signature": "3sQ7KyfpxrE3DAFsD5QuWNYqEwdgMqfZrawndfi9jfkQUimJ6StqSGEvNVf4L7wekj88q4gbmioJkSxJGjWdZpTg",
+      "dex": "Raydium-CLMM",
+      "signer": "AVV6LEsjG6gTkNnR8K4u3ibHyuXiZ13hWJoCT5PXhs8h",
+      "token_in": "FbwFtW1q5epVMwHzsMZr1w7j875JK9fLpBy2MvxZ9po1",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 2238317.389933586,
+      "amount_out": 0.47199999999998
+    },
+    "bot_address": "AVV6LEsjG6gTkNnR8K4u3ibHyuXiZ13hWJoCT5PXhs8h",
+    "slot_span": 6,
+    "token_pair": "So111111.../FbwFtW1q..."
+  },
+  {
+    "frontrun": {
+      "slot": 380434101,
+      "signature": "fJPUUPYyZcwC7yeE4xBCQzTgD1yQK8enXeX35MGH4b89BZzBNhSYmQFayraUvsVEt3QcSs5Ndx5eKDBMT8ZaZit",
+      "dex": "Raydium-CLMM",
+      "signer": "HPgYFZruXzrsAZRP8MAZj5TKDRGwxW2BCeEhLvaoRnTc",
+      "token_in": "So11111111111111111111111111111111111111112",
+      "token_out": "FbwFtW1q5epVMwHzsMZr1w7j875JK9fLpBy2MvxZ9po1",
+      "amount_in": 1.0874679660000766,
+      "amount_out": 5157646.45304203
+    },
+    "victim": {
+      "slot": 380434104,
+      "signature": "4D9vqSnLzwov1vTTLMzsqN4P8kCpZue1WptTkRPSMwFPWFp5B7r8kWHAKrVphmGr6xpPng2tinHtjMfgFokErCRy",
+      "dex": "Raydium-CLMM",
+      "signer": "5x2c99z6Ujaj17DR9XijGE7oF4UfDJhN4zzmLpyPkr8B",
+      "token_in": "So11111111111111111111111111111111111111112",
+      "token_out": "FbwFtW1q5epVMwHzsMZr1w7j875JK9fLpBy2MvxZ9po1",
+      "amount_in": 1.1873591610001313,
+      "amount_out": 5627885.7853899
+    },
+    "backrun": {
+      "slot": 380434106,
+      "signature": "m3RBTWyqW7YrQNcLVQpDeh5zeiBE6u2nanCamhmdHKC5LM1TYB6h45MHTE5K2RX4w5f7h7ACZ2vgGKaSwhmEqRC",
+      "dex": "Raydium-CLMM",
+      "signer": "HPgYFZruXzrsAZRP8MAZj5TKDRGwxW2BCeEhLvaoRnTc",
+      "token_in": "FbwFtW1q5epVMwHzsMZr1w7j875JK9fLpBy2MvxZ9po1",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 1639703.7854824066,
+      "amount_out": 0.34600000000000364
+    },
+    "bot_address": "HPgYFZruXzrsAZRP8MAZj5TKDRGwxW2BCeEhLvaoRnTc",
+    "slot_span": 5,
+    "token_pair": "So111111.../FbwFtW1q..."
+  },
+  {
+    "frontrun": {
+      "slot": 380434123,
+      "signature": "5RGkaJTD7Nm22vh6KxQJydHqykU3W2ELgPfB76oPwg2Y4DQphdVyRMx7hLwVhAAEcXPDeCzibsGBJQTHNgyxtfgu",
+      "dex": "Raydium-CLMM",
+      "signer": "GRV6aYozLxNaH1Yj6T2h2qfEog9ctssas6brwCcbuSK5",
+      "token_in": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 2175.5904680000385,
+      "amount_out": 15.220441277000191
+    },
+    "victim": {
+      "slot": 380434124,
+      "signature": "3X3Hn1HXLVuTyAdZyv9ja1kcEHax7VK1wGk4TNYQiLM8gSXQR159RGwjyTDWdj7VY2HQbtcnitzcR9oWsXf4uSqL",
+      "dex": "Raydium-CLMM",
+      "signer": "CreQJ2t94QK5dsxUZGXfPJ8Nx7wA9LHr5chxjSMkbNft",
+      "token_in": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 499.67484200000763,
+      "amount_out": 3.495391689000826
+    },
+    "backrun": {
+      "slot": 380434128,
+      "signature": "3CYzLRx1FUEMU3yTJxf5z6Dedd5MuXyEwU5FXdWbePeA7ZJZtadmxDNFWiUm24PkrdDYM9D16w1Z8TqQEQ3H5ejq",
+      "dex": "Raydium-CLMM",
+      "signer": "GRV6aYozLxNaH1Yj6T2h2qfEog9ctssas6brwCcbuSK5",
+      "token_in": "So11111111111111111111111111111111111111112",
+      "token_out": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "amount_in": 1.0029478390001714,
+      "amount_out": 143.32419000007212
+    },
+    "bot_address": "GRV6aYozLxNaH1Yj6T2h2qfEog9ctssas6brwCcbuSK5",
+    "slot_span": 5,
+    "token_pair": "EPjFWdd5.../So111111..."
+  },
+  {
+    "frontrun": {
+      "slot": 380434123,
+      "signature": "34h4PoKUQm1cU3pu9V7LZonbVptQ9sFTAL7ZqG9Ygm8EQjwvXfbUfHB4FoSgRWbjjfYwVjBXNGwtctCs9ACABU9n",
+      "dex": "Raydium-CLMM",
+      "signer": "GRV6aYozLxNaH1Yj6T2h2qfEog9ctssas6brwCcbuSK5",
+      "token_in": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 0.0813759999582544,
+      "amount_out": 0.0005692800000360876
+    },
+    "victim": {
+      "slot": 380434124,
+      "signature": "3X3Hn1HXLVuTyAdZyv9ja1kcEHax7VK1wGk4TNYQiLM8gSXQR159RGwjyTDWdj7VY2HQbtcnitzcR9oWsXf4uSqL",
+      "dex": "Raydium-CLMM",
+      "signer": "CreQJ2t94QK5dsxUZGXfPJ8Nx7wA9LHr5chxjSMkbNft",
+      "token_in": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 499.67484200000763,
+      "amount_out": 3.495391689000826
+    },
+    "backrun": {
+      "slot": 380434128,
+      "signature": "3CYzLRx1FUEMU3yTJxf5z6Dedd5MuXyEwU5FXdWbePeA7ZJZtadmxDNFWiUm24PkrdDYM9D16w1Z8TqQEQ3H5ejq",
+      "dex": "Raydium-CLMM",
+      "signer": "GRV6aYozLxNaH1Yj6T2h2qfEog9ctssas6brwCcbuSK5",
+      "token_in": "So11111111111111111111111111111111111111112",
+      "token_out": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "amount_in": 1.0029478390001714,
+      "amount_out": 143.32419000007212
+    },
+    "bot_address": "GRV6aYozLxNaH1Yj6T2h2qfEog9ctssas6brwCcbuSK5",
+    "slot_span": 5,
+    "token_pair": "EPjFWdd5.../So111111..."
+  },
+  {
+    "frontrun": {
+      "slot": 380434135,
+      "signature": "4dxrDTedDFbQCxjoUSRpefmmZ7TjTrDTgBkWogXHws4cZUyDgFADYs5BqfcAVhJFWbDP5WAcZ9C74Kwqhns9mRyX",
+      "dex": "Raydium-CLMM",
+      "signer": "C9W5CKRZRkv5ay79Djq5aSeFvX7dRQRB3Pu99fXtV6K3",
+      "token_in": "So11111111111111111111111111111111111111112",
+      "token_out": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "amount_in": 0.8811719240000002,
+      "amount_out": 5277729.726805687
+    },
+    "victim": {
+      "slot": 380434138,
+      "signature": "2PX6Huxvco39VwipxQZQ5kEZYtgvAW4295rAYCEor1KQmhZ2ZMsdDTsJgVXEJ5zMNhsYBUWzcbMac5a1mAsaecMw",
+      "dex": "Raydium-CLMM",
+      "signer": "AdkWxTVtY8MdMKBxBz1Y2yEpFnGgvaLPuege4KVCNLEo",
+      "token_in": "So11111111111111111111111111111111111111112",
+      "token_out": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "amount_in": 0.5637999779999063,
+      "amount_out": 3380646.3724393845
+    },
+    "backrun": {
+      "slot": 380434141,
+      "signature": "3g1JzDNryyc95EfVSZypCXkHAQnGW9AFL96dxb12HXn1oteRERXshKyV1Y57jyDYWuqjMWwiBU9NFAiGrUNjGH34",
+      "dex": "Raydium-CLMM",
+      "signer": "C9W5CKRZRkv5ay79Djq5aSeFvX7dRQRB3Pu99fXtV6K3",
+      "token_in": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 3399962.8650798798,
+      "amount_out": 0.5670000000000073
+    },
+    "bot_address": "C9W5CKRZRkv5ay79Djq5aSeFvX7dRQRB3Pu99fXtV6K3",
+    "slot_span": 6,
+    "token_pair": "So111111.../6ANw6Yzd..."
+  },
+  {
+    "frontrun": {
+      "slot": 380434141,
+      "signature": "2qJ7q6HrL5iRYLnAsLZyeFgUMmn15Q3h9gLPLzPWbswQ3UBq2DPXUw8VfWw3BGXL41518qWhqifYpPXvdobHKtL5",
+      "dex": "Raydium-CLMM",
+      "signer": "6ks1ku8paBMVwhzC6dGv5pacFnNPoR5ZmH4qEZ7kAuZV",
+      "token_in": "So11111111111111111111111111111111111111112",
+      "token_out": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "amount_in": 0.9992834000001949,
+      "amount_out": 5991293.170947075
+    },
+    "victim": {
+      "slot": 380434144,
+      "signature": "sTMr6ptVFYJrNWnfxg4AtjvdALvVnvkug8nayZEEYUUxjXsA1nx6En3cjr9DK2A8kEeSCJrh2FPfLqV8aLGiTQz",
+      "dex": "Raydium-CLMM",
+      "signer": "Gmg7Nfs1KTiS7xypyQznhuqfNMQ5Sky2jRK5HqLJjRrs",
+      "token_in": "So11111111111111111111111111111111111111112",
+      "token_out": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "amount_in": 0.9889686770000026,
+      "amount_out": 5929812.266540527
+    },
+    "backrun": {
+      "slot": 380434149,
+      "signature": "2YjKb1BgJVtEFes6L8CNL6yHCxMKeF3gv4FF6nnvEBUxy6uTXHJiPifxxskKcRcfs6XcpQ1wptw96gvyNGnyKMaG",
+      "dex": "Raydium-CLMM",
+      "signer": "6ks1ku8paBMVwhzC6dGv5pacFnNPoR5ZmH4qEZ7kAuZV",
+      "token_in": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 4222745.686490059,
+      "amount_out": 0.706000000000131
+    },
+    "bot_address": "6ks1ku8paBMVwhzC6dGv5pacFnNPoR5ZmH4qEZ7kAuZV",
+    "slot_span": 8,
+    "token_pair": "So111111.../6ANw6Yzd..."
+  },
+  {
+    "frontrun": {
+      "slot": 380434150,
+      "signature": "4dXZYRKYFdBYY4gtWeA2E2WSK4aUB2uAdEcC4J4gKjYMcGwrdsh8feW1x2Axq8xfmQwCG7BavWVCxdTDq8CiPuYK",
+      "dex": "Raydium-CLMM",
+      "signer": "7freUa2JBy8tQVFhBcfcbhsQTbDAA97RMXrFxGYygzhv",
+      "token_in": "5Vm4ev8oRBnaDivwan6ktDh3A6zfLqYfxY7w3eMXn5ZJ",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 7815315.498148918,
+      "amount_out": 0.5200000000000955
+    },
+    "victim": {
+      "slot": 380434151,
+      "signature": "2nq5ah5KbszCPw9yR6bsUnGU3RNs7gJUX7xbDGDYEzEk81Cw6StiaQAQjUJD1Tn558KLFBTM3VQwyYKFmajSqHhc",
+      "dex": "Raydium-CLMM",
+      "signer": "6cqBSysbjJ8Cj4zEUdEENf6mVXFd7qks8irUX9df914u",
+      "token_in": "5Vm4ev8oRBnaDivwan6ktDh3A6zfLqYfxY7w3eMXn5ZJ",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 15028.834635734558,
+      "amount_out": 0.0009999999999763531
+    },
+    "backrun": {
+      "slot": 380434155,
+      "signature": "5vAqdsMLJwDJG4ajGGn8R8HM7JtE1f322vDV8kVegQYFG9QZEqaMVVWfw2aXWjaj7pfhFkHbAJBgnUSD26y4b2os",
+      "dex": "Raydium-CLMM",
+      "signer": "7freUa2JBy8tQVFhBcfcbhsQTbDAA97RMXrFxGYygzhv",
+      "token_in": "So11111111111111111111111111111111111111112",
+      "token_out": "5Vm4ev8oRBnaDivwan6ktDh3A6zfLqYfxY7w3eMXn5ZJ",
+      "amount_in": 1.3902938569999606,
+      "amount_out": 20851630.517665863
+    },
+    "bot_address": "7freUa2JBy8tQVFhBcfcbhsQTbDAA97RMXrFxGYygzhv",
+    "slot_span": 5,
+    "token_pair": "5Vm4ev8o.../So111111..."
+  },
+  {
+    "frontrun": {
+      "slot": 380434150,
+      "signature": "4dXZYRKYFdBYY4gtWeA2E2WSK4aUB2uAdEcC4J4gKjYMcGwrdsh8feW1x2Axq8xfmQwCG7BavWVCxdTDq8CiPuYK",
+      "dex": "Raydium-CLMM",
+      "signer": "7freUa2JBy8tQVFhBcfcbhsQTbDAA97RMXrFxGYygzhv",
+      "token_in": "5Vm4ev8oRBnaDivwan6ktDh3A6zfLqYfxY7w3eMXn5ZJ",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 7815315.498148918,
+      "amount_out": 0.5200000000000955
+    },
+    "victim": {
+      "slot": 380434151,
+      "signature": "Y821aVc4T1TLzi6ywJw2BovCT9stxsXsPN9aWVd7qurb1obCMTFuZra3nkSipoiMi5yAoHMi4QVXQSXKoQHmzrc",
+      "dex": "Raydium-CLMM",
+      "signer": "6Xns83KVGE2kiaVG89JpeEC6jQSBnBS8GFpmn6Lz1x3H",
+      "token_in": "5Vm4ev8oRBnaDivwan6ktDh3A6zfLqYfxY7w3eMXn5ZJ",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 30057.49513053894,
+      "amount_out": 0.002000000000066393
+    },
+    "backrun": {
+      "slot": 380434155,
+      "signature": "5vAqdsMLJwDJG4ajGGn8R8HM7JtE1f322vDV8kVegQYFG9QZEqaMVVWfw2aXWjaj7pfhFkHbAJBgnUSD26y4b2os",
+      "dex": "Raydium-CLMM",
+      "signer": "7freUa2JBy8tQVFhBcfcbhsQTbDAA97RMXrFxGYygzhv",
+      "token_in": "So11111111111111111111111111111111111111112",
+      "token_out": "5Vm4ev8oRBnaDivwan6ktDh3A6zfLqYfxY7w3eMXn5ZJ",
+      "amount_in": 1.3902938569999606,
+      "amount_out": 20851630.517665863
+    },
+    "bot_address": "7freUa2JBy8tQVFhBcfcbhsQTbDAA97RMXrFxGYygzhv",
+    "slot_span": 5,
+    "token_pair": "5Vm4ev8o.../So111111..."
+  },
+  {
+    "frontrun": {
+      "slot": 380434150,
+      "signature": "4dXZYRKYFdBYY4gtWeA2E2WSK4aUB2uAdEcC4J4gKjYMcGwrdsh8feW1x2Axq8xfmQwCG7BavWVCxdTDq8CiPuYK",
+      "dex": "Raydium-CLMM",
+      "signer": "7freUa2JBy8tQVFhBcfcbhsQTbDAA97RMXrFxGYygzhv",
+      "token_in": "5Vm4ev8oRBnaDivwan6ktDh3A6zfLqYfxY7w3eMXn5ZJ",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 7815315.498148918,
+      "amount_out": 0.5200000000000955
+    },
+    "victim": {
+      "slot": 380434151,
+      "signature": "5s5Zp811Fo83rhfhsWZ1qWEbj1no6ifFZzhLWESWkUXa8MxhwMpvgw3XmUAxsS4jTgmLG1oTQ1JpnUwv2knASGqm",
+      "dex": "Raydium-CLMM",
+      "signer": "GKpttbnXzSwvuXVWecdCYBy95Lh7KHbYrnEq3J9sbFBX",
+      "token_in": "5Vm4ev8oRBnaDivwan6ktDh3A6zfLqYfxY7w3eMXn5ZJ",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 30057.26294517517,
+      "amount_out": 0.0019999999999527063
+    },
+    "backrun": {
+      "slot": 380434155,
+      "signature": "5vAqdsMLJwDJG4ajGGn8R8HM7JtE1f322vDV8kVegQYFG9QZEqaMVVWfw2aXWjaj7pfhFkHbAJBgnUSD26y4b2os",
+      "dex": "Raydium-CLMM",
+      "signer": "7freUa2JBy8tQVFhBcfcbhsQTbDAA97RMXrFxGYygzhv",
+      "token_in": "So11111111111111111111111111111111111111112",
+      "token_out": "5Vm4ev8oRBnaDivwan6ktDh3A6zfLqYfxY7w3eMXn5ZJ",
+      "amount_in": 1.3902938569999606,
+      "amount_out": 20851630.517665863
+    },
+    "bot_address": "7freUa2JBy8tQVFhBcfcbhsQTbDAA97RMXrFxGYygzhv",
+    "slot_span": 5,
+    "token_pair": "5Vm4ev8o.../So111111..."
+  },
+  {
+    "frontrun": {
+      "slot": 380434150,
+      "signature": "4dXZYRKYFdBYY4gtWeA2E2WSK4aUB2uAdEcC4J4gKjYMcGwrdsh8feW1x2Axq8xfmQwCG7BavWVCxdTDq8CiPuYK",
+      "dex": "Raydium-CLMM",
+      "signer": "7freUa2JBy8tQVFhBcfcbhsQTbDAA97RMXrFxGYygzhv",
+      "token_in": "5Vm4ev8oRBnaDivwan6ktDh3A6zfLqYfxY7w3eMXn5ZJ",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 7815315.498148918,
+      "amount_out": 0.5200000000000955
+    },
+    "victim": {
+      "slot": 380434151,
+      "signature": "33XEafVARRjTYCsx9LXhPNvU4zhDiYmvCDLfqUZidF1yxA8bvLUSK2DWYJTpResM9Uv1FoTGyv4jVzP4aNixTinr",
+      "dex": "Raydium-CLMM",
+      "signer": "GtwB6ndFth3f2r8QEd1HKJV8AWXSiL8SSvGc7aRwWe11",
+      "token_in": "5Vm4ev8oRBnaDivwan6ktDh3A6zfLqYfxY7w3eMXn5ZJ",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 30057.030762672424,
+      "amount_out": 0.002000000000066393
+    },
+    "backrun": {
+      "slot": 380434155,
+      "signature": "5vAqdsMLJwDJG4ajGGn8R8HM7JtE1f322vDV8kVegQYFG9QZEqaMVVWfw2aXWjaj7pfhFkHbAJBgnUSD26y4b2os",
+      "dex": "Raydium-CLMM",
+      "signer": "7freUa2JBy8tQVFhBcfcbhsQTbDAA97RMXrFxGYygzhv",
+      "token_in": "So11111111111111111111111111111111111111112",
+      "token_out": "5Vm4ev8oRBnaDivwan6ktDh3A6zfLqYfxY7w3eMXn5ZJ",
+      "amount_in": 1.3902938569999606,
+      "amount_out": 20851630.517665863
+    },
+    "bot_address": "7freUa2JBy8tQVFhBcfcbhsQTbDAA97RMXrFxGYygzhv",
+    "slot_span": 5,
+    "token_pair": "5Vm4ev8o.../So111111..."
+  },
+  {
+    "frontrun": {
+      "slot": 380434150,
+      "signature": "4dXZYRKYFdBYY4gtWeA2E2WSK4aUB2uAdEcC4J4gKjYMcGwrdsh8feW1x2Axq8xfmQwCG7BavWVCxdTDq8CiPuYK",
+      "dex": "Raydium-CLMM",
+      "signer": "7freUa2JBy8tQVFhBcfcbhsQTbDAA97RMXrFxGYygzhv",
+      "token_in": "5Vm4ev8oRBnaDivwan6ktDh3A6zfLqYfxY7w3eMXn5ZJ",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 7815315.498148918,
+      "amount_out": 0.5200000000000955
+    },
+    "victim": {
+      "slot": 380434151,
+      "signature": "3pYEL4jHkPeAypfYRwHfFyfvhrssSDoxhfwkGbJKyz4xWqZPQXDg7TVWP5LZjssNWokeD1N28qLRboRL96xG3Zxm",
+      "dex": "Raydium-CLMM",
+      "signer": "CmRea9DM3U2TKP2xT4jMnSXMAzwQfa8hjeDz2HD2GHU",
+      "token_in": "5Vm4ev8oRBnaDivwan6ktDh3A6zfLqYfxY7w3eMXn5ZJ",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 45085.11080646515,
+      "amount_out": 0.0029999999999290594
+    },
+    "backrun": {
+      "slot": 380434155,
+      "signature": "5vAqdsMLJwDJG4ajGGn8R8HM7JtE1f322vDV8kVegQYFG9QZEqaMVVWfw2aXWjaj7pfhFkHbAJBgnUSD26y4b2os",
+      "dex": "Raydium-CLMM",
+      "signer": "7freUa2JBy8tQVFhBcfcbhsQTbDAA97RMXrFxGYygzhv",
+      "token_in": "So11111111111111111111111111111111111111112",
+      "token_out": "5Vm4ev8oRBnaDivwan6ktDh3A6zfLqYfxY7w3eMXn5ZJ",
+      "amount_in": 1.3902938569999606,
+      "amount_out": 20851630.517665863
+    },
+    "bot_address": "7freUa2JBy8tQVFhBcfcbhsQTbDAA97RMXrFxGYygzhv",
+    "slot_span": 5,
+    "token_pair": "5Vm4ev8o.../So111111..."
+  },
+  {
+    "frontrun": {
+      "slot": 380434159,
+      "signature": "3hvN2q2dDSExZCxoXZH1Dg75Cf2d75ywQLdDvtV4NRmx7EpvFTiLKnKYU6UoARhcH5p2tQK2W1S8vx8Mjs3RDvZq",
+      "dex": "Raydium-CLMM",
+      "signer": "6od1d7eT1QBR5WJ41daDhJyrCABcejiVphD9UAPA9TmR",
+      "token_in": "So11111111111111111111111111111111111111112",
+      "token_out": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "amount_in": 1.1476665530001355,
+      "amount_out": 6866570.403823853
+    },
+    "victim": {
+      "slot": 380434160,
+      "signature": "41AkoETDAYmH18Smv5HNNH2oCEFvvUxJX68LcBmGWp1Y5NvPND67wU9iWhHZMeg5bLGKqeNkpr6NDbeLXsSaMVkE",
+      "dex": "Raydium-CLMM",
+      "signer": "5h5YJV6kb687foRCmJwgE5K9CUgdCxYRHGoPpBB4r9Gx",
+      "token_in": "So11111111111111111111111111111111111111112",
+      "token_out": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "amount_in": 0.932448979000128,
+      "amount_out": 5573977.873766899
+    },
+    "backrun": {
+      "slot": 380434163,
+      "signature": "59Nx4AVAeoq66qFJQMrRmqLYx5ARF5GDnGSgfyDc8w38CWohX1Z6Af3yrwJrXS21AbwdKFhDBVSuBf9hTjVV4rT8",
+      "dex": "Raydium-CLMM",
+      "signer": "6od1d7eT1QBR5WJ41daDhJyrCABcejiVphD9UAPA9TmR",
+      "token_in": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 1746032.2385082245,
+      "amount_out": 0.2920000000001437
+    },
+    "bot_address": "6od1d7eT1QBR5WJ41daDhJyrCABcejiVphD9UAPA9TmR",
+    "slot_span": 4,
+    "token_pair": "So111111.../6ANw6Yzd..."
+  },
+  {
+    "frontrun": {
+      "slot": 380434178,
+      "signature": "4q6yP89fik3QFhYQf8AcuhJko5JZDf6wcZD24rSwcvnJVGKTn4JqeQuPmxfeaF3k24poE4bxqN4D96bam28Kx4QN",
+      "dex": "Raydium-CLMM",
+      "signer": "BwZmXUKfu8sx6qga1NbfLUWioxEq4gwb3YfhADcE97dj",
+      "token_in": "FbwFtW1q5epVMwHzsMZr1w7j875JK9fLpBy2MvxZ9po1",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 1740450.91006279,
+      "amount_out": 0.3669999999999618
+    },
+    "victim": {
+      "slot": 380434180,
+      "signature": "2odN8qdfEVxUBm3RS4hveGDu8gp8zF4TRPXA6A9tHqgTfQdJjpVrSubB8DkwJe91jr4TWJBryUVtSjassQY6zpEd",
+      "dex": "Raydium-CLMM",
+      "signer": "Fcsq8SXugMwzirk3JxD2eMBw8G6dpZ1m8nSHoNXkwqVm",
+      "token_in": "FbwFtW1q5epVMwHzsMZr1w7j875JK9fLpBy2MvxZ9po1",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 1990337.7283830643,
+      "amount_out": 0.42000000000007276
+    },
+    "backrun": {
+      "slot": 380434185,
+      "signature": "86PqYpAPj62nGZwAQ23DhtzMseybwo8CrkVKQjvevsYqFmL8asG5Dr8NLvYV8jBe2PE1ooLKgFTfy57GbRuGCSx",
+      "dex": "Raydium-CLMM",
+      "signer": "BwZmXUKfu8sx6qga1NbfLUWioxEq4gwb3YfhADcE97dj",
+      "token_in": "So11111111111111111111111111111111111111112",
+      "token_out": "FbwFtW1q5epVMwHzsMZr1w7j875JK9fLpBy2MvxZ9po1",
+      "amount_in": 0.4951745859998482,
+      "amount_out": 2347362.5795373917
+    },
+    "bot_address": "BwZmXUKfu8sx6qga1NbfLUWioxEq4gwb3YfhADcE97dj",
+    "slot_span": 7,
+    "token_pair": "FbwFtW1q.../So111111..."
+  },
+  {
+    "frontrun": {
+      "slot": 380434178,
+      "signature": "4q6yP89fik3QFhYQf8AcuhJko5JZDf6wcZD24rSwcvnJVGKTn4JqeQuPmxfeaF3k24poE4bxqN4D96bam28Kx4QN",
+      "dex": "Raydium-CLMM",
+      "signer": "BwZmXUKfu8sx6qga1NbfLUWioxEq4gwb3YfhADcE97dj",
+      "token_in": "FbwFtW1q5epVMwHzsMZr1w7j875JK9fLpBy2MvxZ9po1",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 1740450.91006279,
+      "amount_out": 0.3669999999999618
+    },
+    "victim": {
+      "slot": 380434180,
+      "signature": "2NrhP4d9YGqzshr2Hau6q1dkbUQ2iPTNSwqkqEWcPTWbtvSch3MDA4qi6tFazkU9rgstVbLhvZWtjcuPzUdbptv",
+      "dex": "Raydium-CLMM",
+      "signer": "GC4G7AcgvKGBxMzdb9iYyPapA8bHLpfS4GH2gM7wt2yC",
+      "token_in": "FbwFtW1q5epVMwHzsMZr1w7j875JK9fLpBy2MvxZ9po1",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 2064937.0711011887,
+      "amount_out": 0.4359999999999218
+    },
+    "backrun": {
+      "slot": 380434185,
+      "signature": "86PqYpAPj62nGZwAQ23DhtzMseybwo8CrkVKQjvevsYqFmL8asG5Dr8NLvYV8jBe2PE1ooLKgFTfy57GbRuGCSx",
+      "dex": "Raydium-CLMM",
+      "signer": "BwZmXUKfu8sx6qga1NbfLUWioxEq4gwb3YfhADcE97dj",
+      "token_in": "So11111111111111111111111111111111111111112",
+      "token_out": "FbwFtW1q5epVMwHzsMZr1w7j875JK9fLpBy2MvxZ9po1",
+      "amount_in": 0.4951745859998482,
+      "amount_out": 2347362.5795373917
+    },
+    "bot_address": "BwZmXUKfu8sx6qga1NbfLUWioxEq4gwb3YfhADcE97dj",
+    "slot_span": 7,
+    "token_pair": "FbwFtW1q.../So111111..."
+  },
+  {
+    "frontrun": {
+      "slot": 380434196,
+      "signature": "4QXETEeqYpBZkxnzoZujDp3DEeDS3T7mu3FzQPVubx3xrQH2UZXFfS1m72gFgx6sLGxGHunVSPMRcYWkaB8bNEif",
+      "dex": "Raydium-CLMM",
+      "signer": "9e5WnZNtXZJE4vo7PPA3cvRtgyZidqV6XUuVPQ3kBaow",
+      "token_in": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 3977023.2005081177,
+      "amount_out": 0.6630000000000109
+    },
+    "victim": {
+      "slot": 380434199,
+      "signature": "5KmNAFNcdtbUniBAhfXhhw6fh4Qw6SiKcgd4Pkkr26dKZpQVXu96fhhfe2cSKrW5aQeSEwPQtkQjS4FMhvYVzgZ7",
+      "dex": "Raydium-CLMM",
+      "signer": "3ZW1KhCerp7rwg9Kpiathj5WSasPKNJV1iD67dYByzmn",
+      "token_in": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 5995.753245353699,
+      "amount_out": 0.0009999999999763531
+    },
+    "backrun": {
+      "slot": 380434201,
+      "signature": "mZWZuJcLVQhxHKcG48AbXRqbyb5VbjjR1NgNKqcNt2r6jbN9B43jUSZKfCKFWKNQcKyByg4g4Hh7iYj3eDJCCgU",
+      "dex": "Raydium-CLMM",
+      "signer": "9e5WnZNtXZJE4vo7PPA3cvRtgyZidqV6XUuVPQ3kBaow",
+      "token_in": "So11111111111111111111111111111111111111112",
+      "token_out": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "amount_in": 1.040424165999866,
+      "amount_out": 6236303.1948308945
+    },
+    "bot_address": "9e5WnZNtXZJE4vo7PPA3cvRtgyZidqV6XUuVPQ3kBaow",
+    "slot_span": 5,
+    "token_pair": "6ANw6Yzd.../So111111..."
+  },
+  {
+    "frontrun": {
+      "slot": 380434196,
+      "signature": "4xH8m6EZGJtKnfVH2yQjgXJres6XPTW9xUvLR8eYzmusvccuusi26A74FHPP4NdX5PWMUC1Q5TiDgoznkeAGeAtc",
+      "dex": "Raydium-CLMM",
+      "signer": "9tKgK6v37sZkutkGFonK75FJdpiuBLiTPpA7gnoZ7h2x",
+      "token_in": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 2942632.75779438,
+      "amount_out": 0.49099999999998545
+    },
+    "victim": {
+      "slot": 380434199,
+      "signature": "5KmNAFNcdtbUniBAhfXhhw6fh4Qw6SiKcgd4Pkkr26dKZpQVXu96fhhfe2cSKrW5aQeSEwPQtkQjS4FMhvYVzgZ7",
+      "dex": "Raydium-CLMM",
+      "signer": "3ZW1KhCerp7rwg9Kpiathj5WSasPKNJV1iD67dYByzmn",
+      "token_in": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 5995.753245353699,
+      "amount_out": 0.0009999999999763531
+    },
+    "backrun": {
+      "slot": 380434202,
+      "signature": "627oLxzyEKqpzrKJPUb17SB3Bh1TqMkjUs8eJ4cqiZwteAUbBedrY1SZYZrjWJi2ynzSQdX1o9aHm67CUkmLK8Um",
+      "dex": "Raydium-CLMM",
+      "signer": "9tKgK6v37sZkutkGFonK75FJdpiuBLiTPpA7gnoZ7h2x",
+      "token_in": "So11111111111111111111111111111111111111112",
+      "token_out": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "amount_in": 1.3466793009999947,
+      "amount_out": 8078352.519953728
+    },
+    "bot_address": "9tKgK6v37sZkutkGFonK75FJdpiuBLiTPpA7gnoZ7h2x",
+    "slot_span": 6,
+    "token_pair": "6ANw6Yzd.../So111111..."
+  },
+  {
+    "frontrun": {
+      "slot": 380434196,
+      "signature": "4QXETEeqYpBZkxnzoZujDp3DEeDS3T7mu3FzQPVubx3xrQH2UZXFfS1m72gFgx6sLGxGHunVSPMRcYWkaB8bNEif",
+      "dex": "Raydium-CLMM",
+      "signer": "9e5WnZNtXZJE4vo7PPA3cvRtgyZidqV6XUuVPQ3kBaow",
+      "token_in": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 3977023.2005081177,
+      "amount_out": 0.6630000000000109
+    },
+    "victim": {
+      "slot": 380434199,
+      "signature": "34RKXpvPFGpWkk34mdfRcPozQM1rLapcM9Nd6UPMrWk6M7w19aEViZ2pUsEyPaSXe6aTYBtWmZQcgeUr64fW31ue",
+      "dex": "Raydium-CLMM",
+      "signer": "FyTT911mJ5SdNd2RHqEkBPmi2amQJChjNU32yZfFmL7Q",
+      "token_in": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 5995.743913650513,
+      "amount_out": 0.0009999999999763531
+    },
+    "backrun": {
+      "slot": 380434201,
+      "signature": "mZWZuJcLVQhxHKcG48AbXRqbyb5VbjjR1NgNKqcNt2r6jbN9B43jUSZKfCKFWKNQcKyByg4g4Hh7iYj3eDJCCgU",
+      "dex": "Raydium-CLMM",
+      "signer": "9e5WnZNtXZJE4vo7PPA3cvRtgyZidqV6XUuVPQ3kBaow",
+      "token_in": "So11111111111111111111111111111111111111112",
+      "token_out": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "amount_in": 1.040424165999866,
+      "amount_out": 6236303.1948308945
+    },
+    "bot_address": "9e5WnZNtXZJE4vo7PPA3cvRtgyZidqV6XUuVPQ3kBaow",
+    "slot_span": 5,
+    "token_pair": "6ANw6Yzd.../So111111..."
+  },
+  {
+    "frontrun": {
+      "slot": 380434196,
+      "signature": "4xH8m6EZGJtKnfVH2yQjgXJres6XPTW9xUvLR8eYzmusvccuusi26A74FHPP4NdX5PWMUC1Q5TiDgoznkeAGeAtc",
+      "dex": "Raydium-CLMM",
+      "signer": "9tKgK6v37sZkutkGFonK75FJdpiuBLiTPpA7gnoZ7h2x",
+      "token_in": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 2942632.75779438,
+      "amount_out": 0.49099999999998545
+    },
+    "victim": {
+      "slot": 380434199,
+      "signature": "34RKXpvPFGpWkk34mdfRcPozQM1rLapcM9Nd6UPMrWk6M7w19aEViZ2pUsEyPaSXe6aTYBtWmZQcgeUr64fW31ue",
+      "dex": "Raydium-CLMM",
+      "signer": "FyTT911mJ5SdNd2RHqEkBPmi2amQJChjNU32yZfFmL7Q",
+      "token_in": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 5995.743913650513,
+      "amount_out": 0.0009999999999763531
+    },
+    "backrun": {
+      "slot": 380434202,
+      "signature": "627oLxzyEKqpzrKJPUb17SB3Bh1TqMkjUs8eJ4cqiZwteAUbBedrY1SZYZrjWJi2ynzSQdX1o9aHm67CUkmLK8Um",
+      "dex": "Raydium-CLMM",
+      "signer": "9tKgK6v37sZkutkGFonK75FJdpiuBLiTPpA7gnoZ7h2x",
+      "token_in": "So11111111111111111111111111111111111111112",
+      "token_out": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "amount_in": 1.3466793009999947,
+      "amount_out": 8078352.519953728
+    },
+    "bot_address": "9tKgK6v37sZkutkGFonK75FJdpiuBLiTPpA7gnoZ7h2x",
+    "slot_span": 6,
+    "token_pair": "6ANw6Yzd.../So111111..."
+  },
+  {
+    "frontrun": {
+      "slot": 380434196,
+      "signature": "4QXETEeqYpBZkxnzoZujDp3DEeDS3T7mu3FzQPVubx3xrQH2UZXFfS1m72gFgx6sLGxGHunVSPMRcYWkaB8bNEif",
+      "dex": "Raydium-CLMM",
+      "signer": "9e5WnZNtXZJE4vo7PPA3cvRtgyZidqV6XUuVPQ3kBaow",
+      "token_in": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 3977023.2005081177,
+      "amount_out": 0.6630000000000109
+    },
+    "victim": {
+      "slot": 380434199,
+      "signature": "4trBZyVZMuNncZm9jnJ82mndzsqZM6wdwS7JXCAeRwNa9Ah7t1s62hkm9vXeGHhamDCRduzCANuL1ypPMPvVAUsd",
+      "dex": "Raydium-CLMM",
+      "signer": "9B5jjmgeNK3dnQd9urwSDNfKGVxuuwhVFpEvqfweBq2Q",
+      "token_in": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 2165622.0426654816,
+      "amount_out": 0.3610000000001037
+    },
+    "backrun": {
+      "slot": 380434201,
+      "signature": "mZWZuJcLVQhxHKcG48AbXRqbyb5VbjjR1NgNKqcNt2r6jbN9B43jUSZKfCKFWKNQcKyByg4g4Hh7iYj3eDJCCgU",
+      "dex": "Raydium-CLMM",
+      "signer": "9e5WnZNtXZJE4vo7PPA3cvRtgyZidqV6XUuVPQ3kBaow",
+      "token_in": "So11111111111111111111111111111111111111112",
+      "token_out": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "amount_in": 1.040424165999866,
+      "amount_out": 6236303.1948308945
+    },
+    "bot_address": "9e5WnZNtXZJE4vo7PPA3cvRtgyZidqV6XUuVPQ3kBaow",
+    "slot_span": 5,
+    "token_pair": "6ANw6Yzd.../So111111..."
+  },
+  {
+    "frontrun": {
+      "slot": 380434196,
+      "signature": "4xH8m6EZGJtKnfVH2yQjgXJres6XPTW9xUvLR8eYzmusvccuusi26A74FHPP4NdX5PWMUC1Q5TiDgoznkeAGeAtc",
+      "dex": "Raydium-CLMM",
+      "signer": "9tKgK6v37sZkutkGFonK75FJdpiuBLiTPpA7gnoZ7h2x",
+      "token_in": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 2942632.75779438,
+      "amount_out": 0.49099999999998545
+    },
+    "victim": {
+      "slot": 380434199,
+      "signature": "4trBZyVZMuNncZm9jnJ82mndzsqZM6wdwS7JXCAeRwNa9Ah7t1s62hkm9vXeGHhamDCRduzCANuL1ypPMPvVAUsd",
+      "dex": "Raydium-CLMM",
+      "signer": "9B5jjmgeNK3dnQd9urwSDNfKGVxuuwhVFpEvqfweBq2Q",
+      "token_in": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 2165622.0426654816,
+      "amount_out": 0.3610000000001037
+    },
+    "backrun": {
+      "slot": 380434202,
+      "signature": "627oLxzyEKqpzrKJPUb17SB3Bh1TqMkjUs8eJ4cqiZwteAUbBedrY1SZYZrjWJi2ynzSQdX1o9aHm67CUkmLK8Um",
+      "dex": "Raydium-CLMM",
+      "signer": "9tKgK6v37sZkutkGFonK75FJdpiuBLiTPpA7gnoZ7h2x",
+      "token_in": "So11111111111111111111111111111111111111112",
+      "token_out": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "amount_in": 1.3466793009999947,
+      "amount_out": 8078352.519953728
+    },
+    "bot_address": "9tKgK6v37sZkutkGFonK75FJdpiuBLiTPpA7gnoZ7h2x",
+    "slot_span": 6,
+    "token_pair": "6ANw6Yzd.../So111111..."
+  },
+  {
+    "frontrun": {
+      "slot": 380434196,
+      "signature": "4QXETEeqYpBZkxnzoZujDp3DEeDS3T7mu3FzQPVubx3xrQH2UZXFfS1m72gFgx6sLGxGHunVSPMRcYWkaB8bNEif",
+      "dex": "Raydium-CLMM",
+      "signer": "9e5WnZNtXZJE4vo7PPA3cvRtgyZidqV6XUuVPQ3kBaow",
+      "token_in": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 3977023.2005081177,
+      "amount_out": 0.6630000000000109
+    },
+    "victim": {
+      "slot": 380434199,
+      "signature": "61EiL84kekMNR12LoQ2ykYSchguhwuVwWBx21a3vEEoFS2CEBkfq1FcXT67mCEVjL9zgNTktnRsqSVzDjQgvbkFD",
+      "dex": "Raydium-CLMM",
+      "signer": "2ReVKS7wKiKn8fHXuR7CKsKSzz4Njr4WTVNHfMPbWQUH",
+      "token_in": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 2128441.9159402847,
+      "amount_out": 0.3549999999997908
+    },
+    "backrun": {
+      "slot": 380434201,
+      "signature": "mZWZuJcLVQhxHKcG48AbXRqbyb5VbjjR1NgNKqcNt2r6jbN9B43jUSZKfCKFWKNQcKyByg4g4Hh7iYj3eDJCCgU",
+      "dex": "Raydium-CLMM",
+      "signer": "9e5WnZNtXZJE4vo7PPA3cvRtgyZidqV6XUuVPQ3kBaow",
+      "token_in": "So11111111111111111111111111111111111111112",
+      "token_out": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "amount_in": 1.040424165999866,
+      "amount_out": 6236303.1948308945
+    },
+    "bot_address": "9e5WnZNtXZJE4vo7PPA3cvRtgyZidqV6XUuVPQ3kBaow",
+    "slot_span": 5,
+    "token_pair": "6ANw6Yzd.../So111111..."
+  },
+  {
+    "frontrun": {
+      "slot": 380434196,
+      "signature": "4xH8m6EZGJtKnfVH2yQjgXJres6XPTW9xUvLR8eYzmusvccuusi26A74FHPP4NdX5PWMUC1Q5TiDgoznkeAGeAtc",
+      "dex": "Raydium-CLMM",
+      "signer": "9tKgK6v37sZkutkGFonK75FJdpiuBLiTPpA7gnoZ7h2x",
+      "token_in": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 2942632.75779438,
+      "amount_out": 0.49099999999998545
+    },
+    "victim": {
+      "slot": 380434199,
+      "signature": "61EiL84kekMNR12LoQ2ykYSchguhwuVwWBx21a3vEEoFS2CEBkfq1FcXT67mCEVjL9zgNTktnRsqSVzDjQgvbkFD",
+      "dex": "Raydium-CLMM",
+      "signer": "2ReVKS7wKiKn8fHXuR7CKsKSzz4Njr4WTVNHfMPbWQUH",
+      "token_in": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 2128441.9159402847,
+      "amount_out": 0.3549999999997908
+    },
+    "backrun": {
+      "slot": 380434202,
+      "signature": "627oLxzyEKqpzrKJPUb17SB3Bh1TqMkjUs8eJ4cqiZwteAUbBedrY1SZYZrjWJi2ynzSQdX1o9aHm67CUkmLK8Um",
+      "dex": "Raydium-CLMM",
+      "signer": "9tKgK6v37sZkutkGFonK75FJdpiuBLiTPpA7gnoZ7h2x",
+      "token_in": "So11111111111111111111111111111111111111112",
+      "token_out": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "amount_in": 1.3466793009999947,
+      "amount_out": 8078352.519953728
+    },
+    "bot_address": "9tKgK6v37sZkutkGFonK75FJdpiuBLiTPpA7gnoZ7h2x",
+    "slot_span": 6,
+    "token_pair": "6ANw6Yzd.../So111111..."
+  },
+  {
+    "frontrun": {
+      "slot": 380434205,
+      "signature": "665qp9LmQoJ2pfePcaQvFxMvV7RGFWofJ5xKQgy1iRu3xSzj1PUydpf67NDTrTBceUemNKjGwHFDyfMrMHuZHbB2",
+      "dex": "Raydium-CLMM",
+      "signer": "3GvTu7oY3swCYV28dsmuHbdPEqawa5Y2Chbw6V12zvdi",
+      "token_in": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 2849366.3123579025,
+      "amount_out": 0.4750000000001364
+    },
+    "victim": {
+      "slot": 380434208,
+      "signature": "3uQKbYFpZKtEWwsyptc3KoscKZGz2qssV5pryFEMSm8Y2h4EWbNikuhRHjRz3xQ9VXcbCr9kCNh6EtrpTWyUMSR8",
+      "dex": "Raydium-CLMM",
+      "signer": "FGyM5KezDJDWCNSdFSeAM41ChViKHtY2nBSnC6pVuBC9",
+      "token_in": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 3416460.111383438,
+      "amount_out": 0.5699999999999363
+    },
+    "backrun": {
+      "slot": 380434209,
+      "signature": "3PYZS6zq8sZ5s6tccwRoTdfGNwiEWT8FYQP4gUWRngvxmSb7gB3z197g84de9jJvRr6xk5qVAFPTJEdAuv2ostKv",
+      "dex": "Raydium-CLMM",
+      "signer": "3GvTu7oY3swCYV28dsmuHbdPEqawa5Y2Chbw6V12zvdi",
+      "token_in": "So11111111111111111111111111111111111111112",
+      "token_out": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "amount_in": 0.5646457540001393,
+      "amount_out": 3382667.0484580994
+    },
+    "bot_address": "3GvTu7oY3swCYV28dsmuHbdPEqawa5Y2Chbw6V12zvdi",
+    "slot_span": 4,
+    "token_pair": "6ANw6Yzd.../So111111..."
+  },
+  {
+    "frontrun": {
+      "slot": 380434223,
+      "signature": "4hoeJ5rbahXqdzQ1oKDUB74uRvCmRBnRd5g3uCH9CaJ6hemdCM7VBR9WqJPTq4WgmD3ti3ZKRQsTf7WKVVP2uWJj",
+      "dex": "Raydium-CLMM",
+      "signer": "9RDEtrXpRdkAssH3Eb3BHJB4cRRNb4Ksxi27CKMUKkC6",
+      "token_in": "So11111111111111111111111111111111111111112",
+      "token_out": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "amount_in": 1.2455354809999335,
+      "amount_out": 7486805.544120789
+    },
+    "victim": {
+      "slot": 380434226,
+      "signature": "PMsW1eHChv77viYXfVz8Rdd345QgiCzWc3wjbAwMSAuLiDndpt2D4Qs7wWgc3rFFEMPjG48ca5Tv3DQR5rCDt8G",
+      "dex": "Raydium-CLMM",
+      "signer": "8yHcWi7WQE1bMJQa6foTziDVRT7CSjcFr5bTLcMNJcX3",
+      "token_in": "So11111111111111111111111111111111111111112",
+      "token_out": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "amount_in": 0.6628089450000516,
+      "amount_out": 3980911.4054145813
+    },
+    "backrun": {
+      "slot": 380434231,
+      "signature": "3rFr79wTPwSQkBe9grhMBsdLaPRGi2jpJzowHFuniAqUBGD8eQ5ACQgjFqZisser8VTaHdDNCbbHbC3rdZepos8k",
+      "dex": "Raydium-CLMM",
+      "signer": "9RDEtrXpRdkAssH3Eb3BHJB4cRRNb4Ksxi27CKMUKkC6",
+      "token_in": "6ANw6YzdLkWgEaS7rKW4pECLLr4uosc61vgw1LApbYAR",
+      "token_out": "So11111111111111111111111111111111111111112",
+      "amount_in": 4234844.399510384,
+      "amount_out": 0.7059999999999036
+    },
+    "bot_address": "9RDEtrXpRdkAssH3Eb3BHJB4cRRNb4Ksxi27CKMUKkC6",
+    "slot_span": 8,
+    "token_pair": "So111111.../6ANw6Yzd..."
+  }
+]

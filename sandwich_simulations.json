@@ -1,0 +1,24 @@
+[
+  {
+    "frontrun_slot": 380432777,
+    "victim_slot": 380432777,
+    "backrun_slot": 380432777,
+    "frontrun_sig": "5iygHq4XqbJrEgFgHKjG77MNmFNrsj1AXU8er1owdDtALzv5JGZQonSFXNy4Kyk8rqhFuzwsdMzssSuz8vwJxXow",
+    "victim_sig": "4dPSMrmxsR5jTw5b4zcZazs99ebnFgSDuA2M3scmWqB6dBNnDgamE7sutxVnLPcuD2Xm3cvfJ7aHXCezGoZp3yNd",
+    "backrun_sig": "3sqttq9UNUfHZpyE5hYJgHC3LkK3Hzg7asDVRikfvLhj9yiBYtNv5KUBkhf5fidVqbTgq3suaP6xkboenezzbLYH",
+    "profit": 80182.17978135086,
+    "profit_percent": 614.2857142857504,
+    "base_token": "9Es9ttvHj9UUHwyy7QLEPBTyJatYo2FbkuHcQR4cVxJr"
+  },
+  {
+    "frontrun_slot": 380432777,
+    "victim_slot": 380432777,
+    "backrun_slot": 380432777,
+    "frontrun_sig": "4dPSMrmxsR5jTw5b4zcZazs99ebnFgSDuA2M3scmWqB6dBNnDgamE7sutxVnLPcuD2Xm3cvfJ7aHXCezGoZp3yNd",
+    "victim_sig": "4PEcipgSPByp6Xeq9BmJstbDvZeRfZEnKDHqpXBGuFMFmqLhdKBNP1Bxsh1vAB6JfiVVDn4b26LuSQaxc2hLzri8",
+    "backrun_sig": "3sqttq9UNUfHZpyE5hYJgHC3LkK3Hzg7asDVRikfvLhj9yiBYtNv5KUBkhf5fidVqbTgq3suaP6xkboenezzbLYH",
+    "profit": 56873.40658909886,
+    "profit_percent": 156.41025641026786,
+    "base_token": "9Es9ttvHj9UUHwyy7QLEPBTyJatYo2FbkuHcQR4cVxJr"
+  }
+]

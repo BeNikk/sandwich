@@ -1,5 +1,5 @@
 import asyncio
-from config import RAYDIUM_PROGRAM_ID,ORCA_PROGRAM_ID
+from config import RAYDIUM_PROGRAM_ID,ORCA_PROGRAM_ID, RAYDIUM_CLMM
 
 def is_dex_transaction(transaction):
     try:
@@ -10,7 +10,9 @@ def is_dex_transaction(transaction):
                 program_id = str(instruction.program_id)
                 
                 if program_id == RAYDIUM_PROGRAM_ID:
-                    return True, "Raydium"
+                    return True, "Raydium-AMMV4"
+                elif program_id == RAYDIUM_CLMM:
+                    return True, "Raydium-CLMM"
                 elif program_id == ORCA_PROGRAM_ID:
                     return True, "Orca"
         
@@ -133,3 +135,11 @@ def extract_token_changes(transaction):
         
     except Exception as e:
         return None
+
+def get_token_name(token_mint):
+    token_map = {
+        'So11111111111111111111111111111111111111112': 'SOL',
+        'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v': 'USDC',
+        'Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB': 'USDT',
+    }
+    return token_map.get(token_mint, token_mint[:8] + '...')
