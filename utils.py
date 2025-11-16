@@ -135,11 +135,3 @@ def extract_token_changes(transaction):
         
     except Exception as e:
         return None
-
-def get_token_name(token_mint):
-    token_map = {
-        'So11111111111111111111111111111111111111112': 'SOL',
-        'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v': 'USDC',
-        'Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB': 'USDT',
-    }
-    return token_map.get(token_mint, token_mint[:8] + '...')
