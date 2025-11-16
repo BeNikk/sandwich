@@ -13,6 +13,28 @@ async def main():
 
     async with AsyncClient(helius_url) as client:
         res = await client.is_connected()
-    print(res)  # True
+        print(f"Connected: {res}")
+        slot_response = await client.get_slot()
+        current_slot = slot_response.value
+        print(f"\nCurrent slot: {current_slot}")
+        block_response = await client.get_block(
+            current_slot,
+            encoding="jsonParsed",
+            max_supported_transaction_version=0
+        )
+        if block_response.value:
+            block = block_response.value
+            print(f"Block has {len(block.transactions)} transactions")
+            
+            if block.transactions:
+                first_tx = block.transactions[0]
+                print(f"\n--- First Transaction ---")
+                print(f"Signature: {first_tx.transaction.signatures[0]}")
+                print(f"Success: {first_tx.meta.err is None}")
+                print(f"Number of instructions: {len(first_tx.transaction.message.instructions)}")
+        else:
+            print("Block was empty or skipped")
+
+    print(res)
 
 asyncio.run(main())
