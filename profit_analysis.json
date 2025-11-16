@@ -1,207 +1,3382 @@
 {
   "summary": {
-    "total_sandwiches": 4,
-    "profitable_count": 0,
-    "unprofitable_count": 4,
-    "success_rate_percent": 0.0
+    "total_sandwiches": 62,
+    "profitable_count": 46,
+    "unprofitable_count": 16,
+    "success_rate_percent": 74.19354838709677,
+    "total_sol_extracted": 0.44227488399978654,
+    "average_profit_sol": 0.009614671391299708,
+    "max_profit_sol": 0.10554075899995041,
+    "min_profit_sol": 0.00041103999999592133,
+    "avg_slot_span": 4.5,
+    "top_bots": [
+      {
+        "address": "5PZ8NyPC59bZBaC3rHG1RFubHDjyE9MFAwWVAZWF5bs9",
+        "sandwich_count": 4,
+        "total_profit_sol": 0.42216303599980165,
+        "avg_profit_sol": 0.10554075899995041
+      },
+      {
+        "address": "23EfcUag2j2y5t8GXsT9SXYaGS76FyWVWKWkgkiJAh6a",
+        "sandwich_count": 6,
+        "total_profit_sol": 0.0028084569999791142,
+        "avg_profit_sol": 0.0004680761666631857
+      },
+      {
+        "address": "3RMKoab4zynw3fEvDUmfYfnep7nChuMComjjiHKBTFQg",
+        "sandwich_count": 5,
+        "total_profit_sol": 0.0021407139999993774,
+        "avg_profit_sol": 0.0004281427999998755
+      }
+    ]
   },
-  "top_5_sandwiches": [],
-  "all_profitable": [],
-  "unprofitable": [
+  "top_5_sandwiches": [
     {
-      "sandwich_id": 2,
+      "sandwich_id": 4,
       "sandwich": {
         "frontrun": {
-          "slot": 380448795,
-          "signature": "VhmvFYA8n6cbKPq8kG83FLN323SRtiqaBqsMgqMxLX1pKWoWgUQJFNchpuW5GnRY7Ad5tju5xJiWAxKcCXHaUzp",
+          "slot": 380464127,
+          "signature": "3ZERQPzYcqEip3Sg2kCYKAzSaUxNUSZ8RqWsoLXuNgKFFjJFKfW4PuAsKKVEAm5ZQfC98bpa6b36jPQMGAeucGiG",
           "dex": "Raydium-CLMM",
-          "signer": "4gdEjAFjeayE7ieFUcVRuVtEycQPBo3cAQZ3yXh5Mi91",
-          "token_in": "So11111111111111111111111111111111111111112",
-          "token_out": "FbwFtW1q5epVMwHzsMZr1w7j875JK9fLpBy2MvxZ9po1",
-          "amount_in": 0.5943707339999946,
-          "amount_out": 1902866.1912269592
+          "signer": "5PZ8NyPC59bZBaC3rHG1RFubHDjyE9MFAwWVAZWF5bs9",
+          "token_in": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 2774955.455798149,
+          "amount_out": 0.6299999999998818
         },
         "victim": {
-          "slot": 380448798,
-          "signature": "2g3Q2x2Cxoh8QNFxQD8838ELLVSNGHGo6Ms54gL9EBYi92U7AA9qTQSPztW5iVcn3eG9ra9GbiFhfwAdnWJZiBpy",
+          "slot": 380464130,
+          "signature": "37LyqG7mfGjDFuCBvUNvR4LEDHsVtvivC6ybR72qFe3BkEwnXAS1AgcLRzRUf1iUrpxpY7tfYPfJfi2qmb4mFUNf",
           "dex": "Raydium-CLMM",
-          "signer": "HPgYFZruXzrsAZRP8MAZj5TKDRGwxW2BCeEhLvaoRnTc",
-          "token_in": "So11111111111111111111111111111111111111112",
-          "token_out": "FbwFtW1q5epVMwHzsMZr1w7j875JK9fLpBy2MvxZ9po1",
-          "amount_in": 1.0887651040000037,
-          "amount_out": 3488978.916115761
+          "signer": "7KqhAJbnGz2ApobJ6DCboLjM25p9yqnCndkHuMj8RssT",
+          "token_in": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 22026.23689842224,
+          "amount_out": 0.004999999999881766
         },
         "backrun": {
-          "slot": 380448803,
-          "signature": "3XxS7oKT5j5qq4rHoSQrmTaomd6suxxswciDncCy1HHsekPhWUFr61bnW4jwJXAUquve9daAWJKPes5UmM3K55R9",
+          "slot": 380464133,
+          "signature": "5Qx3999BZC5hKahTE25jALyDpW8AjvacpYgqLHWzNcgAikfd8rsAKtpBMZChPNi7c1TW936Se7qoLQmy5GV4jPXd",
           "dex": "Raydium-CLMM",
-          "signer": "4gdEjAFjeayE7ieFUcVRuVtEycQPBo3cAQZ3yXh5Mi91",
-          "token_in": "FbwFtW1q5epVMwHzsMZr1w7j875JK9fLpBy2MvxZ9po1",
-          "token_out": "So11111111111111111111111111111111111111112",
-          "amount_in": 1669364.4906759262,
-          "amount_out": 0.5210000000001855
+          "signer": "5PZ8NyPC59bZBaC3rHG1RFubHDjyE9MFAwWVAZWF5bs9",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
+          "amount_in": 0.5244592409999314,
+          "amount_out": 2310577.920846939
         },
-        "bot_address": "4gdEjAFjeayE7ieFUcVRuVtEycQPBo3cAQZ3yXh5Mi91",
-        "slot_span": 8,
-        "token_pair": "So111111.../FbwFtW1q..."
+        "bot_address": "5PZ8NyPC59bZBaC3rHG1RFubHDjyE9MFAwWVAZWF5bs9",
+        "slot_span": 6,
+        "token_pair": "4XPSoUTP.../So111111..."
       },
       "profit_data": {
-        "sandwich_type": "SOL_ENTRY",
-        "sol_spent": 0.5943707339999946,
-        "sol_received": 0.5210000000001855,
-        "profit_sol": -0.07337073399980909,
-        "profit_percent": -12.344270974790248,
-        "is_profitable": false,
-        "victim_spent_sol": 1.0887651040000037,
-        "slot_span": 8,
-        "bot_address": "4gdEjAFjeayE7ieFUcVRuVtEycQPBo3cAQZ3yXh5Mi91"
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 0.6299999999998818,
+        "sol_spent": 0.5244592409999314,
+        "profit_sol": 0.10554075899995041,
+        "profit_percent": 20.12372950064278,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 6,
+        "bot_address": "5PZ8NyPC59bZBaC3rHG1RFubHDjyE9MFAwWVAZWF5bs9",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 5,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464127,
+          "signature": "3ZERQPzYcqEip3Sg2kCYKAzSaUxNUSZ8RqWsoLXuNgKFFjJFKfW4PuAsKKVEAm5ZQfC98bpa6b36jPQMGAeucGiG",
+          "dex": "Raydium-CLMM",
+          "signer": "5PZ8NyPC59bZBaC3rHG1RFubHDjyE9MFAwWVAZWF5bs9",
+          "token_in": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 2774955.455798149,
+          "amount_out": 0.6299999999998818
+        },
+        "victim": {
+          "slot": 380464130,
+          "signature": "4pY15McDZNhGrFukKWWCcYNZ4oKVC71QueJracd4pbzjwQg9BBJv3WvkkbMFZ3xNZCqeybCW16wR6XJUPAHqQyi3",
+          "dex": "Raydium-CLMM",
+          "signer": "7BgM7xhCjoivjzXfWQUn1T2uCh24TSErW9MrDUNzCScv",
+          "token_in": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 4405.229748725891,
+          "amount_out": 0.0009999999999763531
+        },
+        "backrun": {
+          "slot": 380464133,
+          "signature": "5Qx3999BZC5hKahTE25jALyDpW8AjvacpYgqLHWzNcgAikfd8rsAKtpBMZChPNi7c1TW936Se7qoLQmy5GV4jPXd",
+          "dex": "Raydium-CLMM",
+          "signer": "5PZ8NyPC59bZBaC3rHG1RFubHDjyE9MFAwWVAZWF5bs9",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
+          "amount_in": 0.5244592409999314,
+          "amount_out": 2310577.920846939
+        },
+        "bot_address": "5PZ8NyPC59bZBaC3rHG1RFubHDjyE9MFAwWVAZWF5bs9",
+        "slot_span": 6,
+        "token_pair": "4XPSoUTP.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 0.6299999999998818,
+        "sol_spent": 0.5244592409999314,
+        "profit_sol": 0.10554075899995041,
+        "profit_percent": 20.12372950064278,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 6,
+        "bot_address": "5PZ8NyPC59bZBaC3rHG1RFubHDjyE9MFAwWVAZWF5bs9",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 6,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464127,
+          "signature": "3ZERQPzYcqEip3Sg2kCYKAzSaUxNUSZ8RqWsoLXuNgKFFjJFKfW4PuAsKKVEAm5ZQfC98bpa6b36jPQMGAeucGiG",
+          "dex": "Raydium-CLMM",
+          "signer": "5PZ8NyPC59bZBaC3rHG1RFubHDjyE9MFAwWVAZWF5bs9",
+          "token_in": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 2774955.455798149,
+          "amount_out": 0.6299999999998818
+        },
+        "victim": {
+          "slot": 380464130,
+          "signature": "5hsziU89vC58xE8NYmD8TNvzMBrA45rXTyF1i22zqZGJtB3Sx3PgioA21qcN4byqN8AwJw8ghvVsexwdx6j4SE5t",
+          "dex": "Raydium-CLMM",
+          "signer": "GsrFvjVqHhp5umKNCVyq4savm1THK5uHVvJQhkC896QG",
+          "token_in": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 4405.223872184753,
+          "amount_out": 0.0009999999999763531
+        },
+        "backrun": {
+          "slot": 380464133,
+          "signature": "5Qx3999BZC5hKahTE25jALyDpW8AjvacpYgqLHWzNcgAikfd8rsAKtpBMZChPNi7c1TW936Se7qoLQmy5GV4jPXd",
+          "dex": "Raydium-CLMM",
+          "signer": "5PZ8NyPC59bZBaC3rHG1RFubHDjyE9MFAwWVAZWF5bs9",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
+          "amount_in": 0.5244592409999314,
+          "amount_out": 2310577.920846939
+        },
+        "bot_address": "5PZ8NyPC59bZBaC3rHG1RFubHDjyE9MFAwWVAZWF5bs9",
+        "slot_span": 6,
+        "token_pair": "4XPSoUTP.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 0.6299999999998818,
+        "sol_spent": 0.5244592409999314,
+        "profit_sol": 0.10554075899995041,
+        "profit_percent": 20.12372950064278,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 6,
+        "bot_address": "5PZ8NyPC59bZBaC3rHG1RFubHDjyE9MFAwWVAZWF5bs9",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 7,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464127,
+          "signature": "3ZERQPzYcqEip3Sg2kCYKAzSaUxNUSZ8RqWsoLXuNgKFFjJFKfW4PuAsKKVEAm5ZQfC98bpa6b36jPQMGAeucGiG",
+          "dex": "Raydium-CLMM",
+          "signer": "5PZ8NyPC59bZBaC3rHG1RFubHDjyE9MFAwWVAZWF5bs9",
+          "token_in": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 2774955.455798149,
+          "amount_out": 0.6299999999998818
+        },
+        "victim": {
+          "slot": 380464130,
+          "signature": "GWvF8U7zs8JvLapuwckaAGBH33XSENfnmKMtd2R83xwVsqz7ej2Y5NMSPi58a8qrjVbvTnNh6bebHPAczNDtU3w",
+          "dex": "Raydium-CLMM",
+          "signer": "DE7nGRZkH2Rsg58hEWcg1y3SjftpLM9tEpJXKPTZqJ1i",
+          "token_in": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 8810.43011379242,
+          "amount_out": 0.00200000000018008
+        },
+        "backrun": {
+          "slot": 380464133,
+          "signature": "5Qx3999BZC5hKahTE25jALyDpW8AjvacpYgqLHWzNcgAikfd8rsAKtpBMZChPNi7c1TW936Se7qoLQmy5GV4jPXd",
+          "dex": "Raydium-CLMM",
+          "signer": "5PZ8NyPC59bZBaC3rHG1RFubHDjyE9MFAwWVAZWF5bs9",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
+          "amount_in": 0.5244592409999314,
+          "amount_out": 2310577.920846939
+        },
+        "bot_address": "5PZ8NyPC59bZBaC3rHG1RFubHDjyE9MFAwWVAZWF5bs9",
+        "slot_span": 6,
+        "token_pair": "4XPSoUTP.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 0.6299999999998818,
+        "sol_spent": 0.5244592409999314,
+        "profit_sol": 0.10554075899995041,
+        "profit_percent": 20.12372950064278,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 6,
+        "bot_address": "5PZ8NyPC59bZBaC3rHG1RFubHDjyE9MFAwWVAZWF5bs9",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
       }
     },
     {
       "sandwich_id": 3,
       "sandwich": {
         "frontrun": {
-          "slot": 380448810,
-          "signature": "4sWJb7wUVSKvcrPHAgggLghuR1zoZo5sSg2icAoqv3pVNJpaiGyXQhmsrfBbWJNHAwrgmZLeNybDZx5GVrNMqVNs",
+          "slot": 380464126,
+          "signature": "4XjdNTkreMXH2JBhVY2WFncGZea91dP6jPNcpFLus5XQ7Y2bS48PjXd5Q7hyeJgns1yxZisMuUkR2T1rvNmC8pe7",
           "dex": "Raydium-CLMM",
-          "signer": "3GvTu7oY3swCYV28dsmuHbdPEqawa5Y2Chbw6V12zvdi",
-          "token_in": "So11111111111111111111111111111111111111112",
-          "token_out": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
-          "amount_in": 0.9897199310000815,
-          "amount_out": 5693944.562970161
+          "signer": "E26WDGhBcUwuYBz5cC6jLvFegFRNW8oG7bbfMhPEBaUi",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 22732.418506979942,
+          "amount_out": 2.955650122999998
         },
         "victim": {
-          "slot": 380448811,
-          "signature": "2roCgXDudTRd59WupetwdiYuqcxMwGLr74dEetoNNSD3fJAmJpgL7mr9bSTumGDNhf99eNSsq89MoTGNwhDo6QH7",
+          "slot": 380464127,
+          "signature": "2maPAp3vJrrYdEzTLsrayQZMZ1bAKgtP8XeUPRVTnJPiT74wLpvHYAQUpmBie4ovJwNbyNReadcsUgsTMvgWHtqD",
           "dex": "Raydium-CLMM",
-          "signer": "4nq92tpi3yMBJpwdMTahQ4KXKZmzH8jH9Y8BypTvUs1N",
-          "token_in": "So11111111111111111111111111111111111111112",
-          "token_out": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
-          "amount_in": 0.8114087499998277,
-          "amount_out": 4669034.541635513
+          "signer": "vQZBvhCm2SFMNidPGqVv1rQVmZW1dEseDGeCDyfWZch",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 19200.989585995674,
+          "amount_out": 2.496501434999999
         },
         "backrun": {
-          "slot": 380448816,
-          "signature": "4bcY7CUgNjsA288hMScsZFPjEmzSuDDBR6eLS62vghLVV4gp4ytNU8WMgFU8TcNJuqFWVme847cvZ5z8JQ59kgRZ",
+          "slot": 380464132,
+          "signature": "243aFPMncBctgb8hoCgFNjt76wyCkdf7h9UtTTYbHsv6MGnEsUuevvfQ7wqj3wGAnSsZ3Whdd7WJXGdd19iWWDQb",
           "dex": "Raydium-CLMM",
-          "signer": "3GvTu7oY3swCYV28dsmuHbdPEqawa5Y2Chbw6V12zvdi",
-          "token_in": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
-          "token_out": "So11111111111111111111111111111111111111112",
-          "amount_in": 4026786.3598508835,
-          "amount_out": 0.6999999999998181
+          "signer": "E26WDGhBcUwuYBz5cC6jLvFegFRNW8oG7bbfMhPEBaUi",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.9550595290000032,
+          "amount_out": 22732.41850709915
         },
-        "bot_address": "3GvTu7oY3swCYV28dsmuHbdPEqawa5Y2Chbw6V12zvdi",
+        "bot_address": "E26WDGhBcUwuYBz5cC6jLvFegFRNW8oG7bbfMhPEBaUi",
         "slot_span": 6,
-        "token_pair": "So111111.../4XPSoUTP..."
+        "token_pair": "4QFsajiT.../So111111..."
       },
       "profit_data": {
-        "sandwich_type": "SOL_ENTRY",
-        "sol_spent": 0.9897199310000815,
-        "sol_received": 0.6999999999998181,
-        "profit_sol": -0.2897199310002634,
-        "profit_percent": -29.27292074511527,
-        "is_profitable": false,
-        "victim_spent_sol": 0.8114087499998277,
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.955650122999998,
+        "sol_spent": 2.9550595290000032,
+        "profit_sol": 0.0005905939999948373,
+        "profit_percent": 0.019985857956462055,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
         "slot_span": 6,
-        "bot_address": "3GvTu7oY3swCYV28dsmuHbdPEqawa5Y2Chbw6V12zvdi"
+        "bot_address": "E26WDGhBcUwuYBz5cC6jLvFegFRNW8oG7bbfMhPEBaUi",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
       }
-    },
+    }
+  ],
+  "all_profitable": [
     {
       "sandwich_id": 4,
       "sandwich": {
         "frontrun": {
-          "slot": 380448970,
-          "signature": "59PLq1KbZ1KRPjzy8J6WSGL22YQjyjmwjLQ3XBrJEPzA9mB4LFPNJeqJkCFXX2P3L6bGjZtBYf7A48JW9eGauzUP",
+          "slot": 380464127,
+          "signature": "3ZERQPzYcqEip3Sg2kCYKAzSaUxNUSZ8RqWsoLXuNgKFFjJFKfW4PuAsKKVEAm5ZQfC98bpa6b36jPQMGAeucGiG",
           "dex": "Raydium-CLMM",
-          "signer": "5owYydLbTXZJs8qh1R5snah1Y45TrDZqcmEn4QFYv4jM",
-          "token_in": "So11111111111111111111111111111111111111112",
-          "token_out": "FbwFtW1q5epVMwHzsMZr1w7j875JK9fLpBy2MvxZ9po1",
-          "amount_in": 0.9900155720001749,
-          "amount_out": 3160465.331817627
+          "signer": "5PZ8NyPC59bZBaC3rHG1RFubHDjyE9MFAwWVAZWF5bs9",
+          "token_in": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 2774955.455798149,
+          "amount_out": 0.6299999999998818
         },
         "victim": {
-          "slot": 380448972,
-          "signature": "LjJ4sBnoeSR8aBQnWMC38ukgp7SYUjDv6bdCYsSciJZB487dnfHWeLzkP4uT2ijKJorjgbUz36qtDHDpyuE2Mrb",
+          "slot": 380464130,
+          "signature": "37LyqG7mfGjDFuCBvUNvR4LEDHsVtvivC6ybR72qFe3BkEwnXAS1AgcLRzRUf1iUrpxpY7tfYPfJfi2qmb4mFUNf",
           "dex": "Raydium-CLMM",
-          "signer": "6SmUKrjki7Efuu6KvQ9gpwkNi1Mabv8z6h5MPVL3sfaz",
-          "token_in": "So11111111111111111111111111111111111111112",
-          "token_out": "FbwFtW1q5epVMwHzsMZr1w7j875JK9fLpBy2MvxZ9po1",
-          "amount_in": 1.1869076079999559,
-          "amount_out": 3793669.406999588
+          "signer": "7KqhAJbnGz2ApobJ6DCboLjM25p9yqnCndkHuMj8RssT",
+          "token_in": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 22026.23689842224,
+          "amount_out": 0.004999999999881766
         },
         "backrun": {
-          "slot": 380448975,
-          "signature": "4D84nESVdc5T1EbvvyBuXghbXnwTFsN41nwpZxjTTkYHxZLVmXZXNFTsJbVLrTCZJHkbEFyNkCiQDEvSPgWRMvcj",
+          "slot": 380464133,
+          "signature": "5Qx3999BZC5hKahTE25jALyDpW8AjvacpYgqLHWzNcgAikfd8rsAKtpBMZChPNi7c1TW936Se7qoLQmy5GV4jPXd",
           "dex": "Raydium-CLMM",
-          "signer": "5owYydLbTXZJs8qh1R5snah1Y45TrDZqcmEn4QFYv4jM",
-          "token_in": "FbwFtW1q5epVMwHzsMZr1w7j875JK9fLpBy2MvxZ9po1",
-          "token_out": "So11111111111111111111111111111111111111112",
-          "amount_in": 1896005.0083971024,
-          "amount_out": 0.5940000000000509
+          "signer": "5PZ8NyPC59bZBaC3rHG1RFubHDjyE9MFAwWVAZWF5bs9",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
+          "amount_in": 0.5244592409999314,
+          "amount_out": 2310577.920846939
         },
-        "bot_address": "5owYydLbTXZJs8qh1R5snah1Y45TrDZqcmEn4QFYv4jM",
-        "slot_span": 5,
-        "token_pair": "So111111.../FbwFtW1q..."
+        "bot_address": "5PZ8NyPC59bZBaC3rHG1RFubHDjyE9MFAwWVAZWF5bs9",
+        "slot_span": 6,
+        "token_pair": "4XPSoUTP.../So111111..."
       },
       "profit_data": {
-        "sandwich_type": "SOL_ENTRY",
-        "sol_spent": 0.9900155720001749,
-        "sol_received": 0.5940000000000509,
-        "profit_sol": -0.39601557200012394,
-        "profit_percent": -40.00094374273681,
-        "is_profitable": false,
-        "victim_spent_sol": 1.1869076079999559,
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 0.6299999999998818,
+        "sol_spent": 0.5244592409999314,
+        "profit_sol": 0.10554075899995041,
+        "profit_percent": 20.12372950064278,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 6,
+        "bot_address": "5PZ8NyPC59bZBaC3rHG1RFubHDjyE9MFAwWVAZWF5bs9",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 5,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464127,
+          "signature": "3ZERQPzYcqEip3Sg2kCYKAzSaUxNUSZ8RqWsoLXuNgKFFjJFKfW4PuAsKKVEAm5ZQfC98bpa6b36jPQMGAeucGiG",
+          "dex": "Raydium-CLMM",
+          "signer": "5PZ8NyPC59bZBaC3rHG1RFubHDjyE9MFAwWVAZWF5bs9",
+          "token_in": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 2774955.455798149,
+          "amount_out": 0.6299999999998818
+        },
+        "victim": {
+          "slot": 380464130,
+          "signature": "4pY15McDZNhGrFukKWWCcYNZ4oKVC71QueJracd4pbzjwQg9BBJv3WvkkbMFZ3xNZCqeybCW16wR6XJUPAHqQyi3",
+          "dex": "Raydium-CLMM",
+          "signer": "7BgM7xhCjoivjzXfWQUn1T2uCh24TSErW9MrDUNzCScv",
+          "token_in": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 4405.229748725891,
+          "amount_out": 0.0009999999999763531
+        },
+        "backrun": {
+          "slot": 380464133,
+          "signature": "5Qx3999BZC5hKahTE25jALyDpW8AjvacpYgqLHWzNcgAikfd8rsAKtpBMZChPNi7c1TW936Se7qoLQmy5GV4jPXd",
+          "dex": "Raydium-CLMM",
+          "signer": "5PZ8NyPC59bZBaC3rHG1RFubHDjyE9MFAwWVAZWF5bs9",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
+          "amount_in": 0.5244592409999314,
+          "amount_out": 2310577.920846939
+        },
+        "bot_address": "5PZ8NyPC59bZBaC3rHG1RFubHDjyE9MFAwWVAZWF5bs9",
+        "slot_span": 6,
+        "token_pair": "4XPSoUTP.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 0.6299999999998818,
+        "sol_spent": 0.5244592409999314,
+        "profit_sol": 0.10554075899995041,
+        "profit_percent": 20.12372950064278,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 6,
+        "bot_address": "5PZ8NyPC59bZBaC3rHG1RFubHDjyE9MFAwWVAZWF5bs9",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 6,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464127,
+          "signature": "3ZERQPzYcqEip3Sg2kCYKAzSaUxNUSZ8RqWsoLXuNgKFFjJFKfW4PuAsKKVEAm5ZQfC98bpa6b36jPQMGAeucGiG",
+          "dex": "Raydium-CLMM",
+          "signer": "5PZ8NyPC59bZBaC3rHG1RFubHDjyE9MFAwWVAZWF5bs9",
+          "token_in": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 2774955.455798149,
+          "amount_out": 0.6299999999998818
+        },
+        "victim": {
+          "slot": 380464130,
+          "signature": "5hsziU89vC58xE8NYmD8TNvzMBrA45rXTyF1i22zqZGJtB3Sx3PgioA21qcN4byqN8AwJw8ghvVsexwdx6j4SE5t",
+          "dex": "Raydium-CLMM",
+          "signer": "GsrFvjVqHhp5umKNCVyq4savm1THK5uHVvJQhkC896QG",
+          "token_in": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 4405.223872184753,
+          "amount_out": 0.0009999999999763531
+        },
+        "backrun": {
+          "slot": 380464133,
+          "signature": "5Qx3999BZC5hKahTE25jALyDpW8AjvacpYgqLHWzNcgAikfd8rsAKtpBMZChPNi7c1TW936Se7qoLQmy5GV4jPXd",
+          "dex": "Raydium-CLMM",
+          "signer": "5PZ8NyPC59bZBaC3rHG1RFubHDjyE9MFAwWVAZWF5bs9",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
+          "amount_in": 0.5244592409999314,
+          "amount_out": 2310577.920846939
+        },
+        "bot_address": "5PZ8NyPC59bZBaC3rHG1RFubHDjyE9MFAwWVAZWF5bs9",
+        "slot_span": 6,
+        "token_pair": "4XPSoUTP.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 0.6299999999998818,
+        "sol_spent": 0.5244592409999314,
+        "profit_sol": 0.10554075899995041,
+        "profit_percent": 20.12372950064278,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 6,
+        "bot_address": "5PZ8NyPC59bZBaC3rHG1RFubHDjyE9MFAwWVAZWF5bs9",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 7,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464127,
+          "signature": "3ZERQPzYcqEip3Sg2kCYKAzSaUxNUSZ8RqWsoLXuNgKFFjJFKfW4PuAsKKVEAm5ZQfC98bpa6b36jPQMGAeucGiG",
+          "dex": "Raydium-CLMM",
+          "signer": "5PZ8NyPC59bZBaC3rHG1RFubHDjyE9MFAwWVAZWF5bs9",
+          "token_in": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 2774955.455798149,
+          "amount_out": 0.6299999999998818
+        },
+        "victim": {
+          "slot": 380464130,
+          "signature": "GWvF8U7zs8JvLapuwckaAGBH33XSENfnmKMtd2R83xwVsqz7ej2Y5NMSPi58a8qrjVbvTnNh6bebHPAczNDtU3w",
+          "dex": "Raydium-CLMM",
+          "signer": "DE7nGRZkH2Rsg58hEWcg1y3SjftpLM9tEpJXKPTZqJ1i",
+          "token_in": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 8810.43011379242,
+          "amount_out": 0.00200000000018008
+        },
+        "backrun": {
+          "slot": 380464133,
+          "signature": "5Qx3999BZC5hKahTE25jALyDpW8AjvacpYgqLHWzNcgAikfd8rsAKtpBMZChPNi7c1TW936Se7qoLQmy5GV4jPXd",
+          "dex": "Raydium-CLMM",
+          "signer": "5PZ8NyPC59bZBaC3rHG1RFubHDjyE9MFAwWVAZWF5bs9",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
+          "amount_in": 0.5244592409999314,
+          "amount_out": 2310577.920846939
+        },
+        "bot_address": "5PZ8NyPC59bZBaC3rHG1RFubHDjyE9MFAwWVAZWF5bs9",
+        "slot_span": 6,
+        "token_pair": "4XPSoUTP.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 0.6299999999998818,
+        "sol_spent": 0.5244592409999314,
+        "profit_sol": 0.10554075899995041,
+        "profit_percent": 20.12372950064278,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 6,
+        "bot_address": "5PZ8NyPC59bZBaC3rHG1RFubHDjyE9MFAwWVAZWF5bs9",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 3,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464126,
+          "signature": "4XjdNTkreMXH2JBhVY2WFncGZea91dP6jPNcpFLus5XQ7Y2bS48PjXd5Q7hyeJgns1yxZisMuUkR2T1rvNmC8pe7",
+          "dex": "Raydium-CLMM",
+          "signer": "E26WDGhBcUwuYBz5cC6jLvFegFRNW8oG7bbfMhPEBaUi",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 22732.418506979942,
+          "amount_out": 2.955650122999998
+        },
+        "victim": {
+          "slot": 380464127,
+          "signature": "2maPAp3vJrrYdEzTLsrayQZMZ1bAKgtP8XeUPRVTnJPiT74wLpvHYAQUpmBie4ovJwNbyNReadcsUgsTMvgWHtqD",
+          "dex": "Raydium-CLMM",
+          "signer": "vQZBvhCm2SFMNidPGqVv1rQVmZW1dEseDGeCDyfWZch",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 19200.989585995674,
+          "amount_out": 2.496501434999999
+        },
+        "backrun": {
+          "slot": 380464132,
+          "signature": "243aFPMncBctgb8hoCgFNjt76wyCkdf7h9UtTTYbHsv6MGnEsUuevvfQ7wqj3wGAnSsZ3Whdd7WJXGdd19iWWDQb",
+          "dex": "Raydium-CLMM",
+          "signer": "E26WDGhBcUwuYBz5cC6jLvFegFRNW8oG7bbfMhPEBaUi",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.9550595290000032,
+          "amount_out": 22732.41850709915
+        },
+        "bot_address": "E26WDGhBcUwuYBz5cC6jLvFegFRNW8oG7bbfMhPEBaUi",
+        "slot_span": 6,
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.955650122999998,
+        "sol_spent": 2.9550595290000032,
+        "profit_sol": 0.0005905939999948373,
+        "profit_percent": 0.019985857956462055,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 6,
+        "bot_address": "E26WDGhBcUwuYBz5cC6jLvFegFRNW8oG7bbfMhPEBaUi",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 46,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464236,
+          "signature": "3WKB6DF3XmoaVrzXLonFJQdB9hjDVrBQtCnXE8i6CfN4UwEsExejYu4ogsGh6AzYsL7RTtGmz4nEAeXtwyR4w4uu",
+          "dex": "Raydium-CLMM",
+          "signer": "277XJwtMM1dbFv612mKohyzZEjMqjvLBR4gsmt9khCwi",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 22756.892840981483,
+          "amount_out": 2.9588321690000043
+        },
+        "victim": {
+          "slot": 380464237,
+          "signature": "A9Y2rnm9pKFFDFScUJ3LnBjLZ7duAHhNrpco75W4fCeGxPmf1qqYiEZgCSv5jBYL2R3kPx1z7azJ94QZ2NYkuCq",
+          "dex": "Raydium-CLMM",
+          "signer": "6E6ARf7uVgT6ULhmgcuvaMdNzaiaY1kuK5c1ctXfhQU",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 20609.02873003483,
+          "amount_out": 2.6795739569999952
+        },
+        "backrun": {
+          "slot": 380464241,
+          "signature": "4pRf3QAz27P4j92adQU7nznp98p1rESRqdCDJUuQdUaKSG1MeXYMr6LHAyE2WWbquhzmd8h3AsJEWeETqG8RMgbS",
+          "dex": "Raydium-CLMM",
+          "signer": "277XJwtMM1dbFv612mKohyzZEjMqjvLBR4gsmt9khCwi",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.9582469340000017,
+          "amount_out": 22756.892840981483
+        },
+        "bot_address": "277XJwtMM1dbFv612mKohyzZEjMqjvLBR4gsmt9khCwi",
         "slot_span": 5,
-        "bot_address": "5owYydLbTXZJs8qh1R5snah1Y45TrDZqcmEn4QFYv4jM"
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.9588321690000043,
+        "sol_spent": 2.9582469340000017,
+        "profit_sol": 0.0005852350000026263,
+        "profit_percent": 0.01978316932492512,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 5,
+        "bot_address": "277XJwtMM1dbFv612mKohyzZEjMqjvLBR4gsmt9khCwi",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 51,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464270,
+          "signature": "2gDDGb71pHZZ9ok51qCDLG4g2PkqvJ9AGAfquxic83a18tDGrZH9eYuq2vi3v5nxv1bXgPVHz3uasqWH3PG7eUF4",
+          "dex": "Raydium-CLMM",
+          "signer": "Bo4uCCZjZtBcKoEo5snkEjy6o1KwKszEkTQLt2f6i36o",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 21908.259948015213,
+          "amount_out": 2.848489143000002
+        },
+        "victim": {
+          "slot": 380464273,
+          "signature": "2n5ESPPvieiEZKQkaaq5Qw65qEbKLAUHC7XiakSpieHB8L8hhJ24bZZr9wEpsWdzycumjL62KAP498oWd1BxsSPF",
+          "dex": "Raydium-CLMM",
+          "signer": "3RMKoab4zynw3fEvDUmfYfnep7nChuMComjjiHKBTFQg",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 15905.438410043716,
+          "amount_out": 2.0680120939999966
+        },
+        "backrun": {
+          "slot": 380464274,
+          "signature": "xe5Lx7Nwmv1E6f2dUYKT5uAYaAhRn6Y3zjmeTr1vjAt2j1grdW9Dei2S39a7sUdnQXNQ7gnmeb9Nvc4JMUFmaro",
+          "dex": "Raydium-CLMM",
+          "signer": "Bo4uCCZjZtBcKoEo5snkEjy6o1KwKszEkTQLt2f6i36o",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.847923592000001,
+          "amount_out": 21908.259948015213
+        },
+        "bot_address": "Bo4uCCZjZtBcKoEo5snkEjy6o1KwKszEkTQLt2f6i36o",
+        "slot_span": 4,
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.848489143000002,
+        "sol_spent": 2.847923592000001,
+        "profit_sol": 0.0005655510000011077,
+        "profit_percent": 0.019858362829318053,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 4,
+        "bot_address": "Bo4uCCZjZtBcKoEo5snkEjy6o1KwKszEkTQLt2f6i36o",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 25,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464194,
+          "signature": "sgfGXe8UtPf3LbSTiAZCBuRQYJMypuUtSGtLQU4t4yHGCMhyVY6f8UzpdBPwfFJgJvtoopByxoYxB1N6VLhzxVg",
+          "dex": "Raydium-CLMM",
+          "signer": "9GbivrMRhZVTWKGWavBK8Eci1SNPPQWHbWqnH8VLh3R",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 21343.879513978958,
+          "amount_out": 2.7751184839999965
+        },
+        "victim": {
+          "slot": 380464195,
+          "signature": "4YuaP6CRkMf3HPb7qJAkjJAbD68bi9uDSVTJZyj6uiFr3n9WTd1XEVBiMnDo37vABmUrLE7vufVye8cH7u9BTtF3",
+          "dex": "Raydium-CLMM",
+          "signer": "2dby53s3KUBjCRdZJmYLAdkmydLnXRzadWMcLyWYw7rE",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 20149.539560079575,
+          "amount_out": 2.619836058000004
+        },
+        "backrun": {
+          "slot": 380464199,
+          "signature": "2noewZSmoKNbdnqtwxmgPAKK5vCGEWCHPRfFPGRwSYU5HkkULo1GkzuunmuVL2WKHRoDnvTv3JDCT3JHLiErvzHk",
+          "dex": "Raydium-CLMM",
+          "signer": "9GbivrMRhZVTWKGWavBK8Eci1SNPPQWHbWqnH8VLh3R",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.7745633699999956,
+          "amount_out": 21343.879514098167
+        },
+        "bot_address": "9GbivrMRhZVTWKGWavBK8Eci1SNPPQWHbWqnH8VLh3R",
+        "slot_span": 5,
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.7751184839999965,
+        "sol_spent": 2.7745633699999956,
+        "profit_sol": 0.0005551140000008559,
+        "profit_percent": 0.020007256132731858,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 5,
+        "bot_address": "9GbivrMRhZVTWKGWavBK8Eci1SNPPQWHbWqnH8VLh3R",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 28,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464194,
+          "signature": "sgfGXe8UtPf3LbSTiAZCBuRQYJMypuUtSGtLQU4t4yHGCMhyVY6f8UzpdBPwfFJgJvtoopByxoYxB1N6VLhzxVg",
+          "dex": "Raydium-CLMM",
+          "signer": "9GbivrMRhZVTWKGWavBK8Eci1SNPPQWHbWqnH8VLh3R",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 21343.879513978958,
+          "amount_out": 2.7751184839999965
+        },
+        "victim": {
+          "slot": 380464197,
+          "signature": "3vkprCfYKzWThBfBMXXyhHooTmcpaECbCozTtF4X9Bafe9S8jV3bRFHycp3jcBWr4qM2D6rbg7Ma45mKhicxptc2",
+          "dex": "Raydium-CLMM",
+          "signer": "Gq3Ly65nnT7HHsLeTXAHj8P13MwNYRSEfhCSh2HP6bAA",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 17346.349767923355,
+          "amount_out": 2.255370150999994
+        },
+        "backrun": {
+          "slot": 380464199,
+          "signature": "2noewZSmoKNbdnqtwxmgPAKK5vCGEWCHPRfFPGRwSYU5HkkULo1GkzuunmuVL2WKHRoDnvTv3JDCT3JHLiErvzHk",
+          "dex": "Raydium-CLMM",
+          "signer": "9GbivrMRhZVTWKGWavBK8Eci1SNPPQWHbWqnH8VLh3R",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.7745633699999956,
+          "amount_out": 21343.879514098167
+        },
+        "bot_address": "9GbivrMRhZVTWKGWavBK8Eci1SNPPQWHbWqnH8VLh3R",
+        "slot_span": 5,
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.7751184839999965,
+        "sol_spent": 2.7745633699999956,
+        "profit_sol": 0.0005551140000008559,
+        "profit_percent": 0.020007256132731858,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 5,
+        "bot_address": "9GbivrMRhZVTWKGWavBK8Eci1SNPPQWHbWqnH8VLh3R",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 47,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464237,
+          "signature": "A9Y2rnm9pKFFDFScUJ3LnBjLZ7duAHhNrpco75W4fCeGxPmf1qqYiEZgCSv5jBYL2R3kPx1z7azJ94QZ2NYkuCq",
+          "dex": "Raydium-CLMM",
+          "signer": "6E6ARf7uVgT6ULhmgcuvaMdNzaiaY1kuK5c1ctXfhQU",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 20609.02873003483,
+          "amount_out": 2.6795739569999952
+        },
+        "victim": {
+          "slot": 380464240,
+          "signature": "WZujo2s68xJ34YBFChTinTWAV48Kcqi2FpKKkLsHFdxYJ4Cm4moMjV9CPR1tvRk7uSRgc5k8rco9bcXS7XmFCDS",
+          "dex": "Raydium-CLMM",
+          "signer": "2dby53s3KUBjCRdZJmYLAdkmydLnXRzadWMcLyWYw7rE",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 20484.366474032402,
+          "amount_out": 2.663370419000003
+        },
+        "backrun": {
+          "slot": 380464242,
+          "signature": "4xZbnP9hPrp49hikKAGHF4yfNZ2f6vPNXiLPgG1x5HUZmEBPCnxDeWHxqSX1MDzA49FyDn931Qkb7n5HFHiobf4n",
+          "dex": "Raydium-CLMM",
+          "signer": "6E6ARf7uVgT6ULhmgcuvaMdNzaiaY1kuK5c1ctXfhQU",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.679033393999994,
+          "amount_out": 20609.02873003483
+        },
+        "bot_address": "6E6ARf7uVgT6ULhmgcuvaMdNzaiaY1kuK5c1ctXfhQU",
+        "slot_span": 5,
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.6795739569999952,
+        "sol_spent": 2.679033393999994,
+        "profit_sol": 0.0005405630000012707,
+        "profit_percent": 0.020177538705263034,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 5,
+        "bot_address": "6E6ARf7uVgT6ULhmgcuvaMdNzaiaY1kuK5c1ctXfhQU",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 54,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464285,
+          "signature": "9V3URZUCranRdYUsVKmXqrewmBmGVFV7iPciYKnLp7ESJ23JM3ErKpodfZ3ebircxEjKtvtZBqZGtXmMdh4PXmw",
+          "dex": "Raydium-CLMM",
+          "signer": "vQZBvhCm2SFMNidPGqVv1rQVmZW1dEseDGeCDyfWZch",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 21186.043622016907,
+          "amount_out": 2.7545872399999993
+        },
+        "victim": {
+          "slot": 380464288,
+          "signature": "3rL1rj5YjQQ3RPhpBD1KNifpwCKB2yHkSRg2FtPy8woiqX18hQyAgVU4T3tHcLPT441CA1XW9PhuLU3rJZmMLZBA",
+          "dex": "Raydium-CLMM",
+          "signer": "9GbivrMRhZVTWKGWavBK8Eci1SNPPQWHbWqnH8VLh3R",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 19055.651321053505,
+          "amount_out": 2.4776003939999995
+        },
+        "backrun": {
+          "slot": 380464292,
+          "signature": "o4NgQ56uXA9MhZy6Rq8JDd4GGq4oBeT8yzyLvnU7rdZAyqeXnSzTJ9MHo6b52aQ6UKogdp9qWwihuvzsGezAC8J",
+          "dex": "Raydium-CLMM",
+          "signer": "vQZBvhCm2SFMNidPGqVv1rQVmZW1dEseDGeCDyfWZch",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.7540511449999983,
+          "amount_out": 21186.043622016907
+        },
+        "bot_address": "vQZBvhCm2SFMNidPGqVv1rQVmZW1dEseDGeCDyfWZch",
+        "slot_span": 7,
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.7545872399999993,
+        "sol_spent": 2.7540511449999983,
+        "profit_sol": 0.0005360950000010689,
+        "profit_percent": 0.019465687882171456,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 7,
+        "bot_address": "vQZBvhCm2SFMNidPGqVv1rQVmZW1dEseDGeCDyfWZch",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 29,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464195,
+          "signature": "4YuaP6CRkMf3HPb7qJAkjJAbD68bi9uDSVTJZyj6uiFr3n9WTd1XEVBiMnDo37vABmUrLE7vufVye8cH7u9BTtF3",
+          "dex": "Raydium-CLMM",
+          "signer": "2dby53s3KUBjCRdZJmYLAdkmydLnXRzadWMcLyWYw7rE",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 20149.539560079575,
+          "amount_out": 2.619836058000004
+        },
+        "victim": {
+          "slot": 380464197,
+          "signature": "3vkprCfYKzWThBfBMXXyhHooTmcpaECbCozTtF4X9Bafe9S8jV3bRFHycp3jcBWr4qM2D6rbg7Ma45mKhicxptc2",
+          "dex": "Raydium-CLMM",
+          "signer": "Gq3Ly65nnT7HHsLeTXAHj8P13MwNYRSEfhCSh2HP6bAA",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 17346.349767923355,
+          "amount_out": 2.255370150999994
+        },
+        "backrun": {
+          "slot": 380464199,
+          "signature": "623dzvZXf8UNdiNXrvwduAkrEpTAbaikKuYSecDZarS8sq5nD9QbT8MerBbKxJ2zGmvVC19Rp3p27cUmZiJYxdob",
+          "dex": "Raydium-CLMM",
+          "signer": "2dby53s3KUBjCRdZJmYLAdkmydLnXRzadWMcLyWYw7rE",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.619302123000004,
+          "amount_out": 20149.539559960365
+        },
+        "bot_address": "2dby53s3KUBjCRdZJmYLAdkmydLnXRzadWMcLyWYw7rE",
+        "slot_span": 4,
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.619836058000004,
+        "sol_spent": 2.619302123000004,
+        "profit_sol": 0.0005339349999999854,
+        "profit_percent": 0.020384628230226673,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 4,
+        "bot_address": "2dby53s3KUBjCRdZJmYLAdkmydLnXRzadWMcLyWYw7rE",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 23,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464194,
+          "signature": "2R2oH9bVMDphSJSVZZt7nswJaH6sw6bfGBUVoazy5BcNAfoh9DLwciC1DyXVg7ybRdhX92JomnrVSyjzhFKN45up",
+          "dex": "Raydium-CLMM",
+          "signer": "6E6ARf7uVgT6ULhmgcuvaMdNzaiaY1kuK5c1ctXfhQU",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 20838.507484078407,
+          "amount_out": 2.709400899000002
+        },
+        "victim": {
+          "slot": 380464195,
+          "signature": "4YuaP6CRkMf3HPb7qJAkjJAbD68bi9uDSVTJZyj6uiFr3n9WTd1XEVBiMnDo37vABmUrLE7vufVye8cH7u9BTtF3",
+          "dex": "Raydium-CLMM",
+          "signer": "2dby53s3KUBjCRdZJmYLAdkmydLnXRzadWMcLyWYw7rE",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 20149.539560079575,
+          "amount_out": 2.619836058000004
+        },
+        "backrun": {
+          "slot": 380464198,
+          "signature": "4Wu1pFQWDXhsu3vSJzKeLwz2oSCWcBx6m9Q41CuNh9jm8684Nwe7eerHrWAxxAubsFKCCV59KEt8XLhL6EvtCZU",
+          "dex": "Raydium-CLMM",
+          "signer": "6E6ARf7uVgT6ULhmgcuvaMdNzaiaY1kuK5c1ctXfhQU",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.7088777569999962,
+          "amount_out": 20838.507483959198
+        },
+        "bot_address": "6E6ARf7uVgT6ULhmgcuvaMdNzaiaY1kuK5c1ctXfhQU",
+        "slot_span": 4,
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.709400899000002,
+        "sol_spent": 2.7088777569999962,
+        "profit_sol": 0.0005231420000058051,
+        "profit_percent": 0.01931213022270779,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 4,
+        "bot_address": "6E6ARf7uVgT6ULhmgcuvaMdNzaiaY1kuK5c1ctXfhQU",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 26,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464194,
+          "signature": "2R2oH9bVMDphSJSVZZt7nswJaH6sw6bfGBUVoazy5BcNAfoh9DLwciC1DyXVg7ybRdhX92JomnrVSyjzhFKN45up",
+          "dex": "Raydium-CLMM",
+          "signer": "6E6ARf7uVgT6ULhmgcuvaMdNzaiaY1kuK5c1ctXfhQU",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 20838.507484078407,
+          "amount_out": 2.709400899000002
+        },
+        "victim": {
+          "slot": 380464197,
+          "signature": "3vkprCfYKzWThBfBMXXyhHooTmcpaECbCozTtF4X9Bafe9S8jV3bRFHycp3jcBWr4qM2D6rbg7Ma45mKhicxptc2",
+          "dex": "Raydium-CLMM",
+          "signer": "Gq3Ly65nnT7HHsLeTXAHj8P13MwNYRSEfhCSh2HP6bAA",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 17346.349767923355,
+          "amount_out": 2.255370150999994
+        },
+        "backrun": {
+          "slot": 380464198,
+          "signature": "4Wu1pFQWDXhsu3vSJzKeLwz2oSCWcBx6m9Q41CuNh9jm8684Nwe7eerHrWAxxAubsFKCCV59KEt8XLhL6EvtCZU",
+          "dex": "Raydium-CLMM",
+          "signer": "6E6ARf7uVgT6ULhmgcuvaMdNzaiaY1kuK5c1ctXfhQU",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.7088777569999962,
+          "amount_out": 20838.507483959198
+        },
+        "bot_address": "6E6ARf7uVgT6ULhmgcuvaMdNzaiaY1kuK5c1ctXfhQU",
+        "slot_span": 4,
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.709400899000002,
+        "sol_spent": 2.7088777569999962,
+        "profit_sol": 0.0005231420000058051,
+        "profit_percent": 0.01931213022270779,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 4,
+        "bot_address": "6E6ARf7uVgT6ULhmgcuvaMdNzaiaY1kuK5c1ctXfhQU",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 22,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464174,
+          "signature": "vWkXdQCxZZFUC8jhNxX1VFK1WdmMkqkgs5p3HAehnxos9LgmcWmGSUSu1urfgKahCsAXeCpeU8ooDjfWoVJaZfz",
+          "dex": "Raydium-CLMM",
+          "signer": "E26WDGhBcUwuYBz5cC6jLvFegFRNW8oG7bbfMhPEBaUi",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 19549.698289990425,
+          "amount_out": 2.541839666999998
+        },
+        "victim": {
+          "slot": 380464175,
+          "signature": "4jJ2NJikUEn4TvTFBi38Jr7UBLsqRUg3PsxJMzHqhZSihELQyYoNMk5VRrY2cX6zseVmVbSGsDfAdWjUsA4eVrne",
+          "dex": "Raydium-CLMM",
+          "signer": "3RMKoab4zynw3fEvDUmfYfnep7nChuMComjjiHKBTFQg",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 20233.05593895912,
+          "amount_out": 2.6306941640000048
+        },
+        "backrun": {
+          "slot": 380464179,
+          "signature": "33PkfujKpusocW5g4TdFUrr9QPECRHYZjbYkTfruL9zdwrvywjSo5pJwSq2o9TXcMs1v8S7WVyZyYZAJciA8MaR1",
+          "dex": "Raydium-CLMM",
+          "signer": "E26WDGhBcUwuYBz5cC6jLvFegFRNW8oG7bbfMhPEBaUi",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.5413274620000053,
+          "amount_out": 19549.698289990425
+        },
+        "bot_address": "E26WDGhBcUwuYBz5cC6jLvFegFRNW8oG7bbfMhPEBaUi",
+        "slot_span": 5,
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.541839666999998,
+        "sol_spent": 2.5413274620000053,
+        "profit_sol": 0.0005122049999926048,
+        "profit_percent": 0.020155017708324112,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 5,
+        "bot_address": "E26WDGhBcUwuYBz5cC6jLvFegFRNW8oG7bbfMhPEBaUi",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 57,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464303,
+          "signature": "2CXWSkYKdN6kP8LfDQwkE6K6xRL92kVYmhozTY7GXE47Sr8uTCV5UT96NtiQ9sD44QktXNVJxW8Uv7wJXCrV9HZb",
+          "dex": "Raydium-CLMM",
+          "signer": "Gq3Ly65nnT7HHsLeTXAHj8P13MwNYRSEfhCSh2HP6bAA",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 20169.952238082886,
+          "amount_out": 2.6224759819999974
+        },
+        "victim": {
+          "slot": 380464306,
+          "signature": "4jx2B1FDVRXrxiKsVWAvXBU2nn6L2dG4hp1judGptE6W6uxF43VSjER73v4paWNkejnE1wVhwWC9vKQAYSXhjXhr",
+          "dex": "Raydium-CLMM",
+          "signer": "8ueJyFyoh6R3qNruYiuYbgWxcVxBLmMxKwexxhWiAyjP",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 17339.73134601116,
+          "amount_out": 2.254497482000005
+        },
+        "backrun": {
+          "slot": 380464308,
+          "signature": "2g1JrRgdhDqKYAXQEGBJNTQh2AtE3Av6ogGuwXHscCy15AmJ9uakh62bkuknVdkPnNDNmX2aMLkKLiBWgz2wmVx9",
+          "dex": "Raydium-CLMM",
+          "signer": "Gq3Ly65nnT7HHsLeTXAHj8P13MwNYRSEfhCSh2HP6bAA",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.621963879000006,
+          "amount_out": 20169.952237963676
+        },
+        "bot_address": "Gq3Ly65nnT7HHsLeTXAHj8P13MwNYRSEfhCSh2HP6bAA",
+        "slot_span": 5,
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.6224759819999974,
+        "sol_spent": 2.621963879000006,
+        "profit_sol": 0.0005121029999912707,
+        "profit_percent": 0.01953127592995607,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 5,
+        "bot_address": "Gq3Ly65nnT7HHsLeTXAHj8P13MwNYRSEfhCSh2HP6bAA",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 14,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464163,
+          "signature": "32mSaaQsAenMrBNsKZYAhzsxqH3MCG6V5PLxHZE9Z97bUaWo8gcaRUx9TXHzx5W1SQyzK8GjFEQRVwjeeMPCD9hE",
+          "dex": "Raydium-CLMM",
+          "signer": "Bo4uCCZjZtBcKoEo5snkEjy6o1KwKszEkTQLt2f6i36o",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 19564.533306002617,
+          "amount_out": 2.5437599609999992
+        },
+        "victim": {
+          "slot": 380464165,
+          "signature": "4BZdJEQwKSjAZe1PNdRfXejxaRFn6sH9nd4pGYGtDAR1XBJuazSMAGHvS4kX8e6BRoBFLBVJTjqyXqssBgBS3kYQ",
+          "dex": "Raydium-CLMM",
+          "signer": "H4L2WeQj2PLghjjtf285Rg1S2H6hD5QSCQgeRdBind2q",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 18943.682141065598,
+          "amount_out": 2.4630418610000007
+        },
+        "backrun": {
+          "slot": 380464167,
+          "signature": "5EqmAoVJcyKpr9T4AE1vHZHX8kBVe5SwEE5c83z3vLFTrTZgsUMRPHRjmGL2BoVMu5p2ymXX8iUDyTPCvPkGwruX",
+          "dex": "Raydium-CLMM",
+          "signer": "Bo4uCCZjZtBcKoEo5snkEjy6o1KwKszEkTQLt2f6i36o",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.5432556149999996,
+          "amount_out": 19564.533306002617
+        },
+        "bot_address": "Bo4uCCZjZtBcKoEo5snkEjy6o1KwKszEkTQLt2f6i36o",
+        "slot_span": 4,
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.5437599609999992,
+        "sol_spent": 2.5432556149999996,
+        "profit_sol": 0.0005043459999996003,
+        "profit_percent": 0.019830723936083802,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 4,
+        "bot_address": "Bo4uCCZjZtBcKoEo5snkEjy6o1KwKszEkTQLt2f6i36o",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 17,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464172,
+          "signature": "4JSc6EzJSqJDkFHCxksJ8PWn287cYCS19vZkCfRVdMvRZQ2Aw8BtrHjmJuncghgSMdzLy1Zk2uAji2Z4HPWjBPAJ",
+          "dex": "Raydium-CLMM",
+          "signer": "23EfcUag2j2y5t8GXsT9SXYaGS76FyWVWKWkgkiJAh6a",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 19536.28808403015,
+          "amount_out": 2.5400875449999987
+        },
+        "victim": {
+          "slot": 380464173,
+          "signature": "2cBNYack3nK5g4VF5HbuG2y3g4kxxsy5JkRf6NtsFU2RqugmjCP2mJ2Eu7s6PsLunpWM72vcDCpWmFiHkHLbkJG1",
+          "dex": "Raydium-CLMM",
+          "signer": "vQZBvhCm2SFMNidPGqVv1rQVmZW1dEseDGeCDyfWZch",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 17413.512773036957,
+          "amount_out": 2.2640903449999996
+        },
+        "backrun": {
+          "slot": 380464176,
+          "signature": "42hhetT5Pj4yumK13p4BupC154YMa2VZVWAKDu7MFVRYwN1xcfmFwUizr86RTzMkpd1Mq3P8qaK1HU6BaFdF9K4k",
+          "dex": "Raydium-CLMM",
+          "signer": "23EfcUag2j2y5t8GXsT9SXYaGS76FyWVWKWkgkiJAh6a",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.539592760000005,
+          "amount_out": 19536.288083910942
+        },
+        "bot_address": "23EfcUag2j2y5t8GXsT9SXYaGS76FyWVWKWkgkiJAh6a",
+        "slot_span": 4,
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.5400875449999987,
+        "sol_spent": 2.539592760000005,
+        "profit_sol": 0.0004947849999936693,
+        "profit_percent": 0.019482848108043446,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 4,
+        "bot_address": "23EfcUag2j2y5t8GXsT9SXYaGS76FyWVWKWkgkiJAh6a",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 18,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464172,
+          "signature": "4JSc6EzJSqJDkFHCxksJ8PWn287cYCS19vZkCfRVdMvRZQ2Aw8BtrHjmJuncghgSMdzLy1Zk2uAji2Z4HPWjBPAJ",
+          "dex": "Raydium-CLMM",
+          "signer": "23EfcUag2j2y5t8GXsT9SXYaGS76FyWVWKWkgkiJAh6a",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 19536.28808403015,
+          "amount_out": 2.5400875449999987
+        },
+        "victim": {
+          "slot": 380464174,
+          "signature": "vWkXdQCxZZFUC8jhNxX1VFK1WdmMkqkgs5p3HAehnxos9LgmcWmGSUSu1urfgKahCsAXeCpeU8ooDjfWoVJaZfz",
+          "dex": "Raydium-CLMM",
+          "signer": "E26WDGhBcUwuYBz5cC6jLvFegFRNW8oG7bbfMhPEBaUi",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 19549.698289990425,
+          "amount_out": 2.541839666999998
+        },
+        "backrun": {
+          "slot": 380464176,
+          "signature": "42hhetT5Pj4yumK13p4BupC154YMa2VZVWAKDu7MFVRYwN1xcfmFwUizr86RTzMkpd1Mq3P8qaK1HU6BaFdF9K4k",
+          "dex": "Raydium-CLMM",
+          "signer": "23EfcUag2j2y5t8GXsT9SXYaGS76FyWVWKWkgkiJAh6a",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.539592760000005,
+          "amount_out": 19536.288083910942
+        },
+        "bot_address": "23EfcUag2j2y5t8GXsT9SXYaGS76FyWVWKWkgkiJAh6a",
+        "slot_span": 4,
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.5400875449999987,
+        "sol_spent": 2.539592760000005,
+        "profit_sol": 0.0004947849999936693,
+        "profit_percent": 0.019482848108043446,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 4,
+        "bot_address": "23EfcUag2j2y5t8GXsT9SXYaGS76FyWVWKWkgkiJAh6a",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 20,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464172,
+          "signature": "4JSc6EzJSqJDkFHCxksJ8PWn287cYCS19vZkCfRVdMvRZQ2Aw8BtrHjmJuncghgSMdzLy1Zk2uAji2Z4HPWjBPAJ",
+          "dex": "Raydium-CLMM",
+          "signer": "23EfcUag2j2y5t8GXsT9SXYaGS76FyWVWKWkgkiJAh6a",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 19536.28808403015,
+          "amount_out": 2.5400875449999987
+        },
+        "victim": {
+          "slot": 380464175,
+          "signature": "4jJ2NJikUEn4TvTFBi38Jr7UBLsqRUg3PsxJMzHqhZSihELQyYoNMk5VRrY2cX6zseVmVbSGsDfAdWjUsA4eVrne",
+          "dex": "Raydium-CLMM",
+          "signer": "3RMKoab4zynw3fEvDUmfYfnep7nChuMComjjiHKBTFQg",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 20233.05593895912,
+          "amount_out": 2.6306941640000048
+        },
+        "backrun": {
+          "slot": 380464176,
+          "signature": "42hhetT5Pj4yumK13p4BupC154YMa2VZVWAKDu7MFVRYwN1xcfmFwUizr86RTzMkpd1Mq3P8qaK1HU6BaFdF9K4k",
+          "dex": "Raydium-CLMM",
+          "signer": "23EfcUag2j2y5t8GXsT9SXYaGS76FyWVWKWkgkiJAh6a",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.539592760000005,
+          "amount_out": 19536.288083910942
+        },
+        "bot_address": "23EfcUag2j2y5t8GXsT9SXYaGS76FyWVWKWkgkiJAh6a",
+        "slot_span": 4,
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.5400875449999987,
+        "sol_spent": 2.539592760000005,
+        "profit_sol": 0.0004947849999936693,
+        "profit_percent": 0.019482848108043446,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 4,
+        "bot_address": "23EfcUag2j2y5t8GXsT9SXYaGS76FyWVWKWkgkiJAh6a",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 11,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464147,
+          "signature": "2v6AburDTu4F9DJy2JvaNFD7Nomk4JUP7zzdd1pQq5xc1gcwrYDEZny4Chr3DEg1Mjeuk5Lu3QLiFbM8kXV8sg8u",
+          "dex": "Raydium-CLMM",
+          "signer": "8ueJyFyoh6R3qNruYiuYbgWxcVxBLmMxKwexxhWiAyjP",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 18911.72732794285,
+          "amount_out": 2.4588906890000004
+        },
+        "victim": {
+          "slot": 380464150,
+          "signature": "4d3EEi9vNUJz67cUjwPrKhhXWb9UsVDKBETokrJqB7NAT2RDFwzahkEcUC5gPQQvjTj7CHJzW1v3aMZJ13oxWzST",
+          "dex": "Raydium-CLMM",
+          "signer": "FMRzW8mRCsXP8Xb4avZWoSuo2hLGeLRBgHR4bXN7RkLC",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 18039.53708899021,
+          "amount_out": 2.345488869999997
+        },
+        "backrun": {
+          "slot": 380464151,
+          "signature": "2VtTGentr3wF5npbAdghLAxuXQUjK4DUgF95b41qRYdqmdhGsmxiYfaGZsYPEszfuy6eJFLMENcnve4fLrroQ5Rh",
+          "dex": "Raydium-CLMM",
+          "signer": "8ueJyFyoh6R3qNruYiuYbgWxcVxBLmMxKwexxhWiAyjP",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.4584021960000015,
+          "amount_out": 18911.727328062057
+        },
+        "bot_address": "8ueJyFyoh6R3qNruYiuYbgWxcVxBLmMxKwexxhWiAyjP",
+        "slot_span": 4,
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.4588906890000004,
+        "sol_spent": 2.4584021960000015,
+        "profit_sol": 0.0004884929999988685,
+        "profit_percent": 0.01987034508810975,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 4,
+        "bot_address": "8ueJyFyoh6R3qNruYiuYbgWxcVxBLmMxKwexxhWiAyjP",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 10,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464142,
+          "signature": "3B18kxKk97X7v1nxR4ht72bFVmUbgcojipFDnniaNfjMgdSRCHqbs4H8qwrCiaEe59mSJHd8DQUz51tyn4vXmkbb",
+          "dex": "Raydium-CLMM",
+          "signer": "2dby53s3KUBjCRdZJmYLAdkmydLnXRzadWMcLyWYw7rE",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 18655.646602988243,
+          "amount_out": 2.4255953099999985
+        },
+        "victim": {
+          "slot": 380464143,
+          "signature": "3375MRrzDQjKive27Ueqq9Hj7wL8PVL7FPUkRNocCtihSci4KeBPf9aDQ3jTZ3YTLHV7rQBS4VpsWZjobDpBgVm1",
+          "dex": "Raydium-CLMM",
+          "signer": "9GbivrMRhZVTWKGWavBK8Eci1SNPPQWHbWqnH8VLh3R",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 16887.790424108505,
+          "amount_out": 2.1957396230000015
+        },
+        "backrun": {
+          "slot": 380464147,
+          "signature": "3RpLTZR5EWs3kT7B7uJaBYp4arm9Kab7E5FcocrfPcVUG8qqJtNMpi88QWGocUwWFwMbqdYXkfNPRN2xaHSqdwtd",
+          "dex": "Raydium-CLMM",
+          "signer": "2dby53s3KUBjCRdZJmYLAdkmydLnXRzadWMcLyWYw7rE",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.425113723999999,
+          "amount_out": 18655.646602988243
+        },
+        "bot_address": "2dby53s3KUBjCRdZJmYLAdkmydLnXRzadWMcLyWYw7rE",
+        "slot_span": 5,
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.4255953099999985,
+        "sol_spent": 2.425113723999999,
+        "profit_sol": 0.0004815859999993677,
+        "profit_percent": 0.019858285210849265,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 5,
+        "bot_address": "2dby53s3KUBjCRdZJmYLAdkmydLnXRzadWMcLyWYw7rE",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 61,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464307,
+          "signature": "4Lf2VT9zYx4umN6p7U9bkPGk8AiidfgVZsdRKyAH3rmQBeP12CuXB5pUtbM9rYaDyajFjzjqZfDDSK9iAe1Bdy1h",
+          "dex": "Raydium-CLMM",
+          "signer": "FMRzW8mRCsXP8Xb4avZWoSuo2hLGeLRBgHR4bXN7RkLC",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 18095.468580007553,
+          "amount_out": 2.3527616009999974
+        },
+        "victim": {
+          "slot": 380464308,
+          "signature": "2u9q3bb8vYUNm8r6wBpb4BqXFDrNLRPhkY9tZMGJptyBVhHvQVJSMLE1R7usMgYpznprQMfkEC5RjFqC3zCUJ8W9",
+          "dex": "Raydium-CLMM",
+          "signer": "C6xYsQJBHGkaTgBU8CULmSwoj5c4xae2rcMCpyhCWb4F",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 16436.997644901276,
+          "amount_out": 2.137131594000003
+        },
+        "backrun": {
+          "slot": 380464311,
+          "signature": "5hjgzn6y7gx37QQAYF7AcRZ9ymi8TJzLsbxyDwYqSZPsHMUyo4X6LSCNP1swAj5zs5WjRpSSYyhWBKVLmJm7mbwB",
+          "dex": "Raydium-CLMM",
+          "signer": "FMRzW8mRCsXP8Xb4avZWoSuo2hLGeLRBgHR4bXN7RkLC",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.352286565,
+          "amount_out": 18095.468580007553
+        },
+        "bot_address": "FMRzW8mRCsXP8Xb4avZWoSuo2hLGeLRBgHR4bXN7RkLC",
+        "slot_span": 4,
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.3527616009999974,
+        "sol_spent": 2.352286565,
+        "profit_sol": 0.00047503599999743074,
+        "profit_percent": 0.02019464835048406,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 4,
+        "bot_address": "FMRzW8mRCsXP8Xb4avZWoSuo2hLGeLRBgHR4bXN7RkLC",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 49,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464246,
+          "signature": "5gG5SVNyy9Z4kWvkR1sCkd3k3PQoBzMdbpdMwua4eYvYbECHD2rng9MZzRKjtjfFMsjN2SK5B562fy8wyTjeLxKj",
+          "dex": "Raydium-CLMM",
+          "signer": "Gq3Ly65nnT7HHsLeTXAHj8P13MwNYRSEfhCSh2HP6bAA",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 18603.985282063484,
+          "amount_out": 2.4188704270000017
+        },
+        "victim": {
+          "slot": 380464247,
+          "signature": "3GAszRzVUJ9eJgkSbBdSpMtmGg3oWa3FZYionnvfotr6KXbgoLbBLKrJZAfjbYjcXebg2MM6tVjhELo589PM5pQP",
+          "dex": "Raydium-CLMM",
+          "signer": "8ueJyFyoh6R3qNruYiuYbgWxcVxBLmMxKwexxhWiAyjP",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 21301.548437952995,
+          "amount_out": 2.7696097500000008
+        },
+        "backrun": {
+          "slot": 380464252,
+          "signature": "3AZV1RKfViXxwx6VLNMLmNXpEvKXzvwq3VtfSGToUVRr5mhGviYWA6M7fwojN5cigw5Q1nqEBKCsXBbo5nb4jpYa",
+          "dex": "Raydium-CLMM",
+          "signer": "Gq3Ly65nnT7HHsLeTXAHj8P13MwNYRSEfhCSh2HP6bAA",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.418399450999999,
+          "amount_out": 18603.985282063484
+        },
+        "bot_address": "Gq3Ly65nnT7HHsLeTXAHj8P13MwNYRSEfhCSh2HP6bAA",
+        "slot_span": 6,
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.4188704270000017,
+        "sol_spent": 2.418399450999999,
+        "profit_sol": 0.00047097600000256534,
+        "profit_percent": 0.019474698433619743,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 6,
+        "bot_address": "Gq3Ly65nnT7HHsLeTXAHj8P13MwNYRSEfhCSh2HP6bAA",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 13,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464150,
+          "signature": "4d3EEi9vNUJz67cUjwPrKhhXWb9UsVDKBETokrJqB7NAT2RDFwzahkEcUC5gPQQvjTj7CHJzW1v3aMZJ13oxWzST",
+          "dex": "Raydium-CLMM",
+          "signer": "FMRzW8mRCsXP8Xb4avZWoSuo2hLGeLRBgHR4bXN7RkLC",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 18039.53708899021,
+          "amount_out": 2.345488869999997
+        },
+        "victim": {
+          "slot": 380464151,
+          "signature": "3gyKZEsUeyPmdTrscZfSEfShUD8BMZu1vRk6L6GiXSFrdp4uoMRbwBoRcTpbLjmSrCU8ytk9TXrYPeCwrsU4J3v5",
+          "dex": "Raydium-CLMM",
+          "signer": "C6xYsQJBHGkaTgBU8CULmSwoj5c4xae2rcMCpyhCWb4F",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 15972.743490099907,
+          "amount_out": 2.076768923000003
+        },
+        "backrun": {
+          "slot": 380464155,
+          "signature": "Gtn9WXuYdNZ562ruxfMt3R52JfYGc8FUygwTS1ziryT22tD6NYudiWgjRxwCNVkQWXNdqjsKcoRVbaGt6Wa99HT",
+          "dex": "Raydium-CLMM",
+          "signer": "FMRzW8mRCsXP8Xb4avZWoSuo2hLGeLRBgHR4bXN7RkLC",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.3450198490000034,
+          "amount_out": 18039.53708899021
+        },
+        "bot_address": "FMRzW8mRCsXP8Xb4avZWoSuo2hLGeLRBgHR4bXN7RkLC",
+        "slot_span": 5,
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.345488869999997,
+        "sol_spent": 2.3450198490000034,
+        "profit_sol": 0.0004690209999935746,
+        "profit_percent": 0.020000726228120467,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 5,
+        "bot_address": "FMRzW8mRCsXP8Xb4avZWoSuo2hLGeLRBgHR4bXN7RkLC",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 30,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464197,
+          "signature": "3vkprCfYKzWThBfBMXXyhHooTmcpaECbCozTtF4X9Bafe9S8jV3bRFHycp3jcBWr4qM2D6rbg7Ma45mKhicxptc2",
+          "dex": "Raydium-CLMM",
+          "signer": "Gq3Ly65nnT7HHsLeTXAHj8P13MwNYRSEfhCSh2HP6bAA",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 17346.349767923355,
+          "amount_out": 2.255370150999994
+        },
+        "victim": {
+          "slot": 380464199,
+          "signature": "3zVbmcbUfe2xcWYreHwHXyBniAuZYjZWyDtbWKjvwakThb9Lg26rJ2eDEyurhQsvoffERxxv56mcLqjkT7K82orW",
+          "dex": "Raydium-CLMM",
+          "signer": "8ueJyFyoh6R3qNruYiuYbgWxcVxBLmMxKwexxhWiAyjP",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 16145.737565994263,
+          "amount_out": 2.099254737999999
+        },
+        "backrun": {
+          "slot": 380464201,
+          "signature": "88EPEgvAmfoRX28kFKT9Qa3CBWfKjd1D8GgYuhJDjwsdJjdGTBxgEh2Zmqeg5BYzPcCkMPEHjVJRoXo3kCtodXr",
+          "dex": "Raydium-CLMM",
+          "signer": "Gq3Ly65nnT7HHsLeTXAHj8P13MwNYRSEfhCSh2HP6bAA",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.254906117999994,
+          "amount_out": 17346.349768042564
+        },
+        "bot_address": "Gq3Ly65nnT7HHsLeTXAHj8P13MwNYRSEfhCSh2HP6bAA",
+        "slot_span": 4,
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.255370150999994,
+        "sol_spent": 2.254906117999994,
+        "profit_sol": 0.00046403300000008585,
+        "profit_percent": 0.020578816842790042,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 4,
+        "bot_address": "Gq3Ly65nnT7HHsLeTXAHj8P13MwNYRSEfhCSh2HP6bAA",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 50,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464261,
+          "signature": "5Ha5dhFa6ZJ5PCgsp7qJd38VMU6U97mjgvh9ZG9Xw7BPUrsK4jMEdmudsrPtYa9e5oS1VkjQMZ4mE4wvHBY35y3E",
+          "dex": "Raydium-CLMM",
+          "signer": "3QgvXWiYyifA9QiUEzpJ7KbZtHMViEDjHnSDdZUaGLf8",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 17725.418721079826,
+          "amount_out": 2.3046435290000034
+        },
+        "victim": {
+          "slot": 380464263,
+          "signature": "2i1Ua1wZNSK1aXCEX2a8f5UjhkMzk8tjRbX2i9Mu28iY871eZfeF6HjfK7EGQY2YUXCENy6LauHjXYTrhY3RTc7s",
+          "dex": "Raydium-CLMM",
+          "signer": "H4L2WeQj2PLghjjtf285Rg1S2H6hD5QSCQgeRdBind2q",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 21059.11208796501,
+          "amount_out": 2.7380881289999977
+        },
+        "backrun": {
+          "slot": 380464265,
+          "signature": "5mC9gjCnBtc16HM6sgyTARWQL1y3WxAPXnmypjA2Y4Za7uLGiiweDydAy2eXUDCStvbGZRezFnamM8rpmAUtKm8b",
+          "dex": "Raydium-CLMM",
+          "signer": "3QgvXWiYyifA9QiUEzpJ7KbZtHMViEDjHnSDdZUaGLf8",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.3041835499999976,
+          "amount_out": 17725.418720960617
+        },
+        "bot_address": "3QgvXWiYyifA9QiUEzpJ7KbZtHMViEDjHnSDdZUaGLf8",
+        "slot_span": 4,
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.3046435290000034,
+        "sol_spent": 2.3041835499999976,
+        "profit_sol": 0.0004599790000057169,
+        "profit_percent": 0.019962775969202512,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 4,
+        "bot_address": "3QgvXWiYyifA9QiUEzpJ7KbZtHMViEDjHnSDdZUaGLf8",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 62,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464312,
+          "signature": "4gvAog8C66nC9hgHRCQwWt4pjnVqazHWWWMzpn8a8R74cnyXJHogMRZHjqKRSbXQmAm12eJJ7TRKxerb6kwq7EFW",
+          "dex": "Raydium-CLMM",
+          "signer": "3QgvXWiYyifA9QiUEzpJ7KbZtHMViEDjHnSDdZUaGLf8",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 17655.912204027176,
+          "amount_out": 2.2956063100000037
+        },
+        "victim": {
+          "slot": 380464313,
+          "signature": "4LPr7A95Ut3htEr7WHRQmfbboY2K5spSWjK1aPdcLkHMJCHZabgVHMhh5SyNLkPtL4bKv7GGT4u6spqqQc2L3doh",
+          "dex": "Raydium-CLMM",
+          "signer": "H4L2WeQj2PLghjjtf285Rg1S2H6hD5QSCQgeRdBind2q",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 19759.446009993553,
+          "amount_out": 2.5691064720000014
+        },
+        "backrun": {
+          "slot": 380464317,
+          "signature": "4jZuRirzmSxoByJBV8JJTM4pC4z4uPJRfwTCSmqrKtQrDhYQYaxkfqweL9sC6vdg4QjfWh1sNEMXsB31nb1nxYKu",
+          "dex": "Raydium-CLMM",
+          "signer": "3QgvXWiYyifA9QiUEzpJ7KbZtHMViEDjHnSDdZUaGLf8",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.2951479050000003,
+          "amount_out": 17655.912204027176
+        },
+        "bot_address": "3QgvXWiYyifA9QiUEzpJ7KbZtHMViEDjHnSDdZUaGLf8",
+        "slot_span": 5,
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.2956063100000037,
+        "sol_spent": 2.2951479050000003,
+        "profit_sol": 0.00045840500000338125,
+        "profit_percent": 0.019972786895552215,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 5,
+        "bot_address": "3QgvXWiYyifA9QiUEzpJ7KbZtHMViEDjHnSDdZUaGLf8",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 19,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464173,
+          "signature": "2cBNYack3nK5g4VF5HbuG2y3g4kxxsy5JkRf6NtsFU2RqugmjCP2mJ2Eu7s6PsLunpWM72vcDCpWmFiHkHLbkJG1",
+          "dex": "Raydium-CLMM",
+          "signer": "vQZBvhCm2SFMNidPGqVv1rQVmZW1dEseDGeCDyfWZch",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 17413.512773036957,
+          "amount_out": 2.2640903449999996
+        },
+        "victim": {
+          "slot": 380464174,
+          "signature": "vWkXdQCxZZFUC8jhNxX1VFK1WdmMkqkgs5p3HAehnxos9LgmcWmGSUSu1urfgKahCsAXeCpeU8ooDjfWoVJaZfz",
+          "dex": "Raydium-CLMM",
+          "signer": "E26WDGhBcUwuYBz5cC6jLvFegFRNW8oG7bbfMhPEBaUi",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 19549.698289990425,
+          "amount_out": 2.541839666999998
+        },
+        "backrun": {
+          "slot": 380464177,
+          "signature": "5TecnLKqYTc5QF5NCDGuDpNVXFVbiDrCZsMRugfkbdW5TcpzkHtd3LRE2Ktfzp6zEUEZT8ypujH4bXJU6aPvKifB",
+          "dex": "Raydium-CLMM",
+          "signer": "vQZBvhCm2SFMNidPGqVv1rQVmZW1dEseDGeCDyfWZch",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.263641715999995,
+          "amount_out": 17413.512773036957
+        },
+        "bot_address": "vQZBvhCm2SFMNidPGqVv1rQVmZW1dEseDGeCDyfWZch",
+        "slot_span": 4,
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.2640903449999996,
+        "sol_spent": 2.263641715999995,
+        "profit_sol": 0.0004486290000045301,
+        "profit_percent": 0.019818904945668136,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 4,
+        "bot_address": "vQZBvhCm2SFMNidPGqVv1rQVmZW1dEseDGeCDyfWZch",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 21,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464173,
+          "signature": "2cBNYack3nK5g4VF5HbuG2y3g4kxxsy5JkRf6NtsFU2RqugmjCP2mJ2Eu7s6PsLunpWM72vcDCpWmFiHkHLbkJG1",
+          "dex": "Raydium-CLMM",
+          "signer": "vQZBvhCm2SFMNidPGqVv1rQVmZW1dEseDGeCDyfWZch",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 17413.512773036957,
+          "amount_out": 2.2640903449999996
+        },
+        "victim": {
+          "slot": 380464175,
+          "signature": "4jJ2NJikUEn4TvTFBi38Jr7UBLsqRUg3PsxJMzHqhZSihELQyYoNMk5VRrY2cX6zseVmVbSGsDfAdWjUsA4eVrne",
+          "dex": "Raydium-CLMM",
+          "signer": "3RMKoab4zynw3fEvDUmfYfnep7nChuMComjjiHKBTFQg",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 20233.05593895912,
+          "amount_out": 2.6306941640000048
+        },
+        "backrun": {
+          "slot": 380464177,
+          "signature": "5TecnLKqYTc5QF5NCDGuDpNVXFVbiDrCZsMRugfkbdW5TcpzkHtd3LRE2Ktfzp6zEUEZT8ypujH4bXJU6aPvKifB",
+          "dex": "Raydium-CLMM",
+          "signer": "vQZBvhCm2SFMNidPGqVv1rQVmZW1dEseDGeCDyfWZch",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.263641715999995,
+          "amount_out": 17413.512773036957
+        },
+        "bot_address": "vQZBvhCm2SFMNidPGqVv1rQVmZW1dEseDGeCDyfWZch",
+        "slot_span": 4,
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.2640903449999996,
+        "sol_spent": 2.263641715999995,
+        "profit_sol": 0.0004486290000045301,
+        "profit_percent": 0.019818904945668136,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 4,
+        "bot_address": "vQZBvhCm2SFMNidPGqVv1rQVmZW1dEseDGeCDyfWZch",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 33,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464224,
+          "signature": "2BbQWFjBLirgB1Sg2nFf7i51himNSvVn5PpchjcYiKNr4oYPKLvw73etuej8SnoeQfyJySLLeDaG3xDxUHnvkZNR",
+          "dex": "Raydium-CLMM",
+          "signer": "23EfcUag2j2y5t8GXsT9SXYaGS76FyWVWKWkgkiJAh6a",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 17345.714774012566,
+          "amount_out": 2.2552789960000013
+        },
+        "victim": {
+          "slot": 380464225,
+          "signature": "5s2DDLKD5pbV11yjYozDHPDQZLnsGx8p1qwBDJkgBGyQZ5vkWvWQxogNA6os7eCpqXG3fbS3KztE9ozeEZyVeP9Q",
+          "dex": "Raydium-CLMM",
+          "signer": "vQZBvhCm2SFMNidPGqVv1rQVmZW1dEseDGeCDyfWZch",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 15735.270056962967,
+          "amount_out": 2.045889041999999
+        },
+        "backrun": {
+          "slot": 380464226,
+          "signature": "4ai5Zjf2sRX1vKZi5Ya6bwmMDABFpf6bDhEKRZZcDKBSLoGVy2DpjfQ21Eo6DDHz5vxSHHK6Vhno9mzwTZM15yEL",
+          "dex": "Raydium-CLMM",
+          "signer": "23EfcUag2j2y5t8GXsT9SXYaGS76FyWVWKWkgkiJAh6a",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.2548304990000005,
+          "amount_out": 17345.714774012566
+        },
+        "bot_address": "23EfcUag2j2y5t8GXsT9SXYaGS76FyWVWKWkgkiJAh6a",
+        "slot_span": 2,
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.2552789960000013,
+        "sol_spent": 2.2548304990000005,
+        "profit_sol": 0.0004484970000007138,
+        "profit_percent": 0.019890497321178625,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 2,
+        "bot_address": "23EfcUag2j2y5t8GXsT9SXYaGS76FyWVWKWkgkiJAh6a",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 37,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464224,
+          "signature": "2BbQWFjBLirgB1Sg2nFf7i51himNSvVn5PpchjcYiKNr4oYPKLvw73etuej8SnoeQfyJySLLeDaG3xDxUHnvkZNR",
+          "dex": "Raydium-CLMM",
+          "signer": "23EfcUag2j2y5t8GXsT9SXYaGS76FyWVWKWkgkiJAh6a",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 17345.714774012566,
+          "amount_out": 2.2552789960000013
+        },
+        "victim": {
+          "slot": 380464225,
+          "signature": "2K2PkQ4w67q1SMHavap4BEzd4qgSiMXQSHZ3K4eS5xAgpgLZar8hsUL3QCLmGn6cYeJB5tkXqpDbojsytmtNjqca",
+          "dex": "Raydium-CLMM",
+          "signer": "E26WDGhBcUwuYBz5cC6jLvFegFRNW8oG7bbfMhPEBaUi",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 18221.467558979988,
+          "amount_out": 2.3691463970000015
+        },
+        "backrun": {
+          "slot": 380464226,
+          "signature": "4ai5Zjf2sRX1vKZi5Ya6bwmMDABFpf6bDhEKRZZcDKBSLoGVy2DpjfQ21Eo6DDHz5vxSHHK6Vhno9mzwTZM15yEL",
+          "dex": "Raydium-CLMM",
+          "signer": "23EfcUag2j2y5t8GXsT9SXYaGS76FyWVWKWkgkiJAh6a",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.2548304990000005,
+          "amount_out": 17345.714774012566
+        },
+        "bot_address": "23EfcUag2j2y5t8GXsT9SXYaGS76FyWVWKWkgkiJAh6a",
+        "slot_span": 2,
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.2552789960000013,
+        "sol_spent": 2.2548304990000005,
+        "profit_sol": 0.0004484970000007138,
+        "profit_percent": 0.019890497321178625,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 2,
+        "bot_address": "23EfcUag2j2y5t8GXsT9SXYaGS76FyWVWKWkgkiJAh6a",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 58,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464306,
+          "signature": "4jx2B1FDVRXrxiKsVWAvXBU2nn6L2dG4hp1judGptE6W6uxF43VSjER73v4paWNkejnE1wVhwWC9vKQAYSXhjXhr",
+          "dex": "Raydium-CLMM",
+          "signer": "8ueJyFyoh6R3qNruYiuYbgWxcVxBLmMxKwexxhWiAyjP",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 17339.73134601116,
+          "amount_out": 2.254497482000005
+        },
+        "victim": {
+          "slot": 380464307,
+          "signature": "4Lf2VT9zYx4umN6p7U9bkPGk8AiidfgVZsdRKyAH3rmQBeP12CuXB5pUtbM9rYaDyajFjzjqZfDDSK9iAe1Bdy1h",
+          "dex": "Raydium-CLMM",
+          "signer": "FMRzW8mRCsXP8Xb4avZWoSuo2hLGeLRBgHR4bXN7RkLC",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 18095.468580007553,
+          "amount_out": 2.3527616009999974
+        },
+        "backrun": {
+          "slot": 380464310,
+          "signature": "5zXz1ZfbjJdTbF7PKnKZtCDejCS6B5txEePedZxjCXKESDrPdDpkRRTKmAt4FCVW4akERhHfT7SSUQP1MAAh9Fig",
+          "dex": "Raydium-CLMM",
+          "signer": "8ueJyFyoh6R3qNruYiuYbgWxcVxBLmMxKwexxhWiAyjP",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.2540495479999976,
+          "amount_out": 17339.73134601116
+        },
+        "bot_address": "8ueJyFyoh6R3qNruYiuYbgWxcVxBLmMxKwexxhWiAyjP",
+        "slot_span": 4,
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.254497482000005,
+        "sol_spent": 2.2540495479999976,
+        "profit_sol": 0.0004479340000074217,
+        "profit_percent": 0.019872411429680877,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 4,
+        "bot_address": "8ueJyFyoh6R3qNruYiuYbgWxcVxBLmMxKwexxhWiAyjP",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 60,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464306,
+          "signature": "4jx2B1FDVRXrxiKsVWAvXBU2nn6L2dG4hp1judGptE6W6uxF43VSjER73v4paWNkejnE1wVhwWC9vKQAYSXhjXhr",
+          "dex": "Raydium-CLMM",
+          "signer": "8ueJyFyoh6R3qNruYiuYbgWxcVxBLmMxKwexxhWiAyjP",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 17339.73134601116,
+          "amount_out": 2.254497482000005
+        },
+        "victim": {
+          "slot": 380464308,
+          "signature": "2u9q3bb8vYUNm8r6wBpb4BqXFDrNLRPhkY9tZMGJptyBVhHvQVJSMLE1R7usMgYpznprQMfkEC5RjFqC3zCUJ8W9",
+          "dex": "Raydium-CLMM",
+          "signer": "C6xYsQJBHGkaTgBU8CULmSwoj5c4xae2rcMCpyhCWb4F",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 16436.997644901276,
+          "amount_out": 2.137131594000003
+        },
+        "backrun": {
+          "slot": 380464310,
+          "signature": "5zXz1ZfbjJdTbF7PKnKZtCDejCS6B5txEePedZxjCXKESDrPdDpkRRTKmAt4FCVW4akERhHfT7SSUQP1MAAh9Fig",
+          "dex": "Raydium-CLMM",
+          "signer": "8ueJyFyoh6R3qNruYiuYbgWxcVxBLmMxKwexxhWiAyjP",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.2540495479999976,
+          "amount_out": 17339.73134601116
+        },
+        "bot_address": "8ueJyFyoh6R3qNruYiuYbgWxcVxBLmMxKwexxhWiAyjP",
+        "slot_span": 4,
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.254497482000005,
+        "sol_spent": 2.2540495479999976,
+        "profit_sol": 0.0004479340000074217,
+        "profit_percent": 0.019872411429680877,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 4,
+        "bot_address": "8ueJyFyoh6R3qNruYiuYbgWxcVxBLmMxKwexxhWiAyjP",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
       }
     },
     {
       "sandwich_id": 1,
       "sandwich": {
         "frontrun": {
-          "slot": 380448784,
-          "signature": "AeotoEAY66ewqQE6WhvEHc5TtvMoeznLgcHi3wwQAo92hQS43vWgen15LrKTuWFzSQp7ixtPMzKCNqez3N9UcFL",
+          "slot": 380464125,
+          "signature": "qfYCGLB6HDgrUHbfCiYN921FNQEa6LVG9JUFSmZgSNoqV4DH1DrTCNXZMH9bgSzAxExk94Nwh5tvTk9PS5ygjk5",
           "dex": "Raydium-CLMM",
-          "signer": "8ZU68ViaaEUKyksrnC829Dc1nvcH7zkTqgJ4wGUg9QMd",
-          "token_in": "So11111111111111111111111111111111111111112",
-          "token_out": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
-          "amount_in": 1.204341991000092,
-          "amount_out": 6936011.627857208
+          "signer": "3RMKoab4zynw3fEvDUmfYfnep7nChuMComjjiHKBTFQg",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 17311.69035601616,
+          "amount_out": 2.250851884999996
         },
         "victim": {
-          "slot": 380448787,
-          "signature": "4CjfwoSGHxmrghsjpVdscjufUhUyXEPuxSfhwWScjvpoWdZxi2Vb4uzAvdLYDCbtGCVxzBYFLJqeZbWGMurnkn7p",
+          "slot": 380464126,
+          "signature": "4XjdNTkreMXH2JBhVY2WFncGZea91dP6jPNcpFLus5XQ7Y2bS48PjXd5Q7hyeJgns1yxZisMuUkR2T1rvNmC8pe7",
           "dex": "Raydium-CLMM",
-          "signer": "J22Jdrv2MJUge4BXuDgPEToUZfx9KoX47iiEeULHLZaa",
-          "token_in": "So11111111111111111111111111111111111111112",
-          "token_out": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
-          "amount_in": 0.7516354990000309,
-          "amount_out": 4323243.702131271
+          "signer": "E26WDGhBcUwuYBz5cC6jLvFegFRNW8oG7bbfMhPEBaUi",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 22732.418506979942,
+          "amount_out": 2.955650122999998
         },
         "backrun": {
-          "slot": 380448789,
-          "signature": "5xLQDLqrtxNkApxnTszxwbtRfGRvPRoydqkyHP7WKFfdRtWeHA6AF1JofGeXwgEHUerqJT23g7hhKVXi5jjaLa86",
+          "slot": 380464130,
+          "signature": "3xZkX8wxbtBUY1QXnCYyHv74TuZHsSaC68vwj4EefUDnKytags9a35foFAkaBDqivvLv95VkY5P4oCG8fZo64eQN",
           "dex": "Raydium-CLMM",
-          "signer": "8ZU68ViaaEUKyksrnC829Dc1nvcH7zkTqgJ4wGUg9QMd",
+          "signer": "3RMKoab4zynw3fEvDUmfYfnep7nChuMComjjiHKBTFQg",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.250405897999997,
+          "amount_out": 17311.69035589695
+        },
+        "bot_address": "3RMKoab4zynw3fEvDUmfYfnep7nChuMComjjiHKBTFQg",
+        "slot_span": 5,
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.250851884999996,
+        "sol_spent": 2.250405897999997,
+        "profit_sol": 0.00044598699999909286,
+        "profit_percent": 0.019818069282321684,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 5,
+        "bot_address": "3RMKoab4zynw3fEvDUmfYfnep7nChuMComjjiHKBTFQg",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 2,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464125,
+          "signature": "qfYCGLB6HDgrUHbfCiYN921FNQEa6LVG9JUFSmZgSNoqV4DH1DrTCNXZMH9bgSzAxExk94Nwh5tvTk9PS5ygjk5",
+          "dex": "Raydium-CLMM",
+          "signer": "3RMKoab4zynw3fEvDUmfYfnep7nChuMComjjiHKBTFQg",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 17311.69035601616,
+          "amount_out": 2.250851884999996
+        },
+        "victim": {
+          "slot": 380464127,
+          "signature": "2maPAp3vJrrYdEzTLsrayQZMZ1bAKgtP8XeUPRVTnJPiT74wLpvHYAQUpmBie4ovJwNbyNReadcsUgsTMvgWHtqD",
+          "dex": "Raydium-CLMM",
+          "signer": "vQZBvhCm2SFMNidPGqVv1rQVmZW1dEseDGeCDyfWZch",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 19200.989585995674,
+          "amount_out": 2.496501434999999
+        },
+        "backrun": {
+          "slot": 380464130,
+          "signature": "3xZkX8wxbtBUY1QXnCYyHv74TuZHsSaC68vwj4EefUDnKytags9a35foFAkaBDqivvLv95VkY5P4oCG8fZo64eQN",
+          "dex": "Raydium-CLMM",
+          "signer": "3RMKoab4zynw3fEvDUmfYfnep7nChuMComjjiHKBTFQg",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.250405897999997,
+          "amount_out": 17311.69035589695
+        },
+        "bot_address": "3RMKoab4zynw3fEvDUmfYfnep7nChuMComjjiHKBTFQg",
+        "slot_span": 5,
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.250851884999996,
+        "sol_spent": 2.250405897999997,
+        "profit_sol": 0.00044598699999909286,
+        "profit_percent": 0.019818069282321684,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 5,
+        "bot_address": "3RMKoab4zynw3fEvDUmfYfnep7nChuMComjjiHKBTFQg",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 24,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464194,
+          "signature": "Yq6CuLTE4tHxtWYC3d2viAUNB3V7KmZhY3WpCjoEejxYiCRqUu2ap5R4DtkgwDkeNmDHKb6RYouhDqRvix4MMfq",
+          "dex": "Raydium-CLMM",
+          "signer": "277XJwtMM1dbFv612mKohyzZEjMqjvLBR4gsmt9khCwi",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 17128.998798966408,
+          "amount_out": 2.2270983120000025
+        },
+        "victim": {
+          "slot": 380464195,
+          "signature": "4YuaP6CRkMf3HPb7qJAkjJAbD68bi9uDSVTJZyj6uiFr3n9WTd1XEVBiMnDo37vABmUrLE7vufVye8cH7u9BTtF3",
+          "dex": "Raydium-CLMM",
+          "signer": "2dby53s3KUBjCRdZJmYLAdkmydLnXRzadWMcLyWYw7rE",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 20149.539560079575,
+          "amount_out": 2.619836058000004
+        },
+        "backrun": {
+          "slot": 380464198,
+          "signature": "5EdLnf7efQYQCwW96x8pDkvcdvoZnmJRUPhD3XLC1mMD8NgLA6a2v8ENU9AtXWDMHZkxdAHP1pCK7ovFBTqLhjdA",
+          "dex": "Raydium-CLMM",
+          "signer": "277XJwtMM1dbFv612mKohyzZEjMqjvLBR4gsmt9khCwi",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.226660608000003,
+          "amount_out": 17128.998798966408
+        },
+        "bot_address": "277XJwtMM1dbFv612mKohyzZEjMqjvLBR4gsmt9khCwi",
+        "slot_span": 4,
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.2270983120000025,
+        "sol_spent": 2.226660608000003,
+        "profit_sol": 0.0004377039999994281,
+        "profit_percent": 0.019657418756447838,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 4,
+        "bot_address": "277XJwtMM1dbFv612mKohyzZEjMqjvLBR4gsmt9khCwi",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 27,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464194,
+          "signature": "Yq6CuLTE4tHxtWYC3d2viAUNB3V7KmZhY3WpCjoEejxYiCRqUu2ap5R4DtkgwDkeNmDHKb6RYouhDqRvix4MMfq",
+          "dex": "Raydium-CLMM",
+          "signer": "277XJwtMM1dbFv612mKohyzZEjMqjvLBR4gsmt9khCwi",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 17128.998798966408,
+          "amount_out": 2.2270983120000025
+        },
+        "victim": {
+          "slot": 380464197,
+          "signature": "3vkprCfYKzWThBfBMXXyhHooTmcpaECbCozTtF4X9Bafe9S8jV3bRFHycp3jcBWr4qM2D6rbg7Ma45mKhicxptc2",
+          "dex": "Raydium-CLMM",
+          "signer": "Gq3Ly65nnT7HHsLeTXAHj8P13MwNYRSEfhCSh2HP6bAA",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 17346.349767923355,
+          "amount_out": 2.255370150999994
+        },
+        "backrun": {
+          "slot": 380464198,
+          "signature": "5EdLnf7efQYQCwW96x8pDkvcdvoZnmJRUPhD3XLC1mMD8NgLA6a2v8ENU9AtXWDMHZkxdAHP1pCK7ovFBTqLhjdA",
+          "dex": "Raydium-CLMM",
+          "signer": "277XJwtMM1dbFv612mKohyzZEjMqjvLBR4gsmt9khCwi",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.226660608000003,
+          "amount_out": 17128.998798966408
+        },
+        "bot_address": "277XJwtMM1dbFv612mKohyzZEjMqjvLBR4gsmt9khCwi",
+        "slot_span": 4,
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.2270983120000025,
+        "sol_spent": 2.226660608000003,
+        "profit_sol": 0.0004377039999994281,
+        "profit_percent": 0.019657418756447838,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 4,
+        "bot_address": "277XJwtMM1dbFv612mKohyzZEjMqjvLBR4gsmt9khCwi",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 45,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464236,
+          "signature": "52XTcw2rcdvEg2HUe8bA4CKqKMcMApf4SabgwR9aXUHCDiUBSQxd5fJNWp4E4bHTUg91VYhEicUuhoxfcLsR4KET",
+          "dex": "Raydium-CLMM",
+          "signer": "9GbivrMRhZVTWKGWavBK8Eci1SNPPQWHbWqnH8VLh3R",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 16917.536018013954,
+          "amount_out": 2.1995999119999965
+        },
+        "victim": {
+          "slot": 380464237,
+          "signature": "A9Y2rnm9pKFFDFScUJ3LnBjLZ7duAHhNrpco75W4fCeGxPmf1qqYiEZgCSv5jBYL2R3kPx1z7azJ94QZ2NYkuCq",
+          "dex": "Raydium-CLMM",
+          "signer": "6E6ARf7uVgT6ULhmgcuvaMdNzaiaY1kuK5c1ctXfhQU",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 20609.02873003483,
+          "amount_out": 2.6795739569999952
+        },
+        "backrun": {
+          "slot": 380464241,
+          "signature": "2QnbmbyqaEBEXFJF6jSnvoNFFHWwEySypX5KNRdhT8mHE536bMEvJcu3sgB3iLAbGFHXw1kpVxEvLdh1Twr2iFLk",
+          "dex": "Raydium-CLMM",
+          "signer": "9GbivrMRhZVTWKGWavBK8Eci1SNPPQWHbWqnH8VLh3R",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.1991727810000015,
+          "amount_out": 16917.536018013954
+        },
+        "bot_address": "9GbivrMRhZVTWKGWavBK8Eci1SNPPQWHbWqnH8VLh3R",
+        "slot_span": 5,
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.1995999119999965,
+        "sol_spent": 2.1991727810000015,
+        "profit_sol": 0.000427130999995029,
+        "profit_percent": 0.019422348425065777,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 5,
+        "bot_address": "9GbivrMRhZVTWKGWavBK8Eci1SNPPQWHbWqnH8VLh3R",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 53,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464275,
+          "signature": "3MCWbbXTwB8v31UEB2kq7PbbccjNPfkfDQbAF7hLhPAEx4WWtq8cuasFGysQivrJrAHa7VbQDsR1CkMpdCdqFBF6",
+          "dex": "Raydium-CLMM",
+          "signer": "23EfcUag2j2y5t8GXsT9SXYaGS76FyWVWKWkgkiJAh6a",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 16448.651100993156,
+          "amount_out": 2.1386390489999982
+        },
+        "victim": {
+          "slot": 380464278,
+          "signature": "4m8XA1LuLUq6jebp1u61gzhP7vjprMYhz5o7RAjbRz9v6ALK5HtXPQKt5zeFHXUCdR5iSnaiN678VxCDrhyycZY8",
+          "dex": "Raydium-CLMM",
+          "signer": "E26WDGhBcUwuYBz5cC6jLvFegFRNW8oG7bbfMhPEBaUi",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 18983.391378045082,
+          "amount_out": 2.468207711000005
+        },
+        "backrun": {
+          "slot": 380464280,
+          "signature": "2xcvXuYfK3JCztafGusnJCWgcUFwKYFjyw8CrnGXfKVKi9BK7Yg2CvPPa3WYJexByseYW9K3FWXL2nWScfxr77pe",
+          "dex": "Raydium-CLMM",
+          "signer": "23EfcUag2j2y5t8GXsT9SXYaGS76FyWVWKWkgkiJAh6a",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.1382119410000016,
+          "amount_out": 16448.651100993156
+        },
+        "bot_address": "23EfcUag2j2y5t8GXsT9SXYaGS76FyWVWKWkgkiJAh6a",
+        "slot_span": 5,
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.1386390489999982,
+        "sol_spent": 2.1382119410000016,
+        "profit_sol": 0.0004271079999966787,
+        "profit_percent": 0.019975007706529237,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 5,
+        "bot_address": "23EfcUag2j2y5t8GXsT9SXYaGS76FyWVWKWkgkiJAh6a",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 31,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464203,
+          "signature": "4ttm9NHr5LkTYMQA3dJMZSaeWaPrgqdxTxuxvb3ddS8a2x1STCnyCgyd654JG95g1Rm7P5JS4WFqqsBh5xExQX51",
+          "dex": "Raydium-CLMM",
+          "signer": "C6xYsQJBHGkaTgBU8CULmSwoj5c4xae2rcMCpyhCWb4F",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 16467.310648083687,
+          "amount_out": 2.141065187999999
+        },
+        "victim": {
+          "slot": 380464204,
+          "signature": "5gRSSQSp3xk1PDjN5qovT1hZNmfUPNZpTW7T3tdnh69zgHqTLfw2PWwc1jDorfMmHeKG1qgzbfmGfg4bBQ7rsRFM",
+          "dex": "Raydium-CLMM",
+          "signer": "FMRzW8mRCsXP8Xb4avZWoSuo2hLGeLRBgHR4bXN7RkLC",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 21778.40197098255,
+          "amount_out": 2.831613515000001
+        },
+        "backrun": {
+          "slot": 380464208,
+          "signature": "2RQMwsrixPi6NCoxRkjyP3yfGmPRkaeqprHJkX6kUmEuTu9zWkRxxyTFvxsXDdiZc5Ceim6fuxmUbwxynwiTxRkR",
+          "dex": "Raydium-CLMM",
+          "signer": "C6xYsQJBHGkaTgBU8CULmSwoj5c4xae2rcMCpyhCWb4F",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.140638091999996,
+          "amount_out": 16467.310647964478
+        },
+        "bot_address": "C6xYsQJBHGkaTgBU8CULmSwoj5c4xae2rcMCpyhCWb4F",
+        "slot_span": 5,
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.141065187999999,
+        "sol_spent": 2.140638091999996,
+        "profit_sol": 0.00042709600000279124,
+        "profit_percent": 0.019951807902463134,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 5,
+        "bot_address": "C6xYsQJBHGkaTgBU8CULmSwoj5c4xae2rcMCpyhCWb4F",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 12,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464147,
+          "signature": "53fvSVhz9fQ64jiVMZmspD2Eykm983MRtzknDXZoBLK66iWTCFd4PoTgSxoUGMZq2sWFNUW1yGs62VFdTYWbeoSX",
+          "dex": "Raydium-CLMM",
+          "signer": "Gq3Ly65nnT7HHsLeTXAHj8P13MwNYRSEfhCSh2HP6bAA",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 16120.383937954903,
+          "amount_out": 2.095965344999996
+        },
+        "victim": {
+          "slot": 380464150,
+          "signature": "4d3EEi9vNUJz67cUjwPrKhhXWb9UsVDKBETokrJqB7NAT2RDFwzahkEcUC5gPQQvjTj7CHJzW1v3aMZJ13oxWzST",
+          "dex": "Raydium-CLMM",
+          "signer": "FMRzW8mRCsXP8Xb4avZWoSuo2hLGeLRBgHR4bXN7RkLC",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 18039.53708899021,
+          "amount_out": 2.345488869999997
+        },
+        "backrun": {
+          "slot": 380464151,
+          "signature": "2GDn9XWtooZoswtSjUZnQ2Z9rzAu2a8RUinVBofNsrQ1maeCPdFJv6ALhKTnYuihCcizoXeRPUoMqBrSZRJYXG3r",
+          "dex": "Raydium-CLMM",
+          "signer": "Gq3Ly65nnT7HHsLeTXAHj8P13MwNYRSEfhCSh2HP6bAA",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.0955422780000035,
+          "amount_out": 16120.383937954903
+        },
+        "bot_address": "Gq3Ly65nnT7HHsLeTXAHj8P13MwNYRSEfhCSh2HP6bAA",
+        "slot_span": 4,
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.095965344999996,
+        "sol_spent": 2.0955422780000035,
+        "profit_sol": 0.00042306699999272723,
+        "profit_percent": 0.020188903103234193,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 4,
+        "bot_address": "Gq3Ly65nnT7HHsLeTXAHj8P13MwNYRSEfhCSh2HP6bAA",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 34,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464224,
+          "signature": "5hnWv57DmTSoF9DApLMJsfqTRongjweAjfhZEwt59LHDDr5wSN3FK5vXqaRYyGQoYyFj5pJZvrK1o42m3tiVngFz",
+          "dex": "Raydium-CLMM",
+          "signer": "3RMKoab4zynw3fEvDUmfYfnep7nChuMComjjiHKBTFQg",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 15956.146707057953,
+          "amount_out": 2.074611365999999
+        },
+        "victim": {
+          "slot": 380464225,
+          "signature": "5s2DDLKD5pbV11yjYozDHPDQZLnsGx8p1qwBDJkgBGyQZ5vkWvWQxogNA6os7eCpqXG3fbS3KztE9ozeEZyVeP9Q",
+          "dex": "Raydium-CLMM",
+          "signer": "vQZBvhCm2SFMNidPGqVv1rQVmZW1dEseDGeCDyfWZch",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 15735.270056962967,
+          "amount_out": 2.045889041999999
+        },
+        "backrun": {
+          "slot": 380464226,
+          "signature": "4PxpyGkBaGDX7rnoSofL1zzkogPzjA7d8ki4HrjRagLuGcfS13Rs5i4PNwAiRi8spkcoLWT8ZhewqeAqVUfcpyK8",
+          "dex": "Raydium-CLMM",
+          "signer": "3RMKoab4zynw3fEvDUmfYfnep7nChuMComjjiHKBTFQg",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.0741925159999965,
+          "amount_out": 15956.146706938744
+        },
+        "bot_address": "3RMKoab4zynw3fEvDUmfYfnep7nChuMComjjiHKBTFQg",
+        "slot_span": 2,
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.074611365999999,
+        "sol_spent": 2.0741925159999965,
+        "profit_sol": 0.00041885000000263517,
+        "profit_percent": 0.020193400408674306,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 2,
+        "bot_address": "3RMKoab4zynw3fEvDUmfYfnep7nChuMComjjiHKBTFQg",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 38,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464224,
+          "signature": "5hnWv57DmTSoF9DApLMJsfqTRongjweAjfhZEwt59LHDDr5wSN3FK5vXqaRYyGQoYyFj5pJZvrK1o42m3tiVngFz",
+          "dex": "Raydium-CLMM",
+          "signer": "3RMKoab4zynw3fEvDUmfYfnep7nChuMComjjiHKBTFQg",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 15956.146707057953,
+          "amount_out": 2.074611365999999
+        },
+        "victim": {
+          "slot": 380464225,
+          "signature": "2K2PkQ4w67q1SMHavap4BEzd4qgSiMXQSHZ3K4eS5xAgpgLZar8hsUL3QCLmGn6cYeJB5tkXqpDbojsytmtNjqca",
+          "dex": "Raydium-CLMM",
+          "signer": "E26WDGhBcUwuYBz5cC6jLvFegFRNW8oG7bbfMhPEBaUi",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 18221.467558979988,
+          "amount_out": 2.3691463970000015
+        },
+        "backrun": {
+          "slot": 380464226,
+          "signature": "4PxpyGkBaGDX7rnoSofL1zzkogPzjA7d8ki4HrjRagLuGcfS13Rs5i4PNwAiRi8spkcoLWT8ZhewqeAqVUfcpyK8",
+          "dex": "Raydium-CLMM",
+          "signer": "3RMKoab4zynw3fEvDUmfYfnep7nChuMComjjiHKBTFQg",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.0741925159999965,
+          "amount_out": 15956.146706938744
+        },
+        "bot_address": "3RMKoab4zynw3fEvDUmfYfnep7nChuMComjjiHKBTFQg",
+        "slot_span": 2,
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.074611365999999,
+        "sol_spent": 2.0741925159999965,
+        "profit_sol": 0.00041885000000263517,
+        "profit_percent": 0.020193400408674306,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 2,
+        "bot_address": "3RMKoab4zynw3fEvDUmfYfnep7nChuMComjjiHKBTFQg",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 32,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464219,
+          "signature": "5DpSf8pvEBmkhz5Ur2dbFYbANHqFEpkPhWMK8QeuhZsinCNQBCrby2cRDU61UkD3qpsMEU2FPUfBACvE9nhssnGZ",
+          "dex": "Raydium-CLMM",
+          "signer": "Bo4uCCZjZtBcKoEo5snkEjy6o1KwKszEkTQLt2f6i36o",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 15937.987468004227,
+          "amount_out": 2.072243991999997
+        },
+        "victim": {
+          "slot": 380464220,
+          "signature": "4CQ3yYaDdjzhBY2d4hucCjg4XEMdbxxkCKnnpRGHqxGwJLtK65mpZNtZ4U8t6Ka4kPW2uDJyDKbUBprcNmyRi7bM",
+          "dex": "Raydium-CLMM",
+          "signer": "H4L2WeQj2PLghjjtf285Rg1S2H6hD5QSCQgeRdBind2q",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 21606.479871988297,
+          "amount_out": 2.8092560369999973
+        },
+        "backrun": {
+          "slot": 380464224,
+          "signature": "4D57U8JFDDSSxvFqBWuqryoosNtszdDWQ4yQ3gci7tDB8jFciWdxzpuE6j6QNcKYdCREoqbrxKZDGBCeWSSc1JcZ",
+          "dex": "Raydium-CLMM",
+          "signer": "Bo4uCCZjZtBcKoEo5snkEjy6o1KwKszEkTQLt2f6i36o",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.0718318110000027,
+          "amount_out": 15937.987468004227
+        },
+        "bot_address": "Bo4uCCZjZtBcKoEo5snkEjy6o1KwKszEkTQLt2f6i36o",
+        "slot_span": 5,
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.072243991999997,
+        "sol_spent": 2.0718318110000027,
+        "profit_sol": 0.00041218099999440483,
+        "profit_percent": 0.019894520289050834,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 5,
+        "bot_address": "Bo4uCCZjZtBcKoEo5snkEjy6o1KwKszEkTQLt2f6i36o",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 52,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464273,
+          "signature": "2n5ESPPvieiEZKQkaaq5Qw65qEbKLAUHC7XiakSpieHB8L8hhJ24bZZr9wEpsWdzycumjL62KAP498oWd1BxsSPF",
+          "dex": "Raydium-CLMM",
+          "signer": "3RMKoab4zynw3fEvDUmfYfnep7nChuMComjjiHKBTFQg",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 15905.438410043716,
+          "amount_out": 2.0680120939999966
+        },
+        "victim": {
+          "slot": 380464275,
+          "signature": "3MCWbbXTwB8v31UEB2kq7PbbccjNPfkfDQbAF7hLhPAEx4WWtq8cuasFGysQivrJrAHa7VbQDsR1CkMpdCdqFBF6",
+          "dex": "Raydium-CLMM",
+          "signer": "23EfcUag2j2y5t8GXsT9SXYaGS76FyWVWKWkgkiJAh6a",
+          "token_in": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 16448.651100993156,
+          "amount_out": 2.1386390489999982
+        },
+        "backrun": {
+          "slot": 380464278,
+          "signature": "4onaSF37QyqVJ7hjspt5nUhD1iJLiax1nqZgXN9oY4R3LdAp9iRcv9gfZ64FiHh2NxZFMjQjhLmvGYejPm7F6jax",
+          "dex": "Raydium-CLMM",
+          "signer": "3RMKoab4zynw3fEvDUmfYfnep7nChuMComjjiHKBTFQg",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4QFsajiToreSFKQGZP4goHSmWgVbTxPU5GfShBEpPmKt",
+          "amount_in": 2.0676010540000007,
+          "amount_out": 15905.438410043716
+        },
+        "bot_address": "3RMKoab4zynw3fEvDUmfYfnep7nChuMComjjiHKBTFQg",
+        "slot_span": 5,
+        "token_pair": "4QFsajiT.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 2.0680120939999966,
+        "sol_spent": 2.0676010540000007,
+        "profit_sol": 0.00041103999999592133,
+        "profit_percent": 0.019880044034641955,
+        "is_profitable": true,
+        "victim_spent_sol": 0,
+        "slot_span": 5,
+        "bot_address": "3RMKoab4zynw3fEvDUmfYfnep7nChuMComjjiHKBTFQg",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    }
+  ],
+  "unprofitable": [
+    {
+      "sandwich_id": 43,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464225,
+          "signature": "5ApeSjLEfnDJjUxv8PTnvTvLNiU1sd4sVbjv9nJhKGSoPynsuWrXKTuCbDDCu9zgszz7iLHEwAx9TCB7RuQRNejj",
+          "dex": "Raydium-CLMM",
+          "signer": "5x2c99z6Ujaj17DR9XijGE7oF4UfDJhN4zzmLpyPkr8B",
+          "token_in": "7AUgwjyiSeEh5yGCKnGEFaRPdEsXiDNCZAMkqnbwbcSJ",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 2639779.7260694504,
+          "amount_out": 0.3569999999999709
+        },
+        "victim": {
+          "slot": 380464227,
+          "signature": "5Kaf3EDSfZW7nQyQu4vktrwHYg6VCg5DBJJs5hJQvx1PUr4JjFatTLK85rQzv2K3TyFnc5kQfuPBvAQb7sBXc7cm",
+          "dex": "Raydium-CLMM",
+          "signer": "JAi6313gQBneo825tUWRzrUESJxo2PeDXK2d3WYwHJ4c",
+          "token_in": "7AUgwjyiSeEh5yGCKnGEFaRPdEsXiDNCZAMkqnbwbcSJ",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 2404623.637439728,
+          "amount_out": 0.3250000000000455
+        },
+        "backrun": {
+          "slot": 380464231,
+          "signature": "4U2ZnNET5LQtheuoS1KNanhN6RSvg8mVQw7Y2zWYVHtSDeRSyaXK72Hp7LboYaeWe5gWABSeSBUVy67gcK2z3aXV",
+          "dex": "Raydium-CLMM",
+          "signer": "5x2c99z6Ujaj17DR9XijGE7oF4UfDJhN4zzmLpyPkr8B",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "7AUgwjyiSeEh5yGCKnGEFaRPdEsXiDNCZAMkqnbwbcSJ",
+          "amount_in": 0.5931415850000121,
+          "amount_out": 4394912.125041962
+        },
+        "bot_address": "5x2c99z6Ujaj17DR9XijGE7oF4UfDJhN4zzmLpyPkr8B",
+        "slot_span": 6,
+        "token_pair": "7AUgwjyi.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 0.3569999999999709,
+        "sol_spent": 0.5931415850000121,
+        "profit_sol": -0.23614158500004123,
+        "profit_percent": -39.81200964016651,
+        "is_profitable": false,
+        "victim_spent_sol": 0,
+        "slot_span": 6,
+        "bot_address": "5x2c99z6Ujaj17DR9XijGE7oF4UfDJhN4zzmLpyPkr8B",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 44,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464225,
+          "signature": "5ApeSjLEfnDJjUxv8PTnvTvLNiU1sd4sVbjv9nJhKGSoPynsuWrXKTuCbDDCu9zgszz7iLHEwAx9TCB7RuQRNejj",
+          "dex": "Raydium-CLMM",
+          "signer": "5x2c99z6Ujaj17DR9XijGE7oF4UfDJhN4zzmLpyPkr8B",
+          "token_in": "7AUgwjyiSeEh5yGCKnGEFaRPdEsXiDNCZAMkqnbwbcSJ",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 2639779.7260694504,
+          "amount_out": 0.3569999999999709
+        },
+        "victim": {
+          "slot": 380464227,
+          "signature": "33ufajZedmYDgf7QcciznQWdASQDi44x3mVZonRfvFSMFb1ML1AKAtSRCCoycof18cwGsduvgxcL3bnzsg6LzZQ",
+          "dex": "Raydium-CLMM",
+          "signer": "5owYydLbTXZJs8qh1R5snah1Y45TrDZqcmEn4QFYv4jM",
+          "token_in": "7AUgwjyiSeEh5yGCKnGEFaRPdEsXiDNCZAMkqnbwbcSJ",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 4450535.922196388,
+          "amount_out": 0.6020000000000891
+        },
+        "backrun": {
+          "slot": 380464231,
+          "signature": "4U2ZnNET5LQtheuoS1KNanhN6RSvg8mVQw7Y2zWYVHtSDeRSyaXK72Hp7LboYaeWe5gWABSeSBUVy67gcK2z3aXV",
+          "dex": "Raydium-CLMM",
+          "signer": "5x2c99z6Ujaj17DR9XijGE7oF4UfDJhN4zzmLpyPkr8B",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "7AUgwjyiSeEh5yGCKnGEFaRPdEsXiDNCZAMkqnbwbcSJ",
+          "amount_in": 0.5931415850000121,
+          "amount_out": 4394912.125041962
+        },
+        "bot_address": "5x2c99z6Ujaj17DR9XijGE7oF4UfDJhN4zzmLpyPkr8B",
+        "slot_span": 6,
+        "token_pair": "7AUgwjyi.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 0.3569999999999709,
+        "sol_spent": 0.5931415850000121,
+        "profit_sol": -0.23614158500004123,
+        "profit_percent": -39.81200964016651,
+        "is_profitable": false,
+        "victim_spent_sol": 0,
+        "slot_span": 6,
+        "bot_address": "5x2c99z6Ujaj17DR9XijGE7oF4UfDJhN4zzmLpyPkr8B",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 59,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464305,
+          "signature": "LfhfByHK9quDCBVChdNfuGfKAEb87iMxJZe4iN57tz6ciJLsA4VTUaceiwBgz6EBAru4mvjY468c5HN5f75uc7d",
+          "dex": "Raydium-CLMM",
+          "signer": "8mZz1saLk6SdAKjZrQ2eosejzQmMHSyx5Vt8RLnLijJf",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
+          "amount_in": 0.6342192959998556,
+          "amount_out": 2775918.921479225
+        },
+        "victim": {
+          "slot": 380464307,
+          "signature": "3rrpbb2azHzhr3k9wbMBVdpbuCV9QTxjpxnGWMFqBfLN6VX1kgbABFtQhQwAH86d9RFTsgJRZEnwAtrp4Woc5oKf",
+          "dex": "Raydium-CLMM",
+          "signer": "F126pYGn5W1VwDUr5Mtcu4taWyWPYTyjfqMowNhHyout",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
+          "amount_in": 0.5846713010000713,
+          "amount_out": 2559050.2557382584
+        },
+        "backrun": {
+          "slot": 380464312,
+          "signature": "3UvXmv5wpDGsVXymppmJJtwRtsChuPND4yfzaX5r2HRiPd3pgYFyziByz9pH8FVfuxiv3AeGHoVMUxf5nzAajQX8",
+          "dex": "Raydium-CLMM",
+          "signer": "8mZz1saLk6SdAKjZrQ2eosejzQmMHSyx5Vt8RLnLijJf",
           "token_in": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
           "token_out": "So11111111111111111111111111111111111111112",
-          "amount_in": 2069078.7857751846,
-          "amount_out": 0.35999999999989996
+          "amount_in": 1532823.5370426178,
+          "amount_out": 0.3500000000001364
         },
-        "bot_address": "8ZU68ViaaEUKyksrnC829Dc1nvcH7zkTqgJ4wGUg9QMd",
+        "bot_address": "8mZz1saLk6SdAKjZrQ2eosejzQmMHSyx5Vt8RLnLijJf",
+        "slot_span": 7,
+        "token_pair": "So111111.../4XPSoUTP..."
+      },
+      "profit_data": {
+        "sandwich_type": "SOL_ENTRY",
+        "sol_spent": 0.6342192959998556,
+        "sol_received": 0.3500000000001364,
+        "profit_sol": -0.2842192959997192,
+        "profit_percent": -44.81404110413315,
+        "is_profitable": false,
+        "victim_spent_sol": 0.5846713010000713,
+        "slot_span": 7,
+        "bot_address": "8mZz1saLk6SdAKjZrQ2eosejzQmMHSyx5Vt8RLnLijJf"
+      }
+    },
+    {
+      "sandwich_id": 39,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464224,
+          "signature": "39hvQYRahvv7y3tJTckYSZQmZy6mXkKPCMQ1N9f8CzBwoSZW6PfHxkUE2wBRNSmNxAZXu8hHxPes8ekP9cnNENbp",
+          "dex": "Raydium-CLMM",
+          "signer": "2drzAMpvDhkd3qV1a2uJVPBumvVW1yS9jJJzZUVg2h3R",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
+          "amount_in": 1.0088776929999312,
+          "amount_out": 4431191.430480003
+        },
+        "victim": {
+          "slot": 380464226,
+          "signature": "3fgnGFuZpmfAUo2mtUQ8BtVZYDjXwYEhDKbdqTKBL83qWdEZUJkKGfJRsXaZGVSmSCbVWGacqwjD1Ji5pQ99GyTf",
+          "dex": "Raydium-CLMM",
+          "signer": "FGyM5KezDJDWCNSdFSeAM41ChViKHtY2nBSnC6pVuBC9",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
+          "amount_in": 0.9209061889998793,
+          "amount_out": 4039071.3904619217
+        },
+        "backrun": {
+          "slot": 380464229,
+          "signature": "3ztx2FKYPMcBqxVEBZKbCdsSmxesCaCXJEkjhe4MegN8GZuovBUN2Lp9mzs4yG9DGuKEDucbWpww2xwnQxEkXHJf",
+          "dex": "Raydium-CLMM",
+          "signer": "2drzAMpvDhkd3qV1a2uJVPBumvVW1yS9jJJzZUVg2h3R",
+          "token_in": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 3072460.8961515427,
+          "amount_out": 0.7000000000000455
+        },
+        "bot_address": "2drzAMpvDhkd3qV1a2uJVPBumvVW1yS9jJJzZUVg2h3R",
         "slot_span": 5,
         "token_pair": "So111111.../4XPSoUTP..."
       },
       "profit_data": {
         "sandwich_type": "SOL_ENTRY",
-        "sol_spent": 1.204341991000092,
-        "sol_received": 0.35999999999989996,
-        "profit_sol": -0.8443419910001921,
-        "profit_percent": -70.10815842259606,
+        "sol_spent": 1.0088776929999312,
+        "sol_received": 0.7000000000000455,
+        "profit_sol": -0.30887769299988577,
+        "profit_percent": -30.61597011640011,
         "is_profitable": false,
-        "victim_spent_sol": 0.7516354990000309,
+        "victim_spent_sol": 0.9209061889998793,
         "slot_span": 5,
-        "bot_address": "8ZU68ViaaEUKyksrnC829Dc1nvcH7zkTqgJ4wGUg9QMd"
+        "bot_address": "2drzAMpvDhkd3qV1a2uJVPBumvVW1yS9jJJzZUVg2h3R"
+      }
+    },
+    {
+      "sandwich_id": 42,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464224,
+          "signature": "39hvQYRahvv7y3tJTckYSZQmZy6mXkKPCMQ1N9f8CzBwoSZW6PfHxkUE2wBRNSmNxAZXu8hHxPes8ekP9cnNENbp",
+          "dex": "Raydium-CLMM",
+          "signer": "2drzAMpvDhkd3qV1a2uJVPBumvVW1yS9jJJzZUVg2h3R",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
+          "amount_in": 1.0088776929999312,
+          "amount_out": 4431191.430480003
+        },
+        "victim": {
+          "slot": 380464227,
+          "signature": "5b9fMxYP63y6ybFWtCw17hn4vFhspX4NCdCNLbQDe7SYZUe3zQ91PJM8txgeJtdmt4VLyr49J65KdGwENQ12PyLP",
+          "dex": "Raydium-CLMM",
+          "signer": "H183e3h1qcuPcrKsUPFKkBicA24L9PCmbsNWx21VLweq",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
+          "amount_in": 0.8115287360001275,
+          "amount_out": 3560985.7419452667
+        },
+        "backrun": {
+          "slot": 380464229,
+          "signature": "3ztx2FKYPMcBqxVEBZKbCdsSmxesCaCXJEkjhe4MegN8GZuovBUN2Lp9mzs4yG9DGuKEDucbWpww2xwnQxEkXHJf",
+          "dex": "Raydium-CLMM",
+          "signer": "2drzAMpvDhkd3qV1a2uJVPBumvVW1yS9jJJzZUVg2h3R",
+          "token_in": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 3072460.8961515427,
+          "amount_out": 0.7000000000000455
+        },
+        "bot_address": "2drzAMpvDhkd3qV1a2uJVPBumvVW1yS9jJJzZUVg2h3R",
+        "slot_span": 5,
+        "token_pair": "So111111.../4XPSoUTP..."
+      },
+      "profit_data": {
+        "sandwich_type": "SOL_ENTRY",
+        "sol_spent": 1.0088776929999312,
+        "sol_received": 0.7000000000000455,
+        "profit_sol": -0.30887769299988577,
+        "profit_percent": -30.61597011640011,
+        "is_profitable": false,
+        "victim_spent_sol": 0.8115287360001275,
+        "slot_span": 5,
+        "bot_address": "2drzAMpvDhkd3qV1a2uJVPBumvVW1yS9jJJzZUVg2h3R"
+      }
+    },
+    {
+      "sandwich_id": 9,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464134,
+          "signature": "52a98BgbLTXaQDLALn8AkE7iHMqbb7CaZaGgMWHDpWMPCF3Mc6v6tkHQ1eAkZpsnwbJpcvVSj8eBWvvCDoV5kFzo",
+          "dex": "Raydium-CLMM",
+          "signer": "7kv8XeWb3bjtuvtCafRR1uReCuZFFAgbxpfhpyFYxQUs",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "7AUgwjyiSeEh5yGCKnGEFaRPdEsXiDNCZAMkqnbwbcSJ",
+          "amount_in": 1.0889244429999962,
+          "amount_out": 8062281.412572861
+        },
+        "victim": {
+          "slot": 380464136,
+          "signature": "2Df26KcWYV8eTYLH9qDrpmRYcb4ZsZ9DdPpVMNA4NopkYTGNHkW512qdv6J7Xo1aoCrBWDKrB42cCtyKKF8S7Per",
+          "dex": "Raydium-CLMM",
+          "signer": "6SmUKrjki7Efuu6KvQ9gpwkNi1Mabv8z6h5MPVL3sfaz",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "7AUgwjyiSeEh5yGCKnGEFaRPdEsXiDNCZAMkqnbwbcSJ",
+          "amount_in": 0.9887437999998383,
+          "amount_out": 7325429.852210999
+        },
+        "backrun": {
+          "slot": 380464141,
+          "signature": "429pee6p5SqQFeYELtAdGRDQofs5sFDp4HbujgiPB4t65Gfw82hGHFPwQgRCXttjEhMZ2C8QCrnrhMS2DHMFRpUi",
+          "dex": "Raydium-CLMM",
+          "signer": "7kv8XeWb3bjtuvtCafRR1uReCuZFFAgbxpfhpyFYxQUs",
+          "token_in": "7AUgwjyiSeEh5yGCKnGEFaRPdEsXiDNCZAMkqnbwbcSJ",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 3891665.486222267,
+          "amount_out": 0.5259999999998399
+        },
+        "bot_address": "7kv8XeWb3bjtuvtCafRR1uReCuZFFAgbxpfhpyFYxQUs",
+        "slot_span": 7,
+        "token_pair": "So111111.../7AUgwjyi..."
+      },
+      "profit_data": {
+        "sandwich_type": "SOL_ENTRY",
+        "sol_spent": 1.0889244429999962,
+        "sol_received": 0.5259999999998399,
+        "profit_sol": -0.5629244430001563,
+        "profit_percent": -51.69545477823003,
+        "is_profitable": false,
+        "victim_spent_sol": 0.9887437999998383,
+        "slot_span": 7,
+        "bot_address": "7kv8XeWb3bjtuvtCafRR1uReCuZFFAgbxpfhpyFYxQUs"
+      }
+    },
+    {
+      "sandwich_id": 15,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464168,
+          "signature": "z6cGQDwHRkaLTUhN1VSZzy9i57Z48RvdifZnUBx9Bg2H76tj9D4Wp4DmuBTzSjmPfj8t5dUKtzJ9eywszZJ1TYG",
+          "dex": "Raydium-CLMM",
+          "signer": "4qXgD7nLTc8F8ECTMhqes3JmmwomQQ7vbRzGeVQSdKtA",
+          "token_in": "7AUgwjyiSeEh5yGCKnGEFaRPdEsXiDNCZAMkqnbwbcSJ",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 4456130.149551392,
+          "amount_out": 0.6020000000000891
+        },
+        "victim": {
+          "slot": 380464170,
+          "signature": "4bAuY9Yv3P4Z3i2TmorxbAzREQYhLspyNRiFz4AFzU5qz26251tnsCx4anz2XZJDZZ1CrRZpup7TGGDqYCi7D4eW",
+          "dex": "Raydium-CLMM",
+          "signer": "7N3gm4ohBZZgA1NnqS2Mn5ucvNJD9f3518W32F6mJGPE",
+          "token_in": "7AUgwjyiSeEh5yGCKnGEFaRPdEsXiDNCZAMkqnbwbcSJ",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 3861384.438601494,
+          "amount_out": 0.5210000000001855
+        },
+        "backrun": {
+          "slot": 380464172,
+          "signature": "5t8j75qW6eMknF5N58i4sR7JSEdhWF1Y3S4LmWa2UyeW5GJb4Xfuvc6kEvnE9Go8zHyizZkkusjSsHAbVCQKZsSF",
+          "dex": "Raydium-CLMM",
+          "signer": "4qXgD7nLTc8F8ECTMhqes3JmmwomQQ7vbRzGeVQSdKtA",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "7AUgwjyiSeEh5yGCKnGEFaRPdEsXiDNCZAMkqnbwbcSJ",
+          "amount_in": 1.1870234729999538,
+          "amount_out": 8789984.001534462
+        },
+        "bot_address": "4qXgD7nLTc8F8ECTMhqes3JmmwomQQ7vbRzGeVQSdKtA",
+        "slot_span": 4,
+        "token_pair": "7AUgwjyi.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 0.6020000000000891,
+        "sol_spent": 1.1870234729999538,
+        "profit_sol": -0.5850234729998647,
+        "profit_percent": -49.284911908383755,
+        "is_profitable": false,
+        "victim_spent_sol": 0,
+        "slot_span": 4,
+        "bot_address": "4qXgD7nLTc8F8ECTMhqes3JmmwomQQ7vbRzGeVQSdKtA",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 16,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464168,
+          "signature": "z6cGQDwHRkaLTUhN1VSZzy9i57Z48RvdifZnUBx9Bg2H76tj9D4Wp4DmuBTzSjmPfj8t5dUKtzJ9eywszZJ1TYG",
+          "dex": "Raydium-CLMM",
+          "signer": "4qXgD7nLTc8F8ECTMhqes3JmmwomQQ7vbRzGeVQSdKtA",
+          "token_in": "7AUgwjyiSeEh5yGCKnGEFaRPdEsXiDNCZAMkqnbwbcSJ",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 4456130.149551392,
+          "amount_out": 0.6020000000000891
+        },
+        "victim": {
+          "slot": 380464170,
+          "signature": "5mHcxsoQ1YUjxmBpbYRhAoang2KpRhPdk22NtKr1eEmUNDsyjxwD8Y9EJ8e17W3aFNVioVbnvEQkcNj6M8fcJLuu",
+          "dex": "Raydium-CLMM",
+          "signer": "AztqYqNRGcvL8CJvKyW5Dg5ogtkZuSyusrdPEyumvDJa",
+          "token_in": "7AUgwjyiSeEh5yGCKnGEFaRPdEsXiDNCZAMkqnbwbcSJ",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 3184318.52657032,
+          "amount_out": 0.4299999999998363
+        },
+        "backrun": {
+          "slot": 380464172,
+          "signature": "5t8j75qW6eMknF5N58i4sR7JSEdhWF1Y3S4LmWa2UyeW5GJb4Xfuvc6kEvnE9Go8zHyizZkkusjSsHAbVCQKZsSF",
+          "dex": "Raydium-CLMM",
+          "signer": "4qXgD7nLTc8F8ECTMhqes3JmmwomQQ7vbRzGeVQSdKtA",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "7AUgwjyiSeEh5yGCKnGEFaRPdEsXiDNCZAMkqnbwbcSJ",
+          "amount_in": 1.1870234729999538,
+          "amount_out": 8789984.001534462
+        },
+        "bot_address": "4qXgD7nLTc8F8ECTMhqes3JmmwomQQ7vbRzGeVQSdKtA",
+        "slot_span": 4,
+        "token_pair": "7AUgwjyi.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 0.6020000000000891,
+        "sol_spent": 1.1870234729999538,
+        "profit_sol": -0.5850234729998647,
+        "profit_percent": -49.284911908383755,
+        "is_profitable": false,
+        "victim_spent_sol": 0,
+        "slot_span": 4,
+        "bot_address": "4qXgD7nLTc8F8ECTMhqes3JmmwomQQ7vbRzGeVQSdKtA",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 48,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464240,
+          "signature": "4ek6JsEm7yMhG3nwizwKoZWKxbLhbfQAayQjuCpS3VieWg6GkvzVgQLkPHKHBFKQhnqCJva337nhWsj5Z57YQ7ko",
+          "dex": "Raydium-CLMM",
+          "signer": "3Y6kxGSZYQQPoUVZMQj1RJLJz2UT9Re63SW2taCwkjNf",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
+          "amount_in": 1.2961908839999978,
+          "amount_out": 5686539.324561119
+        },
+        "victim": {
+          "slot": 380464242,
+          "signature": "4fULdVa7o6u8RJWvq2gX5Vgu3WTweX7BGvAPGXBwPDUf5xmnd3Qj5L3Z8BHV7Qo9tJZdgFozS9tVkkmJ8oKGBmTr",
+          "dex": "Raydium-CLMM",
+          "signer": "342yR7gaGm4wXiASpZuV4dQ6FpXTkeuQ1pmG8Cwnpy51",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
+          "amount_in": 0.9195836009998857,
+          "amount_out": 4036403.755990982
+        },
+        "backrun": {
+          "slot": 380464244,
+          "signature": "2LRNreryBTtpnJu3ub9SHoUoKngKwPArrHd74QgeihUrJtoJiEoHkkincn7jpCAGgbuwGDRnmSWFrtnNUpTtzWV9",
+          "dex": "Raydium-CLMM",
+          "signer": "3Y6kxGSZYQQPoUVZMQj1RJLJz2UT9Re63SW2taCwkjNf",
+          "token_in": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 2894237.9221401215,
+          "amount_out": 0.6600000000000819
+        },
+        "bot_address": "3Y6kxGSZYQQPoUVZMQj1RJLJz2UT9Re63SW2taCwkjNf",
+        "slot_span": 4,
+        "token_pair": "So111111.../4XPSoUTP..."
+      },
+      "profit_data": {
+        "sandwich_type": "SOL_ENTRY",
+        "sol_spent": 1.2961908839999978,
+        "sol_received": 0.6600000000000819,
+        "profit_sol": -0.636190883999916,
+        "profit_percent": -49.08157369820825,
+        "is_profitable": false,
+        "victim_spent_sol": 0.9195836009998857,
+        "slot_span": 4,
+        "bot_address": "3Y6kxGSZYQQPoUVZMQj1RJLJz2UT9Re63SW2taCwkjNf"
+      }
+    },
+    {
+      "sandwich_id": 8,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464128,
+          "signature": "4Gd4bb6JBXdvLbidzjHwvo9vTnwNjYmF4xzzvAZxL18vyNeQv9Fkq3Ta3TKD2J7EAcT5vc7PNq9GvoU4ZMYNNxUw",
+          "dex": "Raydium-CLMM",
+          "signer": "DTQZPjYwSBMVj8nM5URXDkh9E254RWmgJxjfzJufozy8",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "BEqyH3i918cs6oVgsTFjhMSf2gA4NbvbsbmZZTfHnYkf",
+          "amount_in": 1.3845222690000014,
+          "amount_out": 25771014.536208153
+        },
+        "victim": {
+          "slot": 380464131,
+          "signature": "kaUKmQV1NgPabdhedBnjos2GA4WBVbgzK735BCPESXN5oCxoGM3HS6wwAR631W1GKmogo9Udk9YPmTHcaDQsu1x",
+          "dex": "Raydium-CLMM",
+          "signer": "7BaWTL9NszDZmURy6aa5ZLXRiHXcScz2Y9KiowK1sbio",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "BEqyH3i918cs6oVgsTFjhMSf2gA4NbvbsbmZZTfHnYkf",
+          "amount_in": 0.9845247149999636,
+          "amount_out": 18425191.46480465
+        },
+        "backrun": {
+          "slot": 380464136,
+          "signature": "5rySMz4LmScYYaCnjefGV1PpRKTiULRReQpmn1k3QWuVHs3rqxffKCX6RwvocyiappAXLzUXqdPuoTmrNLyHUJPr",
+          "dex": "Raydium-CLMM",
+          "signer": "DTQZPjYwSBMVj8nM5URXDkh9E254RWmgJxjfzJufozy8",
+          "token_in": "BEqyH3i918cs6oVgsTFjhMSf2gA4NbvbsbmZZTfHnYkf",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 11710824.976719856,
+          "amount_out": 0.6299999999999955
+        },
+        "bot_address": "DTQZPjYwSBMVj8nM5URXDkh9E254RWmgJxjfzJufozy8",
+        "slot_span": 8,
+        "token_pair": "So111111.../BEqyH3i9..."
+      },
+      "profit_data": {
+        "sandwich_type": "SOL_ENTRY",
+        "sol_spent": 1.3845222690000014,
+        "sol_received": 0.6299999999999955,
+        "profit_sol": -0.754522269000006,
+        "profit_percent": -54.49693991162559,
+        "is_profitable": false,
+        "victim_spent_sol": 0.9845247149999636,
+        "slot_span": 8,
+        "bot_address": "DTQZPjYwSBMVj8nM5URXDkh9E254RWmgJxjfzJufozy8"
+      }
+    },
+    {
+      "sandwich_id": 35,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464224,
+          "signature": "26DMmLfkehMWnpM9M9kusWvsRiR36qXuTuBA1gxmqbT6SeVGcPaqZTsN8VsW6wPg1vowt4uo9E6oucH59h2dvJGS",
+          "dex": "Raydium-CLMM",
+          "signer": "8KofYuNrg9yYKTrSU56jgWBtf5CrofUKNGXRaGncFmie",
+          "token_in": "BEqyH3i918cs6oVgsTFjhMSf2gA4NbvbsbmZZTfHnYkf",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 9801623.605360031,
+          "amount_out": 0.5299999999999727
+        },
+        "victim": {
+          "slot": 380464225,
+          "signature": "34unaSfJWAiZNosESvLkPn2R9pcmksTPLunsiqccEvmWVL3cYhj5r2uWe7XkLMaGKDNan3VDDcBe38jKbuvGyfDo",
+          "dex": "Raydium-CLMM",
+          "signer": "G2XShZCSixEGBcnMQ79PKeGvG6oPKsNHNFJzocEi9nrK",
+          "token_in": "BEqyH3i918cs6oVgsTFjhMSf2gA4NbvbsbmZZTfHnYkf",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 55619.432513237,
+          "amount_out": 0.002999999999985903
+        },
+        "backrun": {
+          "slot": 380464230,
+          "signature": "58aDcke6kEzFuhdDGYhMVCtWpvnKQ9uwpm7sDkhB2SU564emHw34EFFcSixXCC4ZUu8Z7JLjRUbDpXxtA8NhfLaR",
+          "dex": "Raydium-CLMM",
+          "signer": "8KofYuNrg9yYKTrSU56jgWBtf5CrofUKNGXRaGncFmie",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "BEqyH3i918cs6oVgsTFjhMSf2gA4NbvbsbmZZTfHnYkf",
+          "amount_in": 1.383417771999973,
+          "amount_out": 25669423.563375473
+        },
+        "bot_address": "8KofYuNrg9yYKTrSU56jgWBtf5CrofUKNGXRaGncFmie",
+        "slot_span": 6,
+        "token_pair": "BEqyH3i9.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 0.5299999999999727,
+        "sol_spent": 1.383417771999973,
+        "profit_sol": -0.8534177720000002,
+        "profit_percent": -61.68908548617495,
+        "is_profitable": false,
+        "victim_spent_sol": 0,
+        "slot_span": 6,
+        "bot_address": "8KofYuNrg9yYKTrSU56jgWBtf5CrofUKNGXRaGncFmie",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 36,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464224,
+          "signature": "26DMmLfkehMWnpM9M9kusWvsRiR36qXuTuBA1gxmqbT6SeVGcPaqZTsN8VsW6wPg1vowt4uo9E6oucH59h2dvJGS",
+          "dex": "Raydium-CLMM",
+          "signer": "8KofYuNrg9yYKTrSU56jgWBtf5CrofUKNGXRaGncFmie",
+          "token_in": "BEqyH3i918cs6oVgsTFjhMSf2gA4NbvbsbmZZTfHnYkf",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 9801623.605360031,
+          "amount_out": 0.5299999999999727
+        },
+        "victim": {
+          "slot": 380464225,
+          "signature": "BxEQXSQJNH3AHNijVNHg8a3Qr3JH93KvUVfpqzAKnAhuyY2WdfUFmY7PEiHriruDd4ZavfRmYDfWnUh8vXyx3Ep",
+          "dex": "Raydium-CLMM",
+          "signer": "EaFc558qCc2SPyku2w6sGKny3D99TsmdsanKkzkF2Fyr",
+          "token_in": "BEqyH3i918cs6oVgsTFjhMSf2gA4NbvbsbmZZTfHnYkf",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 18539.641705513,
+          "amount_out": 0.0010000000000331966
+        },
+        "backrun": {
+          "slot": 380464230,
+          "signature": "58aDcke6kEzFuhdDGYhMVCtWpvnKQ9uwpm7sDkhB2SU564emHw34EFFcSixXCC4ZUu8Z7JLjRUbDpXxtA8NhfLaR",
+          "dex": "Raydium-CLMM",
+          "signer": "8KofYuNrg9yYKTrSU56jgWBtf5CrofUKNGXRaGncFmie",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "BEqyH3i918cs6oVgsTFjhMSf2gA4NbvbsbmZZTfHnYkf",
+          "amount_in": 1.383417771999973,
+          "amount_out": 25669423.563375473
+        },
+        "bot_address": "8KofYuNrg9yYKTrSU56jgWBtf5CrofUKNGXRaGncFmie",
+        "slot_span": 6,
+        "token_pair": "BEqyH3i9.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 0.5299999999999727,
+        "sol_spent": 1.383417771999973,
+        "profit_sol": -0.8534177720000002,
+        "profit_percent": -61.68908548617495,
+        "is_profitable": false,
+        "victim_spent_sol": 0,
+        "slot_span": 6,
+        "bot_address": "8KofYuNrg9yYKTrSU56jgWBtf5CrofUKNGXRaGncFmie",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 40,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464224,
+          "signature": "26DMmLfkehMWnpM9M9kusWvsRiR36qXuTuBA1gxmqbT6SeVGcPaqZTsN8VsW6wPg1vowt4uo9E6oucH59h2dvJGS",
+          "dex": "Raydium-CLMM",
+          "signer": "8KofYuNrg9yYKTrSU56jgWBtf5CrofUKNGXRaGncFmie",
+          "token_in": "BEqyH3i918cs6oVgsTFjhMSf2gA4NbvbsbmZZTfHnYkf",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 9801623.605360031,
+          "amount_out": 0.5299999999999727
+        },
+        "victim": {
+          "slot": 380464226,
+          "signature": "pmsEcsky3kQopuGAQkpXuyjM64t5jFEMEeu7kjDHi4UMp9gcBraqXaMuJ8rfUbdryw8K3FpJc5XKXPvFcB9ZBPg",
+          "dex": "Raydium-CLMM",
+          "signer": "84Ph1zno5b3gNi986EnMNjRiMGZzwpDZEYVE17TDocCo",
+          "token_in": "BEqyH3i918cs6oVgsTFjhMSf2gA4NbvbsbmZZTfHnYkf",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 9999069.297753334,
+          "amount_out": 0.5399999999999636
+        },
+        "backrun": {
+          "slot": 380464230,
+          "signature": "58aDcke6kEzFuhdDGYhMVCtWpvnKQ9uwpm7sDkhB2SU564emHw34EFFcSixXCC4ZUu8Z7JLjRUbDpXxtA8NhfLaR",
+          "dex": "Raydium-CLMM",
+          "signer": "8KofYuNrg9yYKTrSU56jgWBtf5CrofUKNGXRaGncFmie",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "BEqyH3i918cs6oVgsTFjhMSf2gA4NbvbsbmZZTfHnYkf",
+          "amount_in": 1.383417771999973,
+          "amount_out": 25669423.563375473
+        },
+        "bot_address": "8KofYuNrg9yYKTrSU56jgWBtf5CrofUKNGXRaGncFmie",
+        "slot_span": 6,
+        "token_pair": "BEqyH3i9.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 0.5299999999999727,
+        "sol_spent": 1.383417771999973,
+        "profit_sol": -0.8534177720000002,
+        "profit_percent": -61.68908548617495,
+        "is_profitable": false,
+        "victim_spent_sol": 0,
+        "slot_span": 6,
+        "bot_address": "8KofYuNrg9yYKTrSU56jgWBtf5CrofUKNGXRaGncFmie",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 41,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464224,
+          "signature": "26DMmLfkehMWnpM9M9kusWvsRiR36qXuTuBA1gxmqbT6SeVGcPaqZTsN8VsW6wPg1vowt4uo9E6oucH59h2dvJGS",
+          "dex": "Raydium-CLMM",
+          "signer": "8KofYuNrg9yYKTrSU56jgWBtf5CrofUKNGXRaGncFmie",
+          "token_in": "BEqyH3i918cs6oVgsTFjhMSf2gA4NbvbsbmZZTfHnYkf",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 9801623.605360031,
+          "amount_out": 0.5299999999999727
+        },
+        "victim": {
+          "slot": 380464226,
+          "signature": "3As27G4VziNwmw6AgLf8nMKwNi9GA3CRjJMuVvvnyCqQJ6eS31MGdK7uWeJBQRcgt11yp8hPbnsv5FyraxFwLKKM",
+          "dex": "Raydium-CLMM",
+          "signer": "6L3tPXBscMfdtTtb8eU55zrQWbU6Nj4dXZbLuk2ELmF2",
+          "token_in": "BEqyH3i918cs6oVgsTFjhMSf2gA4NbvbsbmZZTfHnYkf",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 8498343.907237053,
+          "amount_out": 0.4600000000000364
+        },
+        "backrun": {
+          "slot": 380464230,
+          "signature": "58aDcke6kEzFuhdDGYhMVCtWpvnKQ9uwpm7sDkhB2SU564emHw34EFFcSixXCC4ZUu8Z7JLjRUbDpXxtA8NhfLaR",
+          "dex": "Raydium-CLMM",
+          "signer": "8KofYuNrg9yYKTrSU56jgWBtf5CrofUKNGXRaGncFmie",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "BEqyH3i918cs6oVgsTFjhMSf2gA4NbvbsbmZZTfHnYkf",
+          "amount_in": 1.383417771999973,
+          "amount_out": 25669423.563375473
+        },
+        "bot_address": "8KofYuNrg9yYKTrSU56jgWBtf5CrofUKNGXRaGncFmie",
+        "slot_span": 6,
+        "token_pair": "BEqyH3i9.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 0.5299999999999727,
+        "sol_spent": 1.383417771999973,
+        "profit_sol": -0.8534177720000002,
+        "profit_percent": -61.68908548617495,
+        "is_profitable": false,
+        "victim_spent_sol": 0,
+        "slot_span": 6,
+        "bot_address": "8KofYuNrg9yYKTrSU56jgWBtf5CrofUKNGXRaGncFmie",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 55,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464287,
+          "signature": "22d1m71HHxT8H5LV5PVubPAE74JbyzPDSwgb5Juic1zNPx5Mk9AinhKT1j9ViaZDoQ3SZftQftANmSsH34EgiSkK",
+          "dex": "Raydium-CLMM",
+          "signer": "EU6kn2mWJNA4vWRCH2oFUPKdgoEScGPyK6N2N2WxwFdD",
+          "token_in": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 1269784.831618309,
+          "amount_out": 0.2899999999999636
+        },
+        "victim": {
+          "slot": 380464289,
+          "signature": "4SFBs171wrDNs9AoExr4Di7YVxSkfANw4xtm7VQGhqhAFPCSDMyoK7bgS5Wwj25kYA89LNjiDR7hMihdJ7TkEuk8",
+          "dex": "Raydium-CLMM",
+          "signer": "9uWB56ThgKPFco8NSqsqYER5xEnY5Uj5hxtMQjYvdXPK",
+          "token_in": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 2450612.9366617203,
+          "amount_out": 0.5599999999999454
+        },
+        "backrun": {
+          "slot": 380464293,
+          "signature": "63HEjPiZq4A6NoovR3rRcA4mngB5niBa22Ff2ZFHt38ZWBcE9VRbGAyVpZWSsAfa4BCLP9vjkqSN6dUJEBkRAMsW",
+          "dex": "Raydium-CLMM",
+          "signer": "EU6kn2mWJNA4vWRCH2oFUPKdgoEScGPyK6N2N2WxwFdD",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
+          "amount_in": 1.1865683510000054,
+          "amount_out": 5203988.568147659
+        },
+        "bot_address": "EU6kn2mWJNA4vWRCH2oFUPKdgoEScGPyK6N2N2WxwFdD",
+        "slot_span": 6,
+        "token_pair": "4XPSoUTP.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 0.2899999999999636,
+        "sol_spent": 1.1865683510000054,
+        "profit_sol": -0.8965683510000417,
+        "profit_percent": -75.55977287312948,
+        "is_profitable": false,
+        "victim_spent_sol": 0,
+        "slot_span": 6,
+        "bot_address": "EU6kn2mWJNA4vWRCH2oFUPKdgoEScGPyK6N2N2WxwFdD",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
+      }
+    },
+    {
+      "sandwich_id": 56,
+      "sandwich": {
+        "frontrun": {
+          "slot": 380464287,
+          "signature": "22d1m71HHxT8H5LV5PVubPAE74JbyzPDSwgb5Juic1zNPx5Mk9AinhKT1j9ViaZDoQ3SZftQftANmSsH34EgiSkK",
+          "dex": "Raydium-CLMM",
+          "signer": "EU6kn2mWJNA4vWRCH2oFUPKdgoEScGPyK6N2N2WxwFdD",
+          "token_in": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 1269784.831618309,
+          "amount_out": 0.2899999999999636
+        },
+        "victim": {
+          "slot": 380464289,
+          "signature": "GHoq9iRnBurELovys34HBd9be39VJ4uQrD7oEYVHP7TZTsT2wCafZiEgRFCMJV2LyiL3DvYPJnC16DeDbb4Wa9X",
+          "dex": "Raydium-CLMM",
+          "signer": "Cvau9efnDUfmb2oTyrF9gdrn3yCftwZKcFWoJTXHAhUJ",
+          "token_in": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
+          "token_out": "So11111111111111111111111111111111111111112",
+          "amount_in": 2366810.7475013733,
+          "amount_out": 0.5399999999999636
+        },
+        "backrun": {
+          "slot": 380464293,
+          "signature": "63HEjPiZq4A6NoovR3rRcA4mngB5niBa22Ff2ZFHt38ZWBcE9VRbGAyVpZWSsAfa4BCLP9vjkqSN6dUJEBkRAMsW",
+          "dex": "Raydium-CLMM",
+          "signer": "EU6kn2mWJNA4vWRCH2oFUPKdgoEScGPyK6N2N2WxwFdD",
+          "token_in": "So11111111111111111111111111111111111111112",
+          "token_out": "4XPSoUTPAEfamT1bA6rHNgeNQdPY5TiMFpXm1SC3oT2J",
+          "amount_in": 1.1865683510000054,
+          "amount_out": 5203988.568147659
+        },
+        "bot_address": "EU6kn2mWJNA4vWRCH2oFUPKdgoEScGPyK6N2N2WxwFdD",
+        "slot_span": 6,
+        "token_pair": "4XPSoUTP.../So111111..."
+      },
+      "profit_data": {
+        "sandwich_type": "TOKEN_ENTRY",
+        "sol_received": 0.2899999999999636,
+        "sol_spent": 1.1865683510000054,
+        "profit_sol": -0.8965683510000417,
+        "profit_percent": -75.55977287312948,
+        "is_profitable": false,
+        "victim_spent_sol": 0,
+        "slot_span": 6,
+        "bot_address": "EU6kn2mWJNA4vWRCH2oFUPKdgoEScGPyK6N2N2WxwFdD",
+        "note": "Bot sold token for SOL, then bought back. Net SOL change measured."
       }
     }
   ]
