@@ -23,7 +23,11 @@ def extract_signer(transaction):
     try:
         accounts = transaction.transaction.message.account_keys
         if accounts and len(accounts) > 0:
-            return str(accounts[0]) # because first account is the signer, this is to check and match the bot's address as here bot has to be the signer
+            first_account = accounts[0]
+            if hasattr(first_account, 'pubkey'):
+                return str(first_account.pubkey)
+            return str(first_account)
+            # because first account is the signer, this is to check and match the bot's address as here bot has to be the signer
         
         return None
     except:
