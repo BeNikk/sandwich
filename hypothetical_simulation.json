@@ -1,0 +1,7 @@
+{
+  "scenario": "Hypothetical Wide Sandwich",
+  "victim_loss_tokens": 50.0,
+  "bot_profit_sol": 0.050000000000000044,
+  "slot_span": 4,
+  "detection_evasion": "Multi-slot execution evades single-slot MEV detectors"
+}
