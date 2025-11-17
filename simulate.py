@@ -198,9 +198,7 @@ def main():
         with open('simulations.json', 'w') as f:
             json.dump(simulations, f, indent=2)
         
-        print(f"\n{'='*70}")
-        print(f"Saved {len(simulations)} wide sandwich simulations to sandwich_simulations.json")
-        print(f"{'='*70}\n")
+        print(f"Saved {len(simulations)} wide sandwich simulations to simulations.json")
     
     hypothetical = generate_hypothetical_simulation()
     

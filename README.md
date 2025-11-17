@@ -60,10 +60,14 @@ sandwich/
 ├── verification.py                 # Solscan verification report
 ├── multi_slot_simulation.py        # Multi-slot strategy demonstration
 ├── config.py                       # DEX program IDs and constants
+├── simulate.py                     # Multi-slot simulation (real + hypothetical)
+├── simulations.json                # Real wide sandwich simulations
 ├── dex_transactions.json           # Raw DEX transaction data
 ├── sandwich_attacks.json           # Detected sandwich patterns
 ├── profit_analysis.json            # Profitability calculations
 └── verification_report.json        # Manual verification checklist
+
+
 ```
 
 ## Usage
@@ -118,6 +122,21 @@ python3 verification.py
 - Calculates MEV profit extraction
 - Explains why multi-slot evades detectors
 
+### 3. Run Multi-Slot Simulation
+
+```bash
+python3 simulate.py
+```
+
+**Purpose:** Demonstrates bot strategy for wide sandwich attacks across multiple slots (required for assignment simulation component).
+
+**Output:**
+- Analyzes real detected wide sandwiches from your dataset
+- Shows 3 detailed examples with multi-slot execution
+- Generates hypothetical simulation demonstrating bot strategy
+- Calculates extracted value per sandwich
+- Saves to `simulations.json` and `hypothetical_simulation.json`
+
 ## Key Files Explained
 
 ### `app.py`
@@ -148,6 +167,14 @@ Profit calculation:
 - Calculates net profit and percentages
 - Ranks sandwiches by profitability
 - Generates summary statistics
+
+### `simulate.py`
+Multi-slot simulation:
+- Loads real detected wide sandwiches
+- Displays 3 detailed examples with slot-by-slot breakdown
+- Generates hypothetical scenario showing bot strategy
+- Demonstrates why multi-slot execution evades detection
+- Calculates victim loss and bot profit
 
 ## Results Summary
 
