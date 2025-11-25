@@ -1,0 +1,6 @@
+{
+  "user_loss": 50,
+  "bot_profit": 0.04999999999999999,
+  "slots_spanned": 4,
+  "evasion_technique": "Multi-slot execution with partial backreuns"
+}

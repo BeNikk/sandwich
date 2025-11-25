@@ -263,3 +263,6 @@ This tool is for educational and research purposes only. MEV extraction may be s
 
 ## Transactions done by Bot (identified by finding bot address)
 ![Bot transactions](./bot_address.png)
+
+## Optimisations for future
+- Instead of downloading full blocks, query transactions by DEX program addresses using `getSignaturesForAddress`: returns only meta data + fetch only dex txns, there were some issues with slot ordering that is why i dropped.
